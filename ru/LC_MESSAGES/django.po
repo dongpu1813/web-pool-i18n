@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-26 14:23+0100\n"
+"POT-Creation-Date: 2020-11-06 15:24+0100\n"
 "PO-Revision-Date: 2020-10-31 14:26+0000\n"
 "Last-Translator: Iryna Bashkova <csepcsar@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/mining/"
@@ -82,140 +82,140 @@ msgctxt "UI"
 msgid "Bad request."
 msgstr "Неверный запрос."
 
-#: api/exceptions.py:110
+#: api/exceptions.py:117
 msgctxt "UI"
 msgid "Method not found"
 msgstr "Метод не найден"
 
 #. Translators: %s = worker, label, ...
-#: api/exceptions.py:116
+#: api/exceptions.py:123
 #, python-format
 msgctxt "UI"
 msgid "Bulk %s creation is not allowed"
 msgstr "Массовое %s создание запрещено"
 
 #. Translators: %s = worker, label, ...
-#: api/exceptions.py:122
+#: api/exceptions.py:129
 #, python-format
 msgctxt "UI"
 msgid "Bulk %s deletion is not allowed"
 msgstr "Массовое %s удаление запрещено"
 
 #. Translators: "Label / Worker can't be removed".
-#: api/exceptions.py:128
+#: api/exceptions.py:135
 #, python-format
 msgctxt "UI"
 msgid "%s can't be removed"
 msgstr "%s не может быть удален"
 
 #. Translators: %s = worker, label, ...
-#: api/exceptions.py:134
+#: api/exceptions.py:141
 #, python-format
 msgctxt "UI"
 msgid "Access denied to object: %s"
 msgstr "К объекту %s доступ запрещен"
 
-#: api/exceptions.py:142
+#: api/exceptions.py:149
 #, python-format
 msgctxt "UI"
 msgid "Worker \"%s\" already exists (it may have been deactivated)"
 msgstr "Воркер \"%s\" уже существует (возможно, он был отключен)"
 
-#: api/exceptions.py:147
+#: api/exceptions.py:154
 #, python-format
 msgctxt "UI"
 msgid "Label \"%s\" already exists"
 msgstr "Маркер %s уже существует"
 
-#: api/exceptions.py:152
+#: api/exceptions.py:159
 msgctxt "UI"
 msgid "Label doesn't exist"
 msgstr "Маркер не существует"
 
-#: api/exceptions.py:157
+#: api/exceptions.py:164
 msgctxt "UI"
 msgid "Workers labels update failed"
 msgstr "Не удалось обновить маркеры воркеров"
 
-#: api/exceptions.py:162
+#: api/exceptions.py:169
 msgctxt "UI"
 msgid "Invalid worker id."
 msgstr "Недействительное ID воркера."
 
 #. Translators: %s will be timestamp, eg.: "1471594856"
-#: api/exceptions.py:168
+#: api/exceptions.py:175
 #, python-format
 msgctxt "UI"
 msgid "Slot \"%s\" not found"
 msgstr "Слот \"%s\" не найден"
 
 #. Translators: %s will be timestamp, eg.: "1471594856"
-#: api/exceptions.py:174
+#: api/exceptions.py:181
 #, python-format
 msgctxt "UI"
 msgid "Slot number \"%s\" is not valid."
 msgstr "Номер слота \"%s\" недействителен."
 
 #. Translators: %s will be some invalid blockchain voting option
-#: api/exceptions.py:190
+#: api/exceptions.py:197
 #, python-format
 msgctxt "UI"
 msgid "You can't vote for \"%s\""
 msgstr "Вы не можете голосовать за \"%s\""
 
-#: api/exceptions.py:195
+#: api/exceptions.py:202
 msgctxt "UI"
 msgid "You must specify the \"coin_type\" attribute!"
 msgstr "Укажите атрибут \"coin_type\" (например \"BTC\" или \"ZEC\")!"
 
-#: api/exceptions.py:200
+#: api/exceptions.py:207
 msgctxt "UI"
 msgid "Missing data for HR distribution"
 msgstr "Недостаточно данных для распределение хэшрейта"
 
-#: api/exceptions.py:210
+#: api/exceptions.py:217
 msgctxt "UI"
 msgid "Worker name has already been used"
 msgstr "Имя воркера уже используется"
 
-#: api/exceptions.py:215
+#: api/exceptions.py:222
 msgctxt "UI"
 msgid "Form error"
 msgstr "Ошибка формы"
 
 #. Translators: %s = form id
-#: api/exceptions.py:221
+#: api/exceptions.py:228
 #, python-format
 msgctxt "UI"
 msgid "Form \"%s\" doesn't exist"
 msgstr "Идентификатор формы \"%s\" не существует"
 
-#: api/exceptions.py:226
+#: api/exceptions.py:233
 msgctxt "UI"
 msgid "Validation error"
 msgstr "Ошибка проверки"
 
-#: api/exceptions.py:231 api/exceptions.py:236
+#: api/exceptions.py:238 api/exceptions.py:243
 msgctxt "UI"
 msgid "Form save has failed."
 msgstr "Сохранение формы не удалось."
 
-#: api/exceptions.py:251
+#: api/exceptions.py:258
 msgctxt "UI"
 msgid "U2F device not found."
 msgstr "Устройство U2F не найдено."
 
-#: api/exceptions.py:256
+#: api/exceptions.py:263
 msgctxt "UI"
 msgid "U2F verification failed."
 msgstr "Проверка U2F не удалась."
 
-#: api/exceptions.py:261
+#: api/exceptions.py:268
 msgctxt "UI"
 msgid "Used device is not active yet. Use different one."
 msgstr "Используемое устройство еще не активно. Используйте другое устройтво."
 
-#: api/exceptions.py:269
+#: api/exceptions.py:276
 #, python-format
 msgctxt "UI"
 msgid "Your pairing token expired after %s seconds. Please try again."
@@ -223,36 +223,36 @@ msgstr ""
 "Срок действия вашего токена подключения истек спустя %s секунд. Пожалуйста, "
 "попробуйте еще раз."
 
-#: api/exceptions.py:274
+#: api/exceptions.py:281
 msgctxt "UI"
 msgid "Device for given token does not exist. Please pair your device again."
 msgstr ""
 "Устройство для данного токена не существует. Пожалуйста, снова подключите "
 "ваше устройство."
 
-#: api/exceptions.py:284
+#: api/exceptions.py:291
 msgctxt "UI"
 msgid "OTP verification failed."
 msgstr "Проверка OTP не удалась."
 
-#: api/exceptions.py:289
+#: api/exceptions.py:296
 #, python-format
 msgctxt "UI"
 msgid "Coin \"%(coin)s\" is not allowed. Use one of: %(choices)s"
 msgstr ""
 "Криптомонета \"%(coin)s\" не допускается. Используйте одну из: %(choices)s"
 
-#: api/exceptions.py:294
+#: api/exceptions.py:301
 msgctxt "UI"
 msgid "Unexpected server error. Please try again later."
 msgstr "Неожиданная ошибка сервера. Пожалуйста, попробуйте позже."
 
-#: api/exceptions.py:299 formlib/core.py:68
+#: api/exceptions.py:306 formlib/core.py:72
 msgctxt "UI"
 msgid "Access denied."
 msgstr "Доступ запрещен."
 
-#: api/exceptions.py:306
+#: api/exceptions.py:313
 msgctxt "UI"
 msgid ""
 "Please update the app via Play Store / App Store. This version is no longer "
@@ -261,7 +261,7 @@ msgstr ""
 "Пожалуйста, обновите приложение через Play Store / App Store. Эта версия "
 "больше не поддерживается."
 
-#: api/exceptions.py:314
+#: api/exceptions.py:321
 msgctxt "UI"
 msgid ""
 "Deletion aborted. It is not possible to delete active workers. Please adjust "
@@ -270,55 +270,48 @@ msgstr ""
 "Удаление отменено. Невозможно удаление активных воркеров. Пожалуйста, "
 "измените свой выбор."
 
-#: campaigns/email_templates/change_email_template.html:15
+#: backend/queries/finance.py:234
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid currency."
+msgctxt "UI"
+msgid "Invalid currency code"
+msgstr "Неверная валюта."
+
+#: campaigns/email_templates/footer_system.html:34
+msgctxt "UI"
+msgid "Settings"
+msgstr "Настройки"
+
+#: campaigns/email_templates/v4_account_delete.html:171
+#: campaigns/email_templates/v4_account_delete.html:235
 #, python-format
-msgctxt "UI"
-msgid ""
-"We got a request to change your email address to <strong>%(email)s</strong>."
+msgctxt "email"
+msgid "We received a request to delete your %(name)s account."
 msgstr ""
-"Мы получили запрос на изменение вашего адреса электронной почты на <strong>"
-"%(email)s</strong>."
 
-#: campaigns/email_templates/change_email_template.html:18
-#: campaigns/email_templates/wallet_change_template.html:18
-msgctxt "UI"
-msgid "To authorize this change, please click the button below."
-msgstr "Чтобы авторизовать это изменение, нажмите кнопку ниже."
+#: campaigns/email_templates/v4_account_delete.html:219
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Account deletion requested"
+msgctxt "email"
+msgid "Account deletion request"
+msgstr "Запрошено удаление аккаунта"
 
-#: campaigns/email_templates/change_email_template.html:30
-msgctxt "UI"
-msgid "Change email address"
-msgstr "Изменить адрес электронной почты"
-
-#: campaigns/email_templates/change_email_template.html:43
-#, python-format
-msgctxt "UI"
-msgid ""
-"If you <strong>did not</strong> ask us to change your email address, please "
-"<a href=\"%(url)s\">cancel&nbsp;the&nbsp;request</a> and change your "
-"password immediately."
-msgstr ""
-"Если вы <strong>не запрашивали</strong> изменение адреса электронной почты, "
-"пожалуйста, <a href=\"%(url)s\">отмените&nbsp;этот&nbsp;запрос</a> и "
-"измените свой пароль без промедления."
-
-#: campaigns/email_templates/delete_account_template.html:16
-msgctxt "UI"
-msgid ""
-"It's Pavel Moravec, co-CEO of Braiins. I wanted to reach out to you "
-"personally and thank you for giving Slush Pool a shot."
-msgstr ""
-"Это Павел Моравец, со-генеральный директор Braiins. Я хотел связаться с вами "
-"лично и поблагодарить вас за то, что вы дали Slush Pool шанс."
-
-#: campaigns/email_templates/delete_account_template.html:19
-#, python-format
-msgctxt "UI"
+#: campaigns/email_templates/v4_account_delete.html:257
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid ""
+#| "Did you run into any issues using Slush Pool that our support team can <a "
+#| "href=\"%(support)s\">help you with</a>? Or perhaps you are missing some "
+#| "features? <a href=\"%(new_ticket)s\">Please&nbsp;let&nbsp;us&nbsp;know</"
+#| "a> so that we can make Slush Pool better."
+msgctxt "email"
 msgid ""
 "Did you run into any issues using Slush Pool that our support team can <a "
-"href=\"%(support)s\">help you with</a>? Or perhaps you are missing some "
-"features? <a href=\"%(new_ticket)s\">Please&nbsp;let&nbsp;us&nbsp;know</a> "
-"so that we can make Slush Pool better."
+"href=\"%(url)s\">help you with?</a> Or perhaps you are missing some "
+"features? <a href=\"%(url)s\">Let us know</a> so that we can make our "
+"services better."
 msgstr ""
 "Вы столкнулись с какими-либо проблемами с использованием Slush Pool, с "
 "которыми наша команда поддержки может <a href=\"%(support)s\">вам помочь</"
@@ -326,252 +319,518 @@ msgstr ""
 "\">Пожалуйста&nbsp;дайте&nbsp;нам&nbsp;знать</a>, чтобы мы сделали Slush "
 "Pool лучше."
 
-#: campaigns/email_templates/delete_account_template.html:22
-#, python-format
-msgctxt "UI"
-msgid ""
-"If you’d still like to delete your account, make sure you <strong>request "
-"your final payout BEFORE</strong> doing so. Otherwise, any remaining "
-"balances are considered a generous donation to the pool. Then click this <a "
-"href=\"%(url)s\">confirmation link</a> to delete your account. For your "
-"security, the link is only good for an hour."
+#: campaigns/email_templates/v4_account_delete.html:269
+msgctxt "email"
+msgid "In any case, if you’d still like to delete your account:"
 msgstr ""
-"Если вы все еще хотите удалить свою учетную запись, убедитесь, что вы "
-"<strong>запрашиваете окончательную выплату, ДО этого</strong>. В противном "
-"случае любые оставшиеся остатки считаются щедрым пожертвованием в пул. Затем "
-"нажмите эту <a href=\"%(url)s\">ссылку для подтверждения</a>, чтобы удалить "
-"свой аккаунт. В целях безопасности ссылка действительна только в течение "
-"часа."
 
-#: campaigns/email_templates/delete_account_template.html:25
-msgctxt "UI"
+#: campaigns/email_templates/v4_account_delete.html:270
+msgctxt "email"
 msgid ""
-"Lastly, if you DIDN’T request to delete your account, make sure you change "
-"your password ASAP.️"
+"1. Make sure you <strong>request your final payout BEFORE doing so.</strong> "
+"Otherwise, any remaining balances are considered a generous donation to the "
+"pool."
 msgstr ""
-"Наконец, если вы не запрашивали удаление своей учетной записи, убедитесь, "
-"что вы сменили свой пароль как можно скорее."
 
-#: campaigns/email_templates/delete_account_template.html:28
-msgctxt "UI"
-msgid "We hope to see you back soon."
-msgstr "Мы надеемся скоро увидеть вас снова."
-
-#: campaigns/email_templates/footer_system.html:34
-msgctxt "UI"
-msgid "Settings"
-msgstr "Настройки"
-
-#: campaigns/email_templates/monitoring_incident_template.html:14
+#: campaigns/email_templates/v4_account_delete.html:271
 #, python-format
-msgctxt "UI"
-msgid "Hey <strong>%(username)s</strong>,"
-msgstr "Привет,<strong>%(username)s</strong>,"
-
-#: campaigns/email_templates/monitoring_incident_template.html:17
-#, python-format
-msgctxt "UI"
+msgctxt "email"
 msgid ""
-"We wanted to let you know that we noticed something going on with your "
-"<strong>%(coin)s</strong> workers. You can see the details below."
+"2. Then click <a href=\"%(url)s\">this confirmation link to delete your "
+"account.</a> For your security, the link is only valid for 1 hour."
+msgstr ""
+
+#: campaigns/email_templates/v4_account_delete.html:296
+#: campaigns/email_templates/v4_email_change.html:287
+#: campaigns/email_templates/v4_payout_channel_verification.html:290
+msgctxt "email"
+msgid ""
+"<strong>If you didn’t initiate</strong> this process, your account may be "
+"compromised."
+msgstr ""
+
+#: campaigns/email_templates/v4_account_delete.html:297
+#: campaigns/email_templates/v4_email_change.html:290
+#: campaigns/email_templates/v4_payout_channel_verification.html:293
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid ""
+#| "If you didn’t request an address change, please <a href=\"%(url)s"
+#| "\">cancel this request</a> and change your password immediately."
+msgctxt "email"
+msgid ""
+"Please <a href=\"%(url)s\">cancel the request</a> and change your password "
+"immediately."
+msgstr ""
+"Если вы не запрашивали изменение адреса, <a href=\"%(url)s\">отмените этот "
+"запрос</a> и немедленно измените свой пароль."
+
+#: campaigns/email_templates/v4_account_delete.html:305
+#: campaigns/email_templates/v4_email_change.html:302
+#: campaigns/email_templates/v4_password_reset.html:318
+#: campaigns/email_templates/v4_payout_channel_verification.html:305
+#: campaigns/email_templates/v4_signup_confirmation.html:297
+msgctxt "email"
+msgid ""
+"In case you need assistance or help with securing your account, please "
+"contact our support team. We are here to help."
+msgstr ""
+
+#: campaigns/email_templates/v4_account_delete.html:316
+#: campaigns/email_templates/v4_email_change.html:316
+#: campaigns/email_templates/v4_monitoring_incident.html:657
+#: campaigns/email_templates/v4_onboarding.html:310
+#: campaigns/email_templates/v4_password_reset.html:330
+#: campaigns/email_templates/v4_payout_channel_verification.html:319
+#: campaigns/email_templates/v4_payout_sent.html:335
+#: campaigns/email_templates/v4_signup_confirmation.html:311
+#, fuzzy
+#| msgid "Contact us"
+msgctxt "email"
+msgid "Contact Support"
+msgstr "Связаться с нами"
+
+#: campaigns/email_templates/v4_account_delete.html:327
+#: campaigns/email_templates/v4_email_change.html:328
+#: campaigns/email_templates/v4_password_reset.html:342
+#: campaigns/email_templates/v4_payout_channel_verification.html:331
+msgctxt "email"
+msgid "Don't trust, verify!"
+msgstr ""
+
+#: campaigns/email_templates/v4_account_delete.html:369
+#: campaigns/email_templates/v4_email_change.html:370
+#: campaigns/email_templates/v4_monitoring_incident.html:718
+#: campaigns/email_templates/v4_onboarding.html:362
+#: campaigns/email_templates/v4_password_reset.html:384
+#: campaigns/email_templates/v4_payout_channel_verification.html:373
+#: campaigns/email_templates/v4_payout_sent.html:393
+#: campaigns/email_templates/v4_signup_confirmation.html:368
+#, fuzzy
+#| msgid "Namecoin mining all the way"
+msgctxt "email"
+msgid "Bitcoin mining full stack company"
+msgstr "Полностью майнинг неймкоинов"
+
+#: campaigns/email_templates/v4_account_delete.html:382
+#: campaigns/email_templates/v4_email_change.html:385
+#: campaigns/email_templates/v4_monitoring_incident.html:732
+#: campaigns/email_templates/v4_onboarding.html:376
+#: campaigns/email_templates/v4_password_reset.html:398
+#: campaigns/email_templates/v4_payout_channel_verification.html:387
+#: campaigns/email_templates/v4_payout_sent.html:408
+#: campaigns/email_templates/v4_signup_confirmation.html:382
+msgctxt "email"
+msgid "FOLLOW US"
+msgstr ""
+
+#: campaigns/email_templates/v4_email_change.html:167
+#: campaigns/email_templates/v4_email_change.html:226
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid ""
+#| "We got a request to change your email address to <strong>%(email)s</"
+#| "strong>."
+msgctxt "email"
+msgid ""
+"We received a request to change the email address of your account %(name)s "
+"to: %(email)s"
+msgstr ""
+"Мы получили запрос на изменение вашего адреса электронной почты на <strong>"
+"%(email)s</strong>."
+
+#: campaigns/email_templates/v4_email_change.html:210
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Email change confirmed"
+msgctxt "email"
+msgid "Email change request"
+msgstr "Подтверждено изменение адреса электронной почты"
+
+#: campaigns/email_templates/v4_email_change.html:248
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "To authorize this change, please click the button below."
+msgctxt "email"
+msgid "To authorize this change, please click the button below."
+msgstr "Чтобы авторизовать это изменение, нажмите кнопку ниже."
+
+#: campaigns/email_templates/v4_email_change.html:260
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Change email address"
+msgctxt "email"
+msgid "Change Email Address"
+msgstr "Изменить адрес электронной почты"
+
+#: campaigns/email_templates/v4_monitoring_incident.html:191
+#: campaigns/email_templates/v4_monitoring_incident.html:263
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid ""
+#| "We wanted to let you know that we noticed something going on with your "
+#| "<strong>%(coin)s</strong> workers. You can see the details below."
+msgctxt "email"
+msgid ""
+"We have detected that something is going on with your %(coin)s workers. You "
+"can see the details below."
 msgstr ""
 "Мы хотим вам дать знать, что мы заметили, что что-то происходит с вашими "
 "<strong>%(coin)s</strong> воркерами. Вы можете увидеть детали ниже."
 
-#: campaigns/email_templates/monitoring_incident_template.html:21
-#: web/templates/email/monitoring_body.html:8
-msgctxt "UI"
+#: campaigns/email_templates/v4_monitoring_incident.html:247
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Worker States (Changes)"
+msgctxt "email"
+msgid "Worker State Changes"
+msgstr "Состояния воркеров (изменения)"
+
+#: campaigns/email_templates/v4_monitoring_incident.html:300
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Event Time"
+msgctxt "email"
 msgid "Event Time"
 msgstr "Время события"
 
-#: campaigns/email_templates/monitoring_incident_template.html:22
-#: web/templates/email/monitoring_body.html:9
-msgctxt "UI"
+#: campaigns/email_templates/v4_monitoring_incident.html:305
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Account Hash Rate"
+msgctxt "email"
 msgid "Account Hash Rate"
 msgstr "Хешрейт учетной записи"
 
-#: campaigns/email_templates/monitoring_incident_template.html:23
-#: web/templates/email/monitoring_body.html:10
-msgctxt "UI"
-msgid "Worker States (Changes)"
+#: campaigns/email_templates/v4_monitoring_incident.html:320
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Worker States (Changes)"
+msgctxt "email"
+msgid "Worker States (changes)"
 msgstr "Состояния воркеров (изменения)"
 
-#: campaigns/email_templates/monitoring_incident_template.html:32
-#: web/templates/email/monitoring_body.html:20
-msgctxt "UI"
+#: campaigns/email_templates/v4_monitoring_incident.html:339
+#, fuzzy
+#| msgctxt "UI, Monitoring"
+#| msgid "OK"
+msgctxt "email"
+msgid "OK"
+msgstr "ОК"
+
+#: campaigns/email_templates/v4_monitoring_incident.html:353
+#, fuzzy
+#| msgctxt "UI, Monitoring"
+#| msgid "Low"
+msgctxt "email"
+msgid "Low"
+msgstr "Низкий"
+
+#: campaigns/email_templates/v4_monitoring_incident.html:367
+#, fuzzy
+#| msgctxt "UI, Monitoring"
+#| msgid "Offline"
+msgctxt "email"
+msgid "Offline"
+msgstr "Оф-лайн"
+
+#: campaigns/email_templates/v4_monitoring_incident.html:381
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Disabled"
+msgctxt "email"
+msgid "Disabled"
+msgstr "Отключено"
+
+#: campaigns/email_templates/v4_monitoring_incident.html:410
+#, fuzzy
+msgctxt "email"
+msgid "Incident detail"
+msgstr "Детали API"
+
+#: campaigns/email_templates/v4_monitoring_incident.html:445
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Worker Name"
+msgctxt "email"
 msgid "Worker Name"
 msgstr "Имя воркера"
 
-#: campaigns/email_templates/monitoring_incident_template.html:33
-#: web/templates/email/monitoring_body.html:21
-msgctxt "UI"
+#: campaigns/email_templates/v4_monitoring_incident.html:495
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "State Change"
+msgctxt "email"
 msgid "State Change"
 msgstr "Изменение состояния"
 
-#: campaigns/email_templates/monitoring_incident_template.html:34
-#: web/templates/email/monitoring_body.html:22
-msgctxt "UI"
-msgid "State Changed After"
-msgstr "Состояние изменено после"
-
-#: campaigns/email_templates/monitoring_incident_template.html:35
-#: web/templates/email/monitoring_body.html:23
-msgctxt "UI"
+#: campaigns/email_templates/v4_monitoring_incident.html:514
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Actual Hash Rate"
+msgctxt "email"
 msgid "Actual Hash Rate"
 msgstr "Действительный хешрейт"
 
-#: campaigns/email_templates/monitoring_incident_template.html:36
-#: web/templates/email/monitoring_body.html:24
-msgctxt "UI"
+#: campaigns/email_templates/v4_monitoring_incident.html:540
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "State Changed After"
+msgctxt "email"
+msgid "State Changed After"
+msgstr "Состояние изменено после"
+
+#: campaigns/email_templates/v4_monitoring_incident.html:558
+#, fuzzy
+#| msgid "Alert Limit"
+msgctxt "email"
 msgid "Alert Limit"
-msgstr "Предел оповещений"
+msgstr "Порог оповещения"
 
-#: campaigns/email_templates/monitoring_incident_template.html:55
+#: campaigns/email_templates/v4_monitoring_incident.html:597
 #, python-format
-msgctxt "UI"
+msgctxt "email"
 msgid ""
-"You can also <a href=\"%(url)s\">click here</a> to see this report online."
+"<strong>Showing %(shown)s out of %(total)s changes.</strong> To see full "
+"report click the button below."
 msgstr ""
-"Вы также можете <a href=\"%(url)s\">нажать здесь</a>, чтобы увидеть этот "
-"отчет онлайн."
 
-#: campaigns/email_templates/monitoring_incident_template.html:58
-msgctxt "UI"
-msgid "– The Slush Pool Team"
-msgstr "– Команда Slush Pool"
-
-#: campaigns/email_templates/onboarding_template.html:15
-msgctxt "UI"
-msgid "Ready to jumpstart your mining? 🔥🚀"
-msgstr "Готовы запустить майнинг? 🔥🚀"
-
-#: campaigns/email_templates/onboarding_template.html:18
-msgctxt "UI"
-msgid ""
-"Right now, Slush Pool supports <strong>Bitcoin</strong> and <strong>Zcash</"
-"strong> mining, but make sure you keep an eye out for an announcement coming "
-"soon! (Hint: 3 more cryptos incoming 🎉)"
+#: campaigns/email_templates/v4_monitoring_incident.html:613
+msgctxt "email"
+msgid "View Full Report"
 msgstr ""
-"Прямо сейчас Slush Pool поддерживает майнинг <strong>Биткойн</strong> и "
-"<strong>Zcash</strong>, но будьте внимательны и ожидайте объявления в "
-"ближайшее время! (Подсказка: еще 3 криптовалюты поступают 🎉)"
 
-#: campaigns/email_templates/onboarding_template.html:20
-msgctxt "UI"
+#: campaigns/email_templates/v4_monitoring_incident.html:641
+#: campaigns/email_templates/v4_payout_sent.html:323
+msgctxt "email"
 msgid ""
-"Need a little help getting started? These how-to guides will help get you up "
-"and running."
+"In case of any issues please contact our support team. We are here to help."
+msgstr ""
+
+#: campaigns/email_templates/v4_onboarding.html:212
+msgctxt "email"
+msgid "Ready, set, mine!"
+msgstr ""
+
+#: campaigns/email_templates/v4_onboarding.html:226
+#, fuzzy
+#| msgctxt "UI"
+#| msgid ""
+#| "Need a little help getting started? These how-to guides will help get you "
+#| "up and running."
+msgctxt "email"
+msgid ""
+"Need a little assistance getting started? These setup guides will help get "
+"you up and running."
 msgstr ""
 "Нужна помощь, чтобы начать? Эти практические руководства помогут вам начать "
 "работу."
 
-#: campaigns/email_templates/onboarding_template.html:30
-msgctxt "UI"
-msgid "Quickstart Guide"
+#: campaigns/email_templates/v4_onboarding.html:250
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Quickstart Guide"
+msgctxt "email"
+msgid "Bitcoin Quickstart Guide"
 msgstr "Краткое руководство пользователя"
 
-#: campaigns/email_templates/onboarding_template.html:46
-#, python-format
-msgctxt "UI"
-msgid ""
-"If you ever need help with anything else, make sure you check out our&nbsp;"
-"<a href=\"%(url)s\"><strong>online support portal</strong></a>"
+#: campaigns/email_templates/v4_onboarding.html:273
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Quickstart Guide"
+msgctxt "email"
+msgid "Zcash Quickstart Guide"
+msgstr "Краткое руководство пользователя"
+
+#: campaigns/email_templates/v4_onboarding.html:298
+msgctxt "email"
+msgid "Do you have more questions? Our support team is always here to help."
 msgstr ""
-"Если вам когда-нибудь понадобится помощь, обязательно посетите наш &nbsp;<a "
-"href=\"%(url)s\"><strong>онлайн-портал поддержки</strong></a>"
 
-#: campaigns/email_templates/payout_template.html:16
-#, python-format
-msgctxt "UI"
-msgid "Congrats! You've hit your %(coin)s payout threshold 🎉"
-msgstr "Поздравляем! Вы достигли %(coin)s порога для выплаты 🎉"
-
-#: campaigns/email_templates/payout_template.html:19
-#, python-format
-msgctxt "UI"
-msgid "We've transferred %(amount)s %(coin)s to your address %(address)s."
-msgstr "Мы перешли %(amount)s%(coin)s на ваш адрес %(address)s."
-
-#: campaigns/email_templates/payout_template.html:22
-#, python-format
-msgctxt "UI"
-msgid ""
-"Typically, payments take somewhere between 30 minutes to 3 hours to go "
-"through. You can keep an eye on your payment's status <a href=\"%(url)s"
-"\">here</a>."
+#: campaigns/email_templates/v4_onboarding.html:321
+#: campaigns/email_templates/v4_signup_confirmation.html:325
+msgctxt "email"
+msgid "Let’s mine some blocks!"
 msgstr ""
-"Как правило, выплата занимает от 30 минут до 3 часов. Вы можете следить за "
-"статусом вашего платежа <a href=\"%(url)s\">здесь</a>."
 
-#: campaigns/email_templates/payout_template.html:24
-msgctxt "UI"
-msgid "Keep up the good work and happy mining!"
-msgstr "Продолжайте в том же духе и счастливого майнинга!"
-
-#: campaigns/email_templates/registration_template.html:15
-msgctxt "UI"
-msgid "Thanks for joining Slush Pool! 💪"
-msgstr "Спасибо, что присоединились к Slush Pool! 💪"
-
-#: campaigns/email_templates/registration_template.html:18
-msgctxt "UI"
-msgid "To start mining, activate your account by clicking the button below."
-msgstr "Чтобы начать майнинг, активируйте свой аккаунт, нажав кнопку ниже."
-
-#: campaigns/email_templates/registration_template.html:30
-msgctxt "UI"
-msgid "START MINING"
-msgstr "НАЧАТЬ МАЙНИНГ"
-
-#: campaigns/email_templates/registration_template.html:43
-msgctxt "UI"
-msgid ""
-"If that link doesn't work, try copy and pasting the full link below into "
-"your browser address bar:"
+#: campaigns/email_templates/v4_password_reset.html:166
+#: campaigns/email_templates/v4_password_reset.html:228
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid ""
+#| "You are receiving this email because you requested a password reset for "
+#| "your user account at <a href=\"%(site_url)s\">%(site_name)s</a>."
+msgctxt "email"
+msgid "We received a request for a password reset on your account %(name)s."
 msgstr ""
-"Если эта ссылка не работает, попробуйте скопировать и вставить полную ссылку "
-"ниже в адресную строку браузера:"
+"Вы получили данное электронное письмо потому, что запрашивали переустановку "
+"пароля для своей учетной записи в <a href=\"%(site_url)s\">%(site_name)s</a>."
 
-#: campaigns/email_templates/reset_password_template.html:16
-msgctxt "UI"
-msgid "We got a password reset request for your Slush Pool account."
-msgstr ""
-"Мы получили запрос на сброс пароля для вашей учетной записи Slush Pool."
+#: campaigns/email_templates/v4_password_reset.html:214
+#, fuzzy
+#| msgctxt "UI, Page title"
+#| msgid "Password reset"
+msgctxt "email"
+msgid "Password reset request"
+msgstr "Переустановка пароля"
 
-#: campaigns/email_templates/reset_password_template.html:19
-msgctxt "UI"
+#: campaigns/email_templates/v4_password_reset.html:248
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "To reset your password, click the button below."
+msgctxt "email"
 msgid "To reset your password, click the button below."
 msgstr "Чтобы сбросить пароль, нажмите кнопку ниже."
 
-#: campaigns/email_templates/reset_password_template.html:31
-msgctxt "UI"
-msgid "RESET PASSWORD"
-msgstr "СБРОС ПАРОЛЯ"
+#: campaigns/email_templates/v4_password_reset.html:281
+#, fuzzy
+#| msgid "Reset password"
+msgctxt "email"
+msgid "Reset Password"
+msgstr "Переустановить пароль"
 
-#: campaigns/email_templates/wallet_change_template.html:15
-#, python-format
-msgctxt "UI"
+#: campaigns/email_templates/v4_password_reset.html:308
+msgctxt "email"
 msgid ""
-"We received a request to change your %(coin)s wallet to this new address: "
-"<strong>%(address)s</strong>"
+"<strong>If you didn’t initiate</strong> this process, you can ignore this "
+"message."
+msgstr ""
+
+#: campaigns/email_templates/v4_payout_channel_verification.html:168
+#: campaigns/email_templates/v4_payout_channel_verification.html:227
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid ""
+#| "We received a request to change your %(coin)s wallet to this new address: "
+#| "<strong>%(address)s</strong>"
+msgctxt "email"
+msgid ""
+"We received a request to change your %(coin)s wallet under the financial "
+"account \"%(account)s\" to this new address: %(address)s"
 msgstr ""
 "Мы получили запрос на изменение вашего %(coin)s кошелька на новый адрес: "
 "<strong>%(address)s</strong>"
 
-#: campaigns/email_templates/wallet_change_template.html:21
-msgctxt "UI"
-msgid "CONFIRM CHANGE"
-msgstr "ПОДТВЕРДИТЬ ИЗМЕНЕНИЕ"
+#: campaigns/email_templates/v4_payout_channel_verification.html:212
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "Zcash wallet change confirmed"
+msgctxt "email"
+msgid "%(coin)s wallet change request"
+msgstr "Изменение Zcash кошелька подтверждено"
 
-#: campaigns/email_templates/wallet_change_template.html:25
-#, python-format
-msgctxt "UI"
+#: campaigns/email_templates/v4_payout_channel_verification.html:249
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "To authorize this change, please click the button below."
+msgctxt "email"
+msgid "To confirm this change, click the button below."
+msgstr "Чтобы авторизовать это изменение, нажмите кнопку ниже."
+
+#: campaigns/email_templates/v4_payout_channel_verification.html:263
+#, fuzzy
+#| msgid "Change my wallet"
+msgctxt "email"
+msgid "Change Wallet"
+msgstr "Изменить кошелек"
+
+#: campaigns/email_templates/v4_payout_sent.html:171
+#: campaigns/email_templates/v4_payout_sent.html:231
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "Congrats! You've hit your %(coin)s payout threshold 🎉"
+msgctxt "email"
 msgid ""
-"If you didn’t request an address change, please <a href=\"%(url)s\">cancel "
-"this request</a> and change your password immediately."
+"Congratulations! You've just reached your %(coin)s payout threshold on the "
+"financial account \"%(name)s\"."
+msgstr "Поздравляем! Вы достигли %(coin)s порога для выплаты 🎉"
+
+#: campaigns/email_templates/v4_payout_sent.html:215
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "Blocked %(coin)s Payouts"
+msgctxt "email"
+msgid "Your %(coin)s payout"
+msgstr "Блокированные %(coin)s выплаты"
+
+#: campaigns/email_templates/v4_payout_sent.html:255
+msgctxt "email"
+msgid "For this reason we’ve transferred:"
 msgstr ""
-"Если вы не запрашивали изменение адреса, <a href=\"%(url)s\">отмените этот "
-"запрос</a> и немедленно измените свой пароль."
+
+#: campaigns/email_templates/v4_payout_sent.html:270
+#, fuzzy, python-format
+#| msgid "Create your <strong>Bitcoin payout address</strong>"
+msgctxt "email"
+msgid "to your address <strong>(%(address)s)</strong>"
+msgstr "Создать <strong> адрес для выплат в Биткойнах </strong>"
+
+#: campaigns/email_templates/v4_payout_sent.html:272
+#, python-format
+msgctxt "email"
+msgid "on %(date)s"
+msgstr ""
+
+#: campaigns/email_templates/v4_payout_sent.html:284
+#, fuzzy
+#| msgctxt "UI"
+#| msgid ""
+#| "Typically, payments take somewhere between 30 minutes to 3 hours to go "
+#| "through. You can keep an eye on your payment's status <a href=\"%(url)s"
+#| "\">here</a>."
+msgctxt "email"
+msgid ""
+"Typically, payments take somewhere between 30 minutes to 3 hours to go "
+"through. You can keep an eye on your payment's status here:</span>"
+msgstr ""
+"Как правило, выплата занимает от 30 минут до 3 часов. Вы можете следить за "
+"статусом вашего платежа <a href=\"%(url)s\">здесь</a>."
+
+#: campaigns/email_templates/v4_payout_sent.html:298
+#, fuzzy
+msgctxt "email"
+msgid "Check Transaction Status"
+msgstr "подтверждений остаётся"
+
+#: campaigns/email_templates/v4_signup_confirmation.html:168
+#: campaigns/email_templates/v4_signup_confirmation.html:226
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "To start mining, activate your account by clicking the button below."
+msgctxt "email"
+msgid ""
+"To start mining, activate your account %(username)s by clicking the button "
+"below."
+msgstr "Чтобы начать майнинг, активируйте свой аккаунт, нажав кнопку ниже."
+
+#: campaigns/email_templates/v4_signup_confirmation.html:212
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Slush Pool"
+msgctxt "email"
+msgid "Welcome to Slush Pool!"
+msgstr "Slush Pool"
+
+#: campaigns/email_templates/v4_signup_confirmation.html:251
+#, fuzzy
+#| msgid "Configure your mining device"
+msgctxt "email"
+msgid "Confirm your email"
+msgstr "Настройте ваше майнинговое устройство"
+
+#: campaigns/email_templates/v4_signup_confirmation.html:267
+#, fuzzy
+#| msgctxt "UI"
+#| msgid ""
+#| "If that link doesn't work, try copy and pasting the full link below into "
+#| "your browser address bar:"
+msgctxt "email"
+msgid ""
+"If the link doesn't work, try copy and pasting the full link below into your "
+"browser address bar:"
+msgstr ""
+"Если эта ссылка не работает, попробуйте скопировать и вставить полную ссылку "
+"ниже в адресную строку браузера:"
 
 #: campaigns/forms/campaign.py:59 campaigns/forms/campaign.py:104
 #: campaigns/forms/campaign.py:161 campaigns/forms/campaign.py:219
@@ -585,6 +844,15 @@ msgstr "Доступ к кампаниям запрещен."
 msgctxt "UI"
 msgid "Campaign must be in DRAFT state."
 msgstr "Кампания должна быть в ПРОЕКТЕ."
+
+#: campaigns/forms/template.py:126
+#, python-format
+msgctxt "UI"
+msgid ""
+"This template is used in campaign run \"%(campaign_run_name)s\" of campaign "
+"\"%(campaign_name)s\". To be able to change the template, you must abort the "
+"campaign run first."
+msgstr ""
 
 #: campaigns/forms/validators.py:518 mailing/forms/validators.py:36
 msgctxt "UI"
@@ -656,18 +924,21 @@ msgctxt "UI"
 msgid "Workers"
 msgstr "Воркеры"
 
-#: finance/api/v1/api_actions.py:28
+#: finance/api/v1/api_actions.py:33 finance/forms/validators.py:278
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid payout account id."
 msgctxt "UI"
-msgid "Invalid payout channel id."
-msgstr "Неверный идентификатор канала выплат."
+msgid "Invalid payout account id!"
+msgstr "Неверный идентификатор аккаунта для выплат."
 
-#: finance/api/v1/api_actions.py:42
+#: finance/api/v1/api_actions.py:47
 msgctxt "UI"
 msgid "This verification request has already been processed."
 msgstr "Этот запрос на проверку уже обработан."
 
-#: finance/api/v1/api_actions.py:84 settings/api/v1/api_actions.py:119
-#: settings/api/v1/api_actions.py:157 settings/api/v1/api_actions.py:189
+#: finance/api/v1/api_actions.py:89 settings/api/v1/api_actions.py:164
+#: settings/api/v1/api_actions.py:196
 msgctxt "UI"
 msgid ""
 "Confirmation email has been sent. Please, check your mailbox and follow the "
@@ -676,44 +947,22 @@ msgstr ""
 "Вам было отправлено подтверждение по электронной почте.. Пожалуйста, "
 "проверьте свою электронную почту и перейдите по указанной ссылке."
 
-#: finance/api/v1/api_actions.py:117
-msgctxt "UI"
-msgid "Payout channel confirmation has been cancelled."
-msgstr "Подтверждение канала выплат было отменено."
-
-#: finance/forms/mixins.py:57 settings/form_mixins.py:127
-#: settings/form_mixins.py:176
-msgctxt "UI"
-msgid "Signature is not valid."
-msgstr "Подпись не действительна."
-
-#: finance/forms/mixins.py:74 settings/form_mixins.py:137
-msgctxt "UI"
-msgid "Message is wrong."
-msgstr "Неверное сообщение."
-
-#: finance/forms/mixins.py:78 settings/form_mixins.py:141
-msgctxt "UI"
-msgid "Signature is out of date."
-msgstr "Подпись просрочена."
-
-#: finance/forms/payout_account.py:31 finance/forms/payout_account.py:71
-#: finance/forms/payout_account.py:150 finance/forms/payout_channel.py:44
+#: finance/forms/payout_account.py:35 finance/forms/payout_account.py:75
+#: finance/forms/payout_account.py:167 finance/forms/payout_channel.py:47
 #: finance/forms/payout_hold.py:29 finance/forms/payout_hold.py:69
-#: finance/forms/payout_lock.py:35 finance/forms/payout_lock.py:115
-#: finance/forms/payout_request.py:30 finance/forms/payout_split.py:37
-#: finance/forms/wallet.py:38 finance/forms/wallet.py:96
-#: finance/forms/wallet.py:145
+#: finance/forms/payout_lock.py:34 finance/forms/payout_request.py:32
+#: finance/forms/payout_split.py:69 finance/forms/wallet.py:45
+#: finance/forms/wallet.py:103 finance/forms/wallet.py:160 formlib/core.py:402
 msgctxt "UI"
 msgid "You do not have permission to submit this form."
 msgstr "У вас нет разрешения на отправку этой формы."
 
-#: finance/forms/payout_account.py:120
+#: finance/forms/payout_account.py:134
 msgctxt "UI"
 msgid "Unable to deactivate account with non-zero balance."
 msgstr "Невозможно деактивировать аккаунт с ненулевым балансом."
 
-#: finance/forms/payout_account.py:135
+#: finance/forms/payout_account.py:150
 msgctxt "UI"
 msgid ""
 "This account has non-zero split percentage. Reassign its rewards split first."
@@ -721,7 +970,7 @@ msgstr ""
 "Эта учетная запись имеет ненулевой процент разделения. Сначала перенастройте "
 "разделение своих наград."
 
-#: finance/forms/payout_channel.py:57 user_request/models.py:615
+#: finance/forms/payout_channel.py:60 user_request/models.py:678
 msgctxt "UI"
 msgid "Payouts are locked."
 msgstr "Выплаты заблокированы."
@@ -736,12 +985,12 @@ msgctxt "UI"
 msgid "Payouts are not paused."
 msgstr "Выплаты не приостановлены."
 
-#: finance/forms/payout_lock.py:45 finance/forms/payout_split.py:47
+#: finance/forms/payout_lock.py:44
 msgctxt "UI"
 msgid "Payouts are already locked."
 msgstr "Выплаты уже заблокированы."
 
-#: finance/forms/payout_lock.py:55
+#: finance/forms/payout_lock.py:54
 #, python-format
 msgctxt "UI"
 msgid ""
@@ -749,312 +998,469 @@ msgid ""
 msgstr ""
 "Платежный аккаунт %(name)s не соответствует требованиям блокировки выплат."
 
-#: finance/forms/payout_lock.py:121
+#: finance/forms/payout_split.py:47
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Payouts are locked."
 msgctxt "UI"
-msgid "Payouts are not locked."
-msgstr "Выплаты не заблокированы."
+msgid "Payouts are locked!"
+msgstr "Выплаты заблокированы."
 
-#: finance/forms/validators.py:27
+#: finance/forms/payout_split.py:62
 msgctxt "UI"
-msgid "Invalid currency."
+msgid "Reward split is not allowed for mining units with API driven payouts."
+msgstr ""
+
+#: finance/forms/validators.py:29
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid currency."
+msgctxt "UI"
+msgid "Invalid currency!"
 msgstr "Неверная валюта."
 
-#: finance/forms/validators.py:40
+#: finance/forms/validators.py:46
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid wallet id."
 msgctxt "UI"
-msgid "Invalid wallet id."
+msgid "Invalid wallet id!"
 msgstr "Неверный идентификатор кошелька."
 
-#: finance/forms/validators.py:55
+#: finance/forms/validators.py:56
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Wallet name must be a string!"
 msgctxt "UI"
-msgid "This wallet is not a target of any locked split rule."
-msgstr ""
-"Этот кошелек не является целью какого-либо закрытого правила разделения."
+msgid "The wallet must be active!"
+msgstr "Название кошелька должно быть строкой!"
 
-#: finance/forms/validators.py:60
+#: finance/forms/validators.py:65
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid date range!"
 msgctxt "UI"
-msgid "This type of wallet is not supported for signatures."
-msgstr "Этот тип кошелька не поддерживается для подписей."
+msgid "Invalid \"is_active\" parameter!"
+msgstr "Неверный диапазон дат!"
 
-#: finance/forms/validators.py:67
+#: finance/forms/validators.py:70
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "This wallet already exists."
+msgctxt "UI"
+msgid "This wallet is already active!"
+msgstr "Этот кошелек уже существует."
+
+#: finance/forms/validators.py:73
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "This wallet already exists."
+msgctxt "UI"
+msgid "This wallet has already been deactivated!"
+msgstr "Этот кошелек уже существует."
+
+#: finance/forms/validators.py:80
 msgctxt "UI"
 msgid "Wallet name must be a string!"
 msgstr "Название кошелька должно быть строкой!"
 
-#: finance/forms/validators.py:72 finance/forms/validators.py:234
-#, python-format
+#: finance/forms/validators.py:85 finance/forms/validators.py:299
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "Name can not be longer than %(length)s characters."
 msgctxt "UI"
-msgid "Name can not be longer than %(length)s characters."
+msgid "Name can not be longer than %(length)s characters!"
 msgstr "Имя не может быть длиннее %(length)s символов."
 
-#: finance/forms/validators.py:79
+#: finance/forms/validators.py:92
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Character \"#\" is not allowed in wallet name."
 msgctxt "UI"
-msgid "Character \"#\" is not allowed in wallet name."
+msgid "Character \"#\" is not allowed in wallet name!"
 msgstr "Символ \"#\" не допускается в имени кошелька."
 
-#: finance/forms/validators.py:96 finance/forms/validators.py:113
-#: finance/forms/validators.py:260 finance/forms/validators.py:279
-#: formlib/validators.py:279
+#: finance/forms/validators.py:109 finance/forms/validators.py:126
+#: finance/forms/validators.py:325 finance/forms/validators.py:344
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "This name is already used."
 msgctxt "UI"
-msgid "This name is already used."
+msgid "This name is already used!"
 msgstr "Это имя уже используется."
 
-#: finance/forms/validators.py:126
+#: finance/forms/validators.py:141
+#, fuzzy
+#| msgid "Access permissions"
 msgctxt "UI"
-msgid "Invalid address format."
+msgid "Adress missing!"
+msgstr "Права доступа"
+
+#: finance/forms/validators.py:144
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid address format."
+msgctxt "UI"
+msgid "Invalid address format!"
 msgstr "Неверный формат адреса."
 
-#: finance/forms/validators.py:131
+#: finance/forms/validators.py:149
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Blockchain address is not supported for this coin."
 msgctxt "UI"
-msgid "Blockchain address is not supported for this coin."
+msgid "Blockchain address is not supported for this coin!"
 msgstr "Блокчейн-адрес для этой монеты не поддерживается."
 
-#: finance/forms/validators.py:153 finance/forms/validators.py:185
+#: finance/forms/validators.py:189
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid xpub format."
 msgctxt "UI"
-msgid "This wallet already exists."
-msgstr "Этот кошелек уже существует."
-
-#: finance/forms/validators.py:164
-msgctxt "UI"
-msgid "Invalid xpub format."
+msgid "Invalid xpub format!"
 msgstr "Неверный формат xpub."
 
-#: finance/forms/validators.py:169
+#: finance/forms/validators.py:194
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "XPub is not supported for this coin."
 msgctxt "UI"
-msgid "XPub is not supported for this coin."
+msgid "XPub is not supported for this coin!"
 msgstr "XPub не поддерживается для этой монеты."
 
-#: finance/forms/validators.py:199
+#: finance/forms/validators.py:210
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "This wallet already exists."
+msgctxt "UI"
+msgid "This wallet already exists!"
+msgstr "Этот кошелек уже существует."
+
+#: finance/forms/validators.py:230
 msgctxt "UI"
 msgid "Invalid params format."
 msgstr "Неверный формат params."
 
-#: finance/forms/validators.py:206
+#: finance/forms/validators.py:234
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Missing \"types\" parameter!"
 msgctxt "UI"
-msgid "Invalid type."
+msgid "Missing \"type\" attribute in wallet params."
+msgstr "Отсутствует параметр \"тип\"!"
+
+#: finance/forms/validators.py:242
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid type."
+msgctxt "UI"
+msgid "Invalid type!"
 msgstr "Неверный тип."
 
-#: finance/forms/validators.py:219
+#: finance/forms/validators.py:259
 msgctxt "UI"
 msgid "Invalid payout account id."
 msgstr "Неверный идентификатор аккаунта для выплат."
 
-#: finance/forms/validators.py:229
+#: finance/forms/validators.py:288
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid payout account name."
 msgctxt "UI"
-msgid "Invalid payout account name."
+msgid "Invalid payout account name!"
 msgstr "Неверное имя аккаунта для выплат."
 
-#: finance/forms/validators.py:241
+#: finance/forms/validators.py:294
 msgctxt "UI"
-msgid "Character \"#\" is not allowed in payout account name."
+msgid "Name cannot be empty!"
+msgstr ""
+
+#: finance/forms/validators.py:306
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Character \"#\" is not allowed in payout account name."
+msgctxt "UI"
+msgid "Character \"#\" is not allowed in payout account name!"
 msgstr "Символ \"#\" не допускается в названии учетной записи."
 
-#: finance/forms/validators.py:293
+#: finance/forms/validators.py:358
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid payout request value."
 msgctxt "UI"
-msgid "Invalid payout request value."
+msgid "Invalid payout request value!"
 msgstr "Неверное значение запроса на выплату."
 
-#: finance/forms/validators.py:302
+#: finance/forms/validators.py:367
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Payout has already been requested for this payout account."
 msgctxt "UI"
-msgid "Payout has already been requested for this payout account."
+msgid "Payout has already been requested for this payout account!"
 msgstr "Выплата уже была запрошена для этой учетной записи."
 
-#: finance/forms/validators.py:313
-#, python-format
+#: finance/forms/validators.py:378
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "Account balance must be higher than %(amount)s %(unit)s."
 msgctxt "UI"
-msgid "Account balance must be higher than %(amount)s %(unit)s."
+msgid "Account balance must be higher than %(amount)s %(unit)s!"
 msgstr "Баланс счета должен быть больше чем %(amount)s %(unit)s."
 
-#: finance/forms/validators.py:329
+#: finance/forms/validators.py:394
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "There is no wallet for this payout account."
 msgctxt "UI"
-msgid "There is no wallet for this payout account."
+msgid "There is no wallet for this payout account!"
 msgstr "Для этой учетной записи нет кошелька."
 
-#: finance/forms/validators.py:336
+#: finance/forms/validators.py:398
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Zcash wallet change confirmed"
 msgctxt "UI"
-msgid "Payout was not requested for this payout account."
+msgid "The assigned wallet is not confirmed yet!"
+msgstr "Изменение Zcash кошелька подтверждено"
+
+#: finance/forms/validators.py:405
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Payout was not requested for this payout account."
+msgctxt "UI"
+msgid "Payout was not requested for this payout account!"
 msgstr "Выплата не была запрошена для этого аккаунта для выплат."
 
-#: finance/forms/validators.py:353
+#: finance/forms/validators.py:422
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid split format."
 msgctxt "UI"
-msgid "Invalid split format."
+msgid "Invalid split format!"
 msgstr "Неверный формат разделения."
 
-#: finance/forms/validators.py:357
+#: finance/forms/validators.py:426
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Percentages must add up to 100 %."
 msgctxt "UI"
-msgid "Percentages must add up to 100 %."
+msgid "Percentages must add up to 100%!"
 msgstr "В сумме проценты должны составлять 100%."
 
-#: finance/forms/validators.py:363
+#: finance/forms/validators.py:432
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid payout account ids."
 msgctxt "UI"
-msgid "Invalid payout account ids."
+msgid "Invalid payout account ids!"
 msgstr "Неверные идентификаторы аккаунта для выплат."
 
-#: finance/forms/validators.py:370
+#: finance/forms/validators.py:439
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid payout accounts."
 msgctxt "UI"
-msgid "Invalid payout accounts."
+msgid "Invalid payout accounts!"
 msgstr "Неверные аккаунты для выплат."
 
-#: finance/forms/validators.py:386 finance/forms/validators.py:434
+#: finance/forms/validators.py:455
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid threshold format."
 msgctxt "UI"
-msgid "Invalid threshold format."
+msgid "Invalid threshold format!"
 msgstr "Неверный формат порога."
 
-#: finance/forms/validators.py:402
-#, python-format
+#: finance/forms/validators.py:471
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "Threshold must be higher than %(minimum)s %(unit)s."
 msgctxt "UI"
-msgid "Threshold must be higher than %(minimum)s %(unit)s."
+msgid "Threshold must be higher than %(minimum)s %(unit)s!"
 msgstr "Порог должен быть выше чем %(minimum)s %(unit)s."
 
-#: finance/forms/validators.py:411
-#, python-format
+#: finance/forms/validators.py:480
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "Threshold must be lower than %(minimum)s %(unit)s."
 msgctxt "UI"
-msgid "Threshold must be lower than %(minimum)s %(unit)s."
+msgid "Threshold must be lower than %(minimum)s %(unit)s!"
 msgstr "Порог должен быть ниже чем %(minimum)s %(unit)s."
 
-#: finance/forms/validators.py:440
+#: finance/forms/validators.py:501
 msgctxt "UI"
-msgid "Invalid payout frequency."
+msgid "You have to set a frequency!!"
+msgstr ""
+
+#: finance/forms/validators.py:503 finance/forms/validators.py:505
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid email format!"
+msgctxt "UI"
+msgid "Invalid frequency format!"
+msgstr "Неверный формат электронной почты!"
+
+#: finance/forms/validators.py:511
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid payout frequency."
+msgctxt "UI"
+msgid "Invalid payout frequency!"
 msgstr "Неверная частота выплат."
 
-#: finance/forms/validators.py:444
+#: finance/forms/validators.py:515
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid day in period."
 msgctxt "UI"
-msgid "Invalid day in period."
+msgid "Invalid day in period!"
 msgstr "Неверный день в периоде."
 
-#: finance/forms/validators.py:452
-#, python-format
+#: finance/forms/validators.py:523
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "Day of the week must be a number between %(min)s and %(max)s."
 msgctxt "UI"
-msgid "Day of the week must be a number between %(min)s and %(max)s."
+msgid "Day of the week must be a number between %(min)s and %(max)s!"
 msgstr "День недели должен быть числом между %(min)s и %(max)s."
 
-#: finance/forms/validators.py:462
-#, python-format
+#: finance/forms/validators.py:533
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "Day of the month must be a number between %(min)s and %(max)s."
 msgctxt "UI"
-msgid "Day of the month must be a number between %(min)s and %(max)s."
+msgid "Day of the month must be a number between %(min)s and %(max)s!"
 msgstr "День месяца должен быть числом между %(min)s и %(max)s."
 
-#: finance/forms/validators.py:487
+#: finance/forms/validators.py:558
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Invalid trigger format."
 msgctxt "UI"
-msgid "Invalid trigger format."
+msgid "Invalid trigger format!"
 msgstr "Неверный формат триггера."
 
-#: finance/forms/validators.py:507
-#, python-format
+#: finance/forms/validators.py:578
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "Unknown trigger type \"%(type)s\"."
 msgctxt "UI"
-msgid "Unknown trigger type \"%(type)s\"."
+msgid "Unknown trigger type \"%(type)s\"!"
 msgstr "Неизвестный тип триггера \"%(type)s\"."
 
-#: finance/forms/validators.py:526
-#, python-format
+#: finance/forms/validators.py:597
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid "Choose a %(coin)s wallet."
 msgctxt "UI"
-msgid "Choose a %(coin)s wallet."
+msgid "Choose a %(coin)s wallet!"
 msgstr "Выберите %(coin)s кошелек."
 
 #. Translators: type = type of address (P2PKH, P2SH, Sapling etc.)
-#: finance/utils.py:44
+#: finance/utils.py:52
 #, python-format
 msgctxt "UI"
 msgid "%(type)s addresses are not supported."
 msgstr "%(type)s адреса не поддерживаются."
 
-#: finance/utils.py:57
+#: finance/utils.py:65
 msgctxt "UI"
 msgid "Unable to derive address type."
 msgstr "Невозможно определить тип адреса."
 
 #. Translators: blockchain = Mainnet or Testnet
-#: finance/utils.py:69
+#: finance/utils.py:77
 #, python-format
 msgctxt "UI"
 msgid "Enter a %(blockchain)s address."
 msgstr "Введите %(blockchain)s адрес."
 
 #. Translators: coin = 'Bitcoin', 'Zcash' etc.
-#: finance/utils.py:82
+#: finance/utils.py:90
 #, python-format
 msgctxt "UI"
 msgid "This is not a valid %(coin)s address."
 msgstr "Это не действительный %(coin)s адрес."
 
-#: finance/utils.py:96
+#: finance/utils.py:104
 #, python-format
 msgctxt "UI"
 msgid "%(coind)s: This is not a valid %(coin)s address."
 msgstr "%(coind)s: Это не действительный %(coin)s адрес."
 
-#: finance/utils.py:109
+#: finance/utils.py:117
 #, python-format
 msgctxt "UI"
 msgid "Validation failed. %(coind)s is not connected."
 msgstr "Проверка не удалась. %(coind)s не подключен."
 
-#: finance/utils.py:174
+#: finance/utils.py:182
 msgctxt "UI"
 msgid "This is not a valid XPub."
 msgstr "Это не действительный XPub."
 
-#: finance/utils.py:184
+#: finance/utils.py:192
 msgctxt "UI"
 msgid "Enter a valid XPub."
 msgstr "Введите действительный XPub."
 
 #. Translators: blockchain = Mainnet or Testnet
-#: finance/utils.py:196
+#: finance/utils.py:204
 #, python-format
 msgctxt "UI"
 msgid "Enter a %(blockchain)s xpub."
 msgstr "Введите %(blockchain)s xpub."
 
-#: formlib/core.py:24
+#: formlib/core.py:26
 msgid "Authentication required!"
 msgstr "Требуется авторизация!"
 
-#: formlib/core.py:28
+#: formlib/core.py:30
 msgid "Missing captcha data!"
 msgstr "Отсутствуют данные капчи!"
 
-#: formlib/core.py:32
+#: formlib/core.py:34
 msgid "Captcha validation failed."
 msgstr "Проверка капчи не удалась."
 
-#: formlib/core.py:36
+#: formlib/core.py:38
 msgid "Current password required!"
 msgstr "Требуется текущий пароль!"
 
-#: formlib/core.py:40
+#: formlib/core.py:42
 msgid "Second factor authentication required!"
 msgstr "Требуется 2х-факторная аутентификация!"
 
-#: formlib/core.py:44
+#: formlib/core.py:46
 msgid "OTP token validation failed."
 msgstr "Сбой проверки OTP-токена."
 
-#: formlib/core.py:48
+#: formlib/core.py:50
 msgid "U2F authentication failed!"
 msgstr "U2F аутентификация не удалась!"
 
-#: formlib/core.py:52
+#: formlib/core.py:54
 msgid "Password is incorrect!"
 msgstr "Неверный пароль!"
 
-#: formlib/core.py:247
+#: formlib/core.py:294
 msgctxt "UI"
 msgid "Required field!"
 msgstr "Обязательное поле!"
 
-#: formlib/core.py:265
+#: formlib/core.py:313
 #, python-format
 msgctxt "UI"
 msgid "Context value \"%s\" is missing."
 msgstr "Значение контекста \"%s\" отсутствует."
 
-#: formlib/core.py:391
+#: formlib/core.py:464
 #, python-format
 msgctxt "UI"
 msgid "Missing initial value %s!"
 msgstr "Отсутствует начальное значение %s!"
 
-#: formlib/core.py:394
+#: formlib/core.py:467
 msgctxt "UI"
 msgid "Initial values were not up to date!"
 msgstr "Начальные значения не были актуальными!"
@@ -1180,6 +1586,11 @@ msgstr "Email не является допустимым."
 msgctxt "UI"
 msgid "There must always be one main Access Profile!"
 msgstr "Всегда должен быть один основной Профиль Доступа!"
+
+#: formlib/validators.py:279
+msgctxt "UI"
+msgid "This name is already used."
+msgstr "Это имя уже используется."
 
 #: formlib/validators.py:293
 msgctxt "UI"
@@ -1367,6 +1778,13 @@ msgid ""
 "Only letters, numbers and the following characters are accepted: _ @ + - :"
 msgstr "Допускаются только буквы, числа и указанные далее символы: _ @ + - :"
 
+#: news/api/v1/views.py:110 news/api/v1/views.py:115
+#, fuzzy, python-format
+#| msgid "No article found."
+msgctxt "UI"
+msgid "News article not found: \"%s\""
+msgstr "Статей не найдено."
+
 #: news/models.py:49
 msgctxt "UI"
 msgid "Feature"
@@ -1387,23 +1805,19 @@ msgctxt "UI"
 msgid "Challenge was not found!"
 msgstr "Вызов не был найден!"
 
-#: project/settings.py:453
+#: project/settings.py:439
 msgid "Simplified Chinese"
 msgstr "Упрощенный Китайский"
 
-#: project/settings.py:454
+#: project/settings.py:440
 msgid "Spanish"
 msgstr "Испанский"
 
-#: project/settings.py:455
+#: project/settings.py:441
 msgid "Russian"
 msgstr "Русский"
 
-#: project/settings.py:456
-msgid "French"
-msgstr "Французский"
-
-#: project/settings.py:457
+#: project/settings.py:442
 msgid "Persian"
 msgstr "Персидский"
 
@@ -1444,67 +1858,92 @@ msgctxt "UI"
 msgid "Invalid date range!"
 msgstr "Неверный диапазон дат!"
 
-#: settings/api/v1/api_actions.py:60
+#: settings/api/v1/api_actions.py:61
 msgctxt "UI"
 msgid "Invalid request, you don't have any wallet."
 msgstr "Неверный запрос, у вас нет ни одного кошелька."
 
-#: settings/api/v1/api_actions.py:63 settings/api/v1/api_actions.py:89
+#: settings/api/v1/api_actions.py:64 settings/api/v1/api_actions.py:90
 msgctxt "UI"
 msgid "Invalid request, wallet is already locked."
 msgstr "Неверный запрос, кошелек уже заблокирован."
 
-#: settings/api/v1/api_actions.py:68
+#: settings/api/v1/api_actions.py:69
 msgctxt "UI"
 msgid "Wallet is not valid."
 msgstr "Кошелек недействителен."
 
-#: settings/api/v1/api_actions.py:71
+#: settings/api/v1/api_actions.py:72
 msgctxt "UI"
 msgid "Your payout address has been locked."
 msgstr "Ваш адрес для выплат заблокирован."
 
-#: settings/api/v1/api_actions.py:86
+#: settings/api/v1/api_actions.py:87
 msgctxt "UI"
 msgid "Invalid request, you don't have any Zcash wallet."
 msgstr "Неверный запрос, у вас нет ни одного Zcash кошелька."
 
-#: settings/api/v1/api_actions.py:94
+#: settings/api/v1/api_actions.py:95
 msgctxt "UI"
 msgid "Zcash wallet is not valid."
 msgstr "Кошелек Zcash недействителен."
 
-#: settings/api/v1/api_actions.py:97
+#: settings/api/v1/api_actions.py:98
 msgctxt "UI"
 msgid "Your Zcash payout address has been locked."
 msgstr "Ваш Zcash адрес для выплат заблокирован."
 
-#: settings/api/v1/api_actions.py:111 settings/api/v1/api_actions.py:131
+#: settings/api/v1/api_actions.py:112
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "No pending email."
+msgctxt "UI"
+msgid "No pending e-mail."
+msgstr "Нет ожидающих е-мейлов."
+
+#: settings/api/v1/api_actions.py:122
+#, fuzzy
+#| msgctxt "UI"
+#| msgid ""
+#| "Confirmation email has been sent. Please, check your mailbox and follow "
+#| "the link."
+msgctxt "UI"
+msgid ""
+"Confirmation e-mail has been sent. Please, check your mailbox and follow the "
+"link."
+msgstr ""
+"Вам было отправлено подтверждение по электронной почте.. Пожалуйста, "
+"проверьте свою электронную почту и перейдите по указанной ссылке."
+
+#: settings/api/v1/api_actions.py:135
 msgctxt "UI"
 msgid "No pending email."
 msgstr "Нет ожидающих е-мейлов."
 
-#: settings/api/v1/api_actions.py:138
+#: settings/api/v1/api_actions.py:145
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Email change request has been successfully canceled."
 msgctxt "UI"
-msgid "Email change request has been successfully canceled."
+msgid "E-mail change request has been successfully canceled."
 msgstr "Запрос на изменение электронной почты был успешно отменен."
 
-#: settings/api/v1/api_actions.py:149 settings/api/v1/api_actions.py:181
+#: settings/api/v1/api_actions.py:156 settings/api/v1/api_actions.py:188
 msgctxt "UI"
 msgid "No pending wallet."
 msgstr "Нет ожидающих кошельков."
 
-#: settings/api/v1/api_actions.py:173
+#: settings/api/v1/api_actions.py:180
 msgctxt "UI"
 msgid "Wallet change request has been successfully canceled."
 msgstr "Запрос на изменение кошелька был успешно отменён."
 
-#: settings/api/v1/api_actions.py:204
+#: settings/api/v1/api_actions.py:211
 msgctxt "UI"
 msgid "Zcash wallet change request has been successfully cancelled."
 msgstr "Запрос на изменение Zcash кошелька был успешно отменён."
 
-#: settings/api/v1/api_actions.py:220
+#: settings/api/v1/api_actions.py:227
 #, python-format
 msgctxt "UI"
 msgid "A notification email about deleting your account has been sent to %s."
@@ -1516,58 +1955,39 @@ msgctxt "UI"
 msgid "Delete account confirmation"
 msgstr "Подтверждение удаления учетной записи"
 
-#: settings/forms/access_profile_forms.py:48
-#: settings/forms/access_profile_forms.py:122
-#: settings/forms/access_profile_forms.py:211
+#: settings/forms/access_profile_forms.py:43
+#: settings/forms/access_profile_forms.py:109
+#: settings/forms/access_profile_forms.py:193
 msgctxt "UI"
 msgid "Access to access profiles denied."
 msgstr "Доступ к Профилям доступа запрещен."
 
-#: settings/forms/btc_payouts_form.py:48 settings/forms/btc_payouts_form.py:131
-#: settings/forms/zec_payouts_form.py:48 settings/forms/zec_payouts_form.py:130
-msgctxt "UI"
-msgid "You can not change a locked wallet."
-msgstr "Вы не можете изменить заблокированный кошелек."
-
-#: settings/forms/btc_payouts_form.py:51 settings/forms/btc_payouts_form.py:138
-#: settings/forms/zec_payouts_form.py:51 settings/forms/zec_payouts_form.py:137
-msgctxt "UI"
-msgid "New wallet is already set."
-msgstr "Новый кошелек уже настроен."
-
-#: settings/forms/btc_payouts_form.py:124
-#: settings/forms/zec_payouts_form.py:123
-msgctxt "UI"
-msgid "No pending wallet to confirm."
-msgstr "Нет кошельков, ожидающих подтверждения."
-
-#: settings/forms/email_settings_form.py:27
+#: settings/forms/account_settings_form.py:79
 msgctxt "UI"
 msgid "Access to e-mail change denied."
 msgstr "Доступ к электронной почте изменен."
 
-#: settings/forms/email_settings_form.py:31
+#: settings/forms/account_settings_form.py:90
 msgctxt "UI"
 msgid "There already is a request to change the e-mail!"
 msgstr "Уже есть запрос на изменение адреса электронной почты!"
 
-#. Translators: enabled coins selection - user cannot disable all coins
-#: settings/forms/enabled_coins_settings_form.py:47
+#: settings/forms/enabled_coins_settings_form.py:45
 msgctxt "UI"
 msgid "At least one coin must be enabled!"
 msgstr "Как минимум одна монета должна быть включена!"
 
-#: settings/forms/otp_setting_forms.py:51
+#: settings/forms/otp_setting_forms.py:40
 msgctxt "UI"
 msgid "OTP has been enabled."
 msgstr "OTP был включен."
 
-#: settings/forms/otp_setting_forms.py:71
+#: settings/forms/otp_setting_forms.py:61
 msgctxt "UI"
 msgid "Two-factor authentication is already configured"
 msgstr "Двухфакторная аутентификация уже настроена"
 
-#: settings/forms/otp_setting_forms.py:76
+#: settings/forms/otp_setting_forms.py:70
 msgctxt "UI"
 msgid ""
 "2FA token is invalid. Please, re-scan the QR code (new one has been "
@@ -1576,24 +1996,22 @@ msgstr ""
 "2FA-токен недействителен. Пожалуйста, просканируйте повторно QR-код (был "
 "сгенерирован новый)."
 
-#: settings/forms/otp_setting_forms.py:120
-#: settings/forms/otp_setting_forms.py:171
+#: settings/forms/otp_setting_forms.py:108
 msgctxt "UI"
 msgid "OTP has been disabled."
 msgstr "OTP был отключен."
 
-#: settings/forms/otp_setting_forms.py:124
-#: settings/forms/otp_setting_forms.py:162
+#: settings/forms/otp_setting_forms.py:112
 msgctxt "UI"
 msgid "User doesn't have OTP."
 msgstr "У пользователя нет OTP."
 
-#: settings/forms/password_settings_form.py:39
+#: settings/forms/password_settings_form.py:33
 msgctxt "UI"
 msgid "Password change is not allowed."
 msgstr "Смена пароля не допускается."
 
-#: settings/forms/password_settings_form.py:65
+#: settings/forms/password_settings_form.py:59
 msgctxt "UI"
 msgid "Passwords are different."
 msgstr "Пароли не совпадают."
@@ -1604,8 +2022,11 @@ msgid "Second factor authentication missing."
 msgstr "Отсутствует 2х-факторная аутентификация."
 
 #: user_request/api/v1/views.py:79
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "User request"
 msgctxt "UI"
-msgid "User request"
+msgid "User request not found!"
 msgstr "Запрос пользователя"
 
 #: user_request/api/v1/views.py:83
@@ -1618,7 +2039,7 @@ msgctxt "UI"
 msgid "Supplied user request is not active!"
 msgstr "Поставленный пользовательский запрос не активен!"
 
-#: user_request/models.py:288
+#: user_request/models.py:294
 msgctxt "UI"
 msgid ""
 "The request associated with this confirmation link is no longer active."
@@ -1627,57 +2048,57 @@ msgstr ""
 "Запрос, связанный с этой ссылкой для подтверждения, больше не активен. "
 "<br>Вероятно, он был подтвержден или отменен ранее."
 
-#: user_request/models.py:362
+#: user_request/models.py:388
+msgctxt "UI"
+msgid "This request has expired."
+msgstr ""
+
+#: user_request/models.py:437
 msgctxt "UI"
 msgid "Wallet has been changed."
 msgstr "Кошелек был изменен."
 
-#: user_request/models.py:377
+#: user_request/models.py:451
 msgctxt "UI"
 msgid "Wallet change request has been cancelled."
 msgstr "Запрос на изменение кошелька был отменён."
 
-#: user_request/models.py:406
-msgctxt "UI"
-msgid "Zcash wallet has been changed."
-msgstr "Zcash кошелек был изменен."
-
-#: user_request/models.py:421
-msgctxt "UI"
-msgid "Zcash wallet change request has been cancelled."
-msgstr "Запрос на изменение Zcash кошелька был отменён."
-
-#: user_request/models.py:447
+#: user_request/models.py:507
 msgctxt "UI"
 msgid "Your e-mail has been changed."
 msgstr "Ваш электронный адрес был изменен."
 
-#: user_request/models.py:462
+#: user_request/models.py:521
 msgctxt "UI"
 msgid "E-mail change request has been cancelled."
 msgstr "Запрос на изменение электронной почты был отменен."
 
-#: user_request/models.py:559
+#: user_request/models.py:612
 msgctxt "UI"
 msgid "Account deletion has been cancelled."
 msgstr "Удаление аккаунта было отменено."
 
-#: user_request/models.py:595
+#: user_request/models.py:655
 msgctxt "UI"
 msgid "Payout channel not found."
 msgstr "Канал для выплат не найден."
 
-#: user_request/models.py:646
+#: user_request/models.py:708
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Payout channel has been verified."
 msgctxt "UI"
-msgid "Payout channel has been verified."
+msgid "Payout settings have been verified."
 msgstr "Канал для выплат был проверен."
 
-#: user_request/models.py:671
+#: user_request/models.py:733
 msgctxt "UI"
-msgid "Payout channel verification has been cancelled."
-msgstr "Подтверждение канала для выплат было отменено."
+msgid ""
+"Payout channel verification request can not be canceled. To return to the "
+"previous state create a new payout channel with the same values."
+msgstr ""
 
-#: user_request/views.py:36
+#: user_request/views.py:38
 msgctxt "UI"
 msgid ""
 "The confirmation link used is not associated with this account.<br><br> "
@@ -1689,138 +2110,135 @@ msgstr ""
 "пользователя (указанным в электронном письме с подтверждением) и повторите "
 "попытку."
 
-#: web/api/v1/appeals.py:80
-#, python-format
+#: user_request/views.py:52
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "You do not have permission to submit this form."
 msgctxt "UI"
-msgid ""
-"Your %(coin)s payouts have been temporarily blocked by the pool operator "
-"(%(reason)s)."
+msgid "You don't have sufficient permissions to confirm user requests."
+msgstr "У вас нет разрешения на отправку этой формы."
+
+#: web/api/v1/appeals.py:34
+#, fuzzy
+#| msgctxt "UI"
+#| msgid ""
+#| "Your %(coin)s payouts have been temporarily blocked by the pool operator "
+#| "(%(reason)s)."
+msgctxt "UI"
+msgid "Your payouts have been temporarily blocked by the pool operator"
 msgstr ""
 "Ваши выплаты %(coin)s были временно заблокированы оператором пула "
 "(%(reason)s)."
 
-#: web/api/v1/appeals.py:85
+#: web/api/v1/appeals.py:44
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Payouts blocked"
 msgctxt "UI"
-msgid "Please, contact our support for further details."
+msgid "Payouts blocked by sysadmin"
+msgstr "Выплаты заблокированы"
+
+#: web/api/v1/appeals.py:49
+#, fuzzy
+#| msgid "Contact Us"
+msgctxt "UI"
+msgid "Contact support"
+msgstr "Связаться с нами"
+
+#: web/api/v1/appeals.py:58
+msgctxt "UI"
+msgid "Your payouts have been paused on your request."
 msgstr ""
-"Пожалуйста, свяжитесь с нашей службой поддержки для получения детальной "
-"информации."
+
+#: web/api/v1/appeals.py:63
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Payouts blocked"
+msgctxt "UI"
+msgid "Payouts blocked by user"
+msgstr "Выплаты заблокированы"
+
+#: web/api/v1/appeals.py:68
+#, fuzzy
+#| msgid "Rewards & Payouts"
+msgctxt "UI"
+msgid "Resume payouts"
+msgstr "Вознаграждения и Выплаты"
 
 #: web/api/v1/appeals.py:89
-#, python-format
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "No pending email."
 msgctxt "UI"
-msgid "Blocked %(coin)s Payouts"
-msgstr "Блокированные %(coin)s выплаты"
+msgid "Pending email change"
+msgstr "Нет ожидающих е-мейлов."
 
-#: web/api/v1/appeals.py:135
-#, python-format
-msgctxt "UI"
-msgid "Pending %(coin)s Wallet"
-msgstr "В ожидании %(coin)s кошелька"
-
-#: web/api/v1/appeals.py:145
-msgctxt "UI"
-msgid "Resend Confirmation"
-msgstr "Отправить повторно подтверждение"
-
-#: web/api/v1/appeals.py:150
-msgctxt "UI"
-msgid "Cancel the Request"
-msgstr "Отменить запрос"
-
-#: web/api/v1/appeals.py:155
-msgctxt "UI"
-msgid "Change my Password"
-msgstr "Изменить мой пароль"
-
-#: web/api/v1/appeals.py:163
+#: web/api/v1/appeals.py:92
+#, fuzzy, python-format
+#| msgctxt "UI"
+#| msgid ""
+#| "We got a request to change your email address to <strong>%(email)s</"
+#| "strong>."
 msgctxt "UI"
 msgid ""
-"Please setup your payout address. Your balance is over your payout threshold."
+"You have a pending request to change your email address to: %(email_address)s"
 msgstr ""
-"Пожалуйста, настройте свой адрес для выплат. Ваш баланс превышает порог для "
-"выплат."
+"Мы получили запрос на изменение вашего адреса электронной почты на <strong>"
+"%(email)s</strong>."
 
-#: web/api/v1/appeals.py:166
-#, python-brace-format
+#: web/api/v1/appeals.py:98
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Cancel the Request"
 msgctxt "UI"
-msgid "Your balance is {balance} and threshold is {threshold}."
-msgstr "Ваш баланс составляет {balance}, а порог для выплат {threshold}."
+msgid "Cancel request"
+msgstr "Отменить запрос"
 
-#: web/api/v1/appeals.py:178
+#: web/api/v1/appeals.py:103
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Resend Confirmation"
 msgctxt "UI"
-msgid "Account Settings"
-msgstr "Настройки аккаунта"
+msgid "Resend confirmation"
+msgstr "Отправить повторно подтверждение"
 
-#: web/api/v1/appeals.py:221
-#, python-brace-format
-msgctxt "UI"
-msgid "Unable to send {coin} payout"
-msgstr "Невозможно отправить {coin} выплату"
-
-#: web/api/v1/appeals.py:278
+#: web/api/v1/appeals.py:143
 msgctxt "UI"
 msgid "Explore"
 msgstr "Исследовать"
 
-#: web/api/v1/appeals.py:301
+#: web/api/v1/appeals.py:168
 msgctxt "UI"
 msgid "Dismiss this message"
 msgstr "Отклонить это сообщение"
 
-#: web/api/v1/appeals.py:332
-msgctxt "UI"
-msgid ""
-"Your opinion on block size matters to the whole community. It is up to you "
-"to make a choice. Please, select one of the options below."
-msgstr ""
-"Ваше мнение о размере блока влияет на всё сообщество. Выбор делаете именно "
-"вы. Пожалуйста, выберете одну из опций ниже."
-
-#: web/api/v1/appeals.py:337
-#, python-format
-msgctxt "UI"
-msgid ""
-"If you change your mind later on, you can make a new choice in <a href="
-"\"%(settings)s\">settings</a>. Check out the latest <a href=\"%(stats)s"
-"\">results</a>."
-msgstr ""
-"Если позже вы измените свое мнение, вы можете сделать новый выбор в <a href="
-"\"%(settings)s\">настройках</a>. Проверьте последние <a href=\"%(stats)s"
-"\">результаты</a>."
-
-#: web/api/v1/appeals.py:348
-msgctxt "UI"
-msgid "Bitcoin Proposal Preference"
-msgstr "Предпочтение по биткойн-предложениям"
-
-#: web/api/v1/views.py:1554
+#: web/api/v1/views.py:1430
 msgctxt "UI"
 msgid ""
 "Only alphabetical characters, numbers and underscore are allowed in username!"
 msgstr "В имени пользователя допускаются только буквы, цифры и подчеркивание!"
 
-#: web/api/v1/views.py:1559 web/api/v1/views.py:1934
+#: web/api/v1/views.py:1435 web/api/v1/views.py:1810
 msgctxt "UI"
 msgid "Invalid email format!"
 msgstr "Неверный формат электронной почты!"
 
-#: web/api/v1/views.py:1564
+#: web/api/v1/views.py:1440
 msgctxt "UI"
 msgid "Password must have at Least 5 characters!"
 msgstr "Пароль должен содержать не менее 5 символов!"
 
-#: web/api/v1/views.py:1630 web/api/v1/views.py:1647 web/api/v1/views.py:1704
+#: web/api/v1/views.py:1506 web/api/v1/views.py:1523 web/api/v1/views.py:1580
 msgctxt "UI"
 msgid "Login forbidden"
 msgstr "Вход запрещен"
 
-#: web/api/v1/views.py:1687
+#: web/api/v1/views.py:1563
 msgctxt "UI"
 msgid "Invalid credentials."
 msgstr "Неверные данные."
 
-#: web/api/v1/views.py:1700
+#: web/api/v1/views.py:1576
 msgctxt "UI"
 msgid ""
 "Please enter a correct username (not an e-mail address) and password. Note "
@@ -1829,42 +2247,37 @@ msgstr ""
 "Пожалуйста, введите правильное имя пользователя (не адрес электронной почты) "
 "и пароль. Обратите внимание, что оба поля чувствительны к регистру."
 
-#: web/api/v1/views.py:1783 web/api/v1/views.py:1832
+#: web/api/v1/views.py:1659 web/api/v1/views.py:1708
 msgctxt "UI"
 msgid "Bad username/id."
 msgstr "Неверное имя пользователя/идентификатор."
 
-#: web/api/v1/views.py:1785 web/api/v1/views.py:1834
+#: web/api/v1/views.py:1661 web/api/v1/views.py:1710
 msgctxt "UI"
 msgid "This user is not active yet/anymore."
 msgstr "Этот пользователь еще/больше не активен."
 
-#: web/api/v1/views.py:1901
+#: web/api/v1/views.py:1777
 msgctxt "UI"
 msgid "No pending request found!"
 msgstr "Ожидающий запрос не найден!"
 
-#: web/api/v1/views.py:2036
+#: web/api/v1/views.py:1912
 msgctxt "UI"
 msgid "Invalid token!"
 msgstr "Неверный токен!"
 
-#: web/api/v1/views.py:2041
+#: web/api/v1/views.py:1917
 msgctxt "UI"
 msgid "Password must have at least 5 characters!"
 msgstr "Пароль должен содержать не менее 5 символов!"
 
-#: web/models.py:134
-msgctxt "UI"
-msgid "Wallet change confirmation"
-msgstr "Подтверждение изменения кошелька"
-
-#: web/models.py:173
+#: web/models.py:144
 msgctxt "UI"
 msgid "Email change confirmation"
 msgstr "Подтверждение изменения адреса электронной почты"
 
-#: web/models.py:375
+#: web/models.py:314
 msgctxt "UI"
 msgid ""
 "Only alphabetical characters, numbers, underscore and dash are allowed in "
@@ -1872,32 +2285,32 @@ msgid ""
 msgstr ""
 "В названии допускаются только буквы алфавита, цифры, подчеркивание и тире!"
 
-#: web/models.py:388
+#: web/models.py:327
 msgctxt "UI"
 msgid "Password must be at least 5 characters long!"
 msgstr "Пароль должен состоять из не менее 5 символов!"
 
-#: web/models.py:515
+#: web/models.py:454
 msgctxt "UI, Transaction state"
 msgid "New"
 msgstr "Новый"
 
-#: web/models.py:516
+#: web/models.py:455
 msgctxt "UI, Transaction state"
 msgid "Processing"
 msgstr "Обработка"
 
-#: web/models.py:517
+#: web/models.py:456
 msgctxt "UI, Transaction state"
 msgid "Failed"
 msgstr "Неудачно"
 
-#: web/models.py:518
+#: web/models.py:457
 msgctxt "UI, Transaction state"
 msgid "Sent"
 msgstr "Отправлено"
 
-#: web/models.py:747
+#: web/models.py:686
 msgctxt "UI"
 msgid ""
 "Thank you for your valuable contribution to our pool. As a VIP, you have "
@@ -1906,694 +2319,708 @@ msgstr ""
 "Спасибо за ваш ценный вклад в наш пул. Как VIP, вы получаете доступ к "
 "премиум-функциям и услугам."
 
-#: web/models.py:820
+#: web/models.py:759
 msgctxt "UI"
 msgid "Monday"
 msgstr "Понедельник"
 
-#: web/models.py:821
+#: web/models.py:760
 msgctxt "UI"
 msgid "Tuesday"
 msgstr "Вторник"
 
-#: web/models.py:822
+#: web/models.py:761
 msgctxt "UI"
 msgid "Wednesday"
 msgstr "Среда"
 
-#: web/models.py:823
+#: web/models.py:762
 msgctxt "UI"
 msgid "Thursday"
 msgstr "Четверг"
 
-#: web/models.py:824
+#: web/models.py:763
 msgctxt "UI"
 msgid "Friday"
 msgstr "Пятница"
 
-#: web/models.py:825
+#: web/models.py:764
 msgctxt "UI"
 msgid "Saturday"
 msgstr "Суббота"
 
-#: web/models.py:826
+#: web/models.py:765
 msgctxt "UI"
 msgid "Sunday"
 msgstr "Воскресенье"
 
-#: web/models.py:861 web/models.py:923
+#: web/models.py:800 web/models.py:862
 #, python-format
 msgctxt "UI"
 msgid "Wallet: <b>%(name)s</b>"
 msgstr "Кошелек: <b>%(name)s</b>"
 
-#: web/models.py:883
+#: web/models.py:822
 #, python-format
 msgctxt "UI"
 msgid "Threshold: <b>%(threshold)s %(unit)s</b>"
 msgstr "Порог: <b>%(threshold)s %(unit)s</b>"
 
-#: web/models.py:894
+#: web/models.py:833
 msgctxt "UI"
 msgid "Triggered daily"
 msgstr "Ежедневный триггер"
 
-#: web/models.py:900
+#: web/models.py:839
 #, python-format
 msgctxt "UI"
 msgid "Triggered weekly on: %(weekday)s"
 msgstr "Еженедельный триггер в: %(weekday)s"
 
-#: web/models.py:901
+#: web/models.py:840
 msgctxt "UI"
 msgid "unknown day"
 msgstr "неизвестный день"
 
-#: web/models.py:908
+#: web/models.py:847
 #, python-format
 msgctxt "UI"
 msgid "Triggered monthly on the %(number)s. day"
 msgstr "Ежемесячный триггер в каждый %(number)s-ый(ой) день"
 
-#: web/models.py:920
+#: web/models.py:859
 #, python-format
 msgctxt "UI"
 msgid "Payout account: <b>%(name)s</b>"
 msgstr "Аккаунт для выплат: <b>%(name)s</b>"
 
 #. Translators: Example: "Bitcoin enabled" / "Monitoring disabled"
-#: web/models.py:940
+#: web/models.py:879
 #, python-format
 msgctxt "UI"
 msgid "<b>%(key)s</b> disabled"
 msgstr "<b>%(key)s</b> отключен(ы)"
 
 #. Translators: Example: "Bitcoin enabled" / "Monitoring disabled"
-#: web/models.py:944
+#: web/models.py:883
 #, python-format
 msgctxt "UI"
 msgid "<b>%(key)s</b> enabled"
 msgstr "<b>%(key)s</b> включен(ы)"
 
-#: web/models.py:948 web/models.py:960
+#: web/models.py:887 web/models.py:899
 #, python-format
 msgctxt "UI, value"
 msgid "<b>%(key)s</b> changed from <b>%(old)s</b> to <b>%(new)s</b>"
 msgstr "<b>%(key)s</b> изменено с <b>%(old)s</b> на <b>%(new)s</b>"
 
-#: web/models.py:953
+#: web/models.py:892
 #, python-format
 msgctxt "UI, value"
 msgid "<b>%(key)s</b> changed to <b>%(new)s</b>"
 msgstr "<b>%(key)s</b> изменено на <b>%(new)s</b>"
 
-#: web/models.py:968 web/models.py:988
+#: web/models.py:907 web/models.py:927
 #, python-format
 msgctxt "UI, time"
 msgid "<b>%(key)s</b> changed from <b>%(old)s</b> to <b>%(new)s</b>"
 msgstr "<b>%(key)s</b> изменено с <b>%(old)s</b> на <b>%(new)s</b>"
 
-#: web/models.py:982
+#: web/models.py:921
 msgctxt "UI"
 msgid "Depricated"
 msgstr "Применение операции нежелательно"
 
-#: web/models.py:994
+#: web/models.py:933
 #, python-format
 msgctxt "UI, value"
 msgid "<b>%(key)s %(old)s</b> deleted"
 msgstr "<b>%(key)s%(old)s</b> удален(ы)"
 
-#: web/models.py:996
+#: web/models.py:935
 #, python-format
 msgctxt "UI, value"
 msgid "<b>%(key)s created: <b>%(new)s</b>"
 msgstr "<b>%(key)s</b> создан(ы) <b>%(new)s</b>"
 
-#: web/models.py:1002
+#: web/models.py:941
 #, python-format
 msgctxt "UI, value"
 msgid "<b>%(key)s</b> deleted"
 msgstr "<b>%(key)s</b> удален(ы)"
 
-#: web/models.py:1004
+#: web/models.py:943
 #, python-format
 msgctxt "UI, value"
 msgid "<b>%(key)s</b> created"
 msgstr "<b>%(key)s</b> создан(ы)"
 
-#: web/models.py:1005
+#: web/models.py:944
 #, python-format
 msgctxt "UI, value"
 msgid "<b>%(key)s</b> changed"
 msgstr "<b>%(key)s</b> изменен(ы)"
 
-#: web/models.py:1010
+#: web/models.py:949
 msgctxt "UI, value"
 msgid "profile <b>activated</b>"
 msgstr "профиль <b>активирован</b>"
 
-#: web/models.py:1011
+#: web/models.py:950
 msgctxt "UI, value"
 msgid "profile <b>deactivated</b>"
 msgstr "профиль <b>деактивирован</b>"
 
-#: web/models.py:1015 web/models.py:1089 web/models.py:1115
+#: web/models.py:954 web/models.py:1028 web/models.py:1054
 msgctxt "UI"
 msgid "N/A"
 msgstr "Н/Д"
 
-#: web/models.py:1018
+#: web/models.py:957
 msgctxt "UI"
 msgid "Nothing has changed"
 msgstr "Ничего не изменилось"
 
-#: web/models.py:1056
+#: web/models.py:995
 #, python-format
 msgctxt "UI, value"
 msgid "Access Profile: %s"
 msgstr "Профиль доступа: %s"
 
-#: web/models.py:1066
+#: web/models.py:1005
 msgctxt "UI"
 msgid "Worker"
 msgstr "Воркер"
 
-#: web/models.py:1141
+#: web/models.py:1080
 #, python-format
 msgctxt "UI, value"
 msgid "Coin: %s"
 msgstr "Монета: %s"
 
-#: web/models.py:1285
+#: web/models.py:1226
 msgctxt "UI"
 msgid "Preferred language"
 msgstr "Предпочтительный язык"
 
-#: web/models.py:1286
+#: web/models.py:1227
 msgctxt "UI"
 msgid "Preferred timezone"
 msgstr "Предпочтительный часовой пояс"
 
-#: web/models.py:1287
+#: web/models.py:1228
+msgctxt "UI"
+msgid "Color theme"
+msgstr ""
+
+#: web/models.py:1229
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Change email address"
+msgctxt "UI"
+msgid "E-mail address"
+msgstr "Изменить адрес электронной почты"
+
+#: web/models.py:1230
 msgctxt "UI"
 msgid "Username in stats"
 msgstr "Показывать имя пользователя в статистиках"
 
-#: web/models.py:1288
+#: web/models.py:1231
 msgctxt "UI"
 msgid "Notify me on payout"
 msgstr "Информировать меня о платеже"
 
-#: web/models.py:1289
+#: web/models.py:1232
 msgctxt "UI"
 msgid "Newsletter"
 msgstr "Новостная рассылка"
 
-#: web/models.py:1290
+#: web/models.py:1233
 msgctxt "UI"
 msgid "Currency unit"
 msgstr "Валютная единица"
 
-#: web/models.py:1291
+#: web/models.py:1234
 msgctxt "UI"
 msgid "Blockchain voting"
 msgstr "Блокчейн-голосование"
 
-#: web/models.py:1293
+#: web/models.py:1236
 msgctxt "UI"
 msgid "Reporting enabled"
 msgstr "Уведомления включены"
 
-#: web/models.py:1294
+#: web/models.py:1237
 msgctxt "UI"
 msgid "Auto-detect alert limit"
 msgstr "Автоматически определять предел оповещения"
 
-#: web/models.py:1295
+#: web/models.py:1238
 msgctxt "UI"
 msgid "Alert limit"
 msgstr "Предел оповещений"
 
-#: web/models.py:1297
+#: web/models.py:1240
 msgctxt "UI"
 msgid "Wallet"
 msgstr "Кошелек"
 
-#: web/models.py:1298 web/models.py:1299
+#: web/models.py:1241 web/models.py:1242
 msgctxt "UI"
 msgid "Pending wallet"
 msgstr "Ожидающий кошелёк"
 
-#: web/models.py:1300
+#: web/models.py:1243
 msgctxt "UI"
 msgid "Send threshold"
 msgstr "Предел платежа"
 
-#: web/models.py:1301
+#: web/models.py:1244
 msgctxt "UI"
 msgid "Email"
 msgstr "Электронный адрес"
 
-#: web/models.py:1303
+#: web/models.py:1246
 msgctxt "UI"
 msgid "Monitoring notifications"
 msgstr "Уведомления мониторинга"
 
-#: web/models.py:1304
+#: web/models.py:1247
 msgctxt "UI"
 msgid "Monitoring"
 msgstr "Мониторинг"
 
-#: web/models.py:1305
+#: web/models.py:1248
 msgctxt "UI"
 msgid "Last Change"
 msgstr "Последнее Изменение"
 
-#: web/models.py:1306
+#: web/models.py:1249
 msgctxt "UI"
 msgid "Login suffix"
 msgstr "Суффикс логина"
 
-#: web/models.py:1307 web/models.py:1308
+#: web/models.py:1250 web/models.py:1251
 msgctxt "UI"
 msgid "Minimum difficulty"
 msgstr "Минимальная сложность"
 
-#: web/models.py:1310
+#: web/models.py:1253
 msgctxt "UI"
 msgid "Enabled"
 msgstr "Включено"
 
-#: web/models.py:1310
+#: web/models.py:1253
 msgctxt "UI"
 msgid "Disabled"
 msgstr "Отключено"
 
-#: web/models.py:1351
+#: web/models.py:1294
 msgctxt "UI"
 msgid "Account deletion cancelled"
 msgstr "Удаление аккаунта отменено"
 
-#: web/models.py:1352
+#: web/models.py:1295
 msgctxt "UI"
 msgid "Account deleted"
 msgstr "Аккаунт удален"
 
-#: web/models.py:1353
+#: web/models.py:1296
 msgctxt "UI"
 msgid "Account deletion requested"
 msgstr "Запрошено удаление аккаунта"
 
-#: web/models.py:1355
+#: web/models.py:1298
 msgctxt "UI"
 msgid "Demo login"
 msgstr "Демо-вход"
 
-#: web/models.py:1356
+#: web/models.py:1299
 msgctxt "UI"
 msgid "Demo logout"
 msgstr "Демо-выход"
 
-#: web/models.py:1357
+#: web/models.py:1300
 msgctxt "UI"
 msgid "Support login"
 msgstr "Вход поддержки"
 
-#: web/models.py:1359
+#: web/models.py:1302
 msgctxt "UI"
 msgid "Impersonate user"
 msgstr "Что видит пользователь"
 
-#: web/models.py:1361
+#: web/models.py:1304
 msgctxt "UI"
 msgid "Login"
 msgstr "Войти"
 
-#: web/models.py:1362
+#: web/models.py:1305
 msgctxt "UI"
 msgid "Logout"
 msgstr "Выйти"
 
-#: web/models.py:1363
+#: web/models.py:1306
 msgctxt "UI"
 msgid "Logout all sessions"
 msgstr "Выйти из всех сессий"
 
-#: web/models.py:1364
+#: web/models.py:1307
 msgctxt "UI"
 msgid "Invalid Login"
 msgstr "Неверное имя пользователя"
 
-#: web/models.py:1365
+#: web/models.py:1308
 msgctxt "UI"
 msgid "Inactive profile"
 msgstr "Неактивные профили"
 
-#: web/models.py:1368
+#: web/models.py:1311
 msgctxt "UI"
 msgid "New wallet created"
 msgstr "Создан новый кошелек"
 
-#: web/models.py:1370
+#: web/models.py:1313
 msgctxt "UI"
 msgid "Wallet updated"
 msgstr "Кошелек обновлен"
 
-#: web/models.py:1372
+#: web/models.py:1315
 msgctxt "UI"
 msgid "Wallet deleted"
 msgstr "Кошелек удален"
 
-#: web/models.py:1374
+#: web/models.py:1318
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Wallet updated"
+msgctxt "UI"
+msgid "Wallet reactivated"
+msgstr "Кошелек обновлен"
+
+#: web/models.py:1320
 msgctxt "UI"
 msgid "Payouts locked"
 msgstr "Выплаты заблокированы"
 
-#: web/models.py:1375
+#: web/models.py:1321
 msgctxt "UI"
 msgid "Payouts unlocked"
 msgstr "Выплаты разблокированы"
 
-#: web/models.py:1376
+#: web/models.py:1322
 msgctxt "UI"
 msgid "New payout account created"
 msgstr "Создан новый аккаунт для выплат"
 
-#: web/models.py:1378
+#: web/models.py:1324
+#, fuzzy
+#| msgctxt "UI"
+#| msgid "Payout account updated"
 msgctxt "UI"
-msgid "Payout account updated"
+msgid "Financial account updated"
 msgstr "Аккаунт для выплат обновлен"
 
-#: web/models.py:1380
+#: web/models.py:1326
 msgctxt "UI"
 msgid "Payout account deactivated"
 msgstr "Аккаунт для выплат деактивирован"
 
-#: web/models.py:1382
+#: web/models.py:1328
 msgctxt "UI"
 msgid "Immediate payout requested"
 msgstr "Была запрошена немедленная выплата"
 
-#: web/models.py:1384
+#: web/models.py:1330
 msgctxt "UI"
 msgid "Immediate payout request cancelled"
 msgstr "Запрос на немедленную выплату отменен"
 
-#: web/models.py:1387
+#: web/models.py:1333
 msgctxt "UI"
 msgid "Payout split modified"
 msgstr "Разделение выплат изменено"
 
-#: web/models.py:1391
+#: web/models.py:1337
 msgctxt "UI"
 msgid "Payout account settings updated"
 msgstr "Настройки аккаунта для выплат обновлены"
 
-#: web/models.py:1395
+#: web/models.py:1341
 msgctxt "UI"
 msgid "Payout channel confirmed"
 msgstr "Канал для выплат подтвержден"
 
-#: web/models.py:1399
-msgctxt "UI"
-msgid "Payout channel confirmation cancelled"
-msgstr "Подтверждение канала для выплат отменено"
-
-#: web/models.py:1403
+#: web/models.py:1345
 msgctxt "UI"
 msgid "Payout channel confirmation e-mail resent"
 msgstr ""
 "Электронное письмо для подтверждения изменения кошелька отправлено повторно"
 
-#: web/models.py:1407
+#: web/models.py:1349
 msgctxt "UI"
 msgid "New access profile created"
 msgstr "Новый профиль доступа создан"
 
-#: web/models.py:1409
+#: web/models.py:1351
 msgctxt "UI"
 msgid "Access profile updated"
 msgstr "Профиль доступа обновлен"
 
-#: web/models.py:1411
+#: web/models.py:1353
 msgctxt "UI"
 msgid "Access profile deleted"
 msgstr "Профиль доступа удален"
 
-#: web/models.py:1414
+#: web/models.py:1356
 msgctxt "UI"
 msgid "Payouts paused"
 msgstr "Выплаты приостановлены"
 
-#: web/models.py:1415
+#: web/models.py:1357
 msgctxt "UI"
 msgid "Payouts unpaused"
 msgstr "Выплаты обновлены"
 
-#: web/models.py:1417
+#: web/models.py:1359
 msgctxt "UI"
 msgid "Message seen"
 msgstr "Сообщение просмотрено"
 
-#: web/models.py:1419
+#: web/models.py:1361
 msgctxt "UI"
 msgid "Mining settings updated"
 msgstr "Обновление настроек майнинга"
 
-#: web/models.py:1423
+#: web/models.py:1365
 msgctxt "UI"
 msgid "Monitoring settings updated"
 msgstr "Обновление настроек мониторинга"
 
-#: web/models.py:1426
+#: web/models.py:1368
 msgctxt "UI"
 msgid "Newsletter unsubscribed"
 msgstr "Подписка на новости отменена"
 
-#: web/models.py:1428
+#: web/models.py:1370
 msgctxt "UI"
 msgid "2-factor authentication disabled"
 msgstr "2х-факторная аутентификация отключена"
 
-#: web/models.py:1429
+#: web/models.py:1371
 msgctxt "UI"
 msgid "2-factor authentication enabled"
 msgstr "2х-факторная аутентификация включена"
 
-#: web/models.py:1430
+#: web/models.py:1372
 msgctxt "UI"
 msgid "One time password setup cancelled"
 msgstr "Установка одноразового пароля отменена"
 
-#: web/models.py:1431
+#: web/models.py:1373
 msgctxt "UI"
 msgid "OTP change confirmed"
 msgstr "Изменение OTP подтверждено"
 
-#: web/models.py:1432
+#: web/models.py:1374
 msgctxt "UI"
 msgid "2-factor authentication removed by operator"
 msgstr "Двухфакторная аутентификация удалена администратором"
 
-#: web/models.py:1434
+#: web/models.py:1376
 msgctxt "UI"
 msgid "U2F device registered"
 msgstr "U2F устройство зарегистрировано"
 
-#: web/models.py:1435
+#: web/models.py:1377
 msgctxt "UI"
 msgid "U2F setup cancelled"
 msgstr "Настройка U2F отменена"
 
-#: web/models.py:1438
+#: web/models.py:1380
 msgctxt "UI"
 msgid "Payouts blocked"
 msgstr "Выплаты заблокированы"
 
-#: web/models.py:1440
+#: web/models.py:1382
 msgctxt "UI"
 msgid "Payouts unblocked"
 msgstr "Выплаты разблокированы"
 
-#: web/models.py:1442 web/models.py:1445
+#: web/models.py:1384 web/models.py:1387
 msgctxt "UI"
 msgid "Password changed"
 msgstr "Пароль изменен"
 
-#: web/models.py:1443
+#: web/models.py:1385
 msgctxt "UI"
 msgid "Password reset completed"
 msgstr "Восстановление пароля завершено"
 
-#: web/models.py:1444
+#: web/models.py:1386
 msgctxt "UI"
 msgid "Password reset initiated"
 msgstr "Инициировано воcстановление пароля"
 
-#: web/models.py:1448 web/models.py:1605
+#: web/models.py:1390 web/models.py:1394 web/models.py:1551
 msgctxt "UI"
 msgid "Account settings updated"
 msgstr "Настройки аккаунта обновлены"
 
-#: web/models.py:1451
+#: web/models.py:1397
 msgctxt "UI"
 msgid "Email change confirmed"
 msgstr "Подтверждено изменение адреса электронной почты"
 
-#: web/models.py:1452
+#: web/models.py:1398
 msgctxt "UI"
 msgid "Email change cancelled"
 msgstr "Изменение адреса электронной почты отменено"
 
-#: web/models.py:1453
+#: web/models.py:1399
 msgctxt "UI"
 msgid "Email change confirmation resent"
 msgstr "Подтверждение изменения адреса электроной почты отправлено повторно"
 
-#: web/models.py:1456
+#: web/models.py:1402
 msgctxt "UI"
 msgid "Worker removed"
 msgstr "Воркер удален"
 
-#: web/models.py:1457
+#: web/models.py:1403
 #, python-format
 msgctxt "UI"
 msgid "You have removed worker <b>%(name)s</b>"
 msgstr "Вы удалили воркер <b>%(name)s</b>"
 
-#: web/models.py:1460
+#: web/models.py:1406
 msgctxt "UI"
 msgid "Workers removed"
 msgstr "Воркеры удалены"
 
-#: web/models.py:1461
+#: web/models.py:1407
 #, python-format
 msgctxt "UI"
 msgid "You have removed %(count)d %(coin)s workers"
 msgstr "Вы удалили %(count)d %(coin)s воркеры"
 
-#: web/models.py:1463
+#: web/models.py:1409
 msgctxt "UI"
 msgid "Worker settings updated"
 msgstr "Настройки воркера изменены"
 
-#: web/models.py:1465
+#: web/models.py:1411
 msgctxt "UI"
 msgid "New worker"
 msgstr "Новый воркер"
 
-#: web/models.py:1466
+#: web/models.py:1412
 msgctxt "UI"
 msgid "You have registered a new worker"
 msgstr "Вы создали новый воркер"
 
-#: web/models.py:1470
+#: web/models.py:1416
 msgctxt "UI"
 msgid "User appeal dismissed"
 msgstr "Обращение пользователя отклонено"
 
-#: web/models.py:1475
+#: web/models.py:1421
 msgctxt "UI"
 msgid "Enabled coins updated"
 msgstr "Активированные монеты обновлены"
 
-#: web/models.py:1535
+#: web/models.py:1481
 msgctxt "UI"
 msgid "Exported user data"
 msgstr "Экспортированные данные пользователя"
 
-#: web/models.py:1540
+#: web/models.py:1486
 msgctxt "UI"
 msgid "NMC reward claimed"
 msgstr "Требуется вознаграждение NMC"
 
-#: web/models.py:1544
+#: web/models.py:1490
 msgctxt "UI"
 msgid "NMC claim - address changed"
 msgstr "Утверждение NMC - адрес изменен"
 
-#: web/models.py:1550
+#: web/models.py:1496
 msgctxt "UI"
 msgid "Wallet unlocked by operator"
 msgstr "Кошелек разблокирован оператором"
 
-#: web/models.py:1554
+#: web/models.py:1500
 msgctxt "UI"
 msgid "Payout settings updated"
 msgstr "Обновлены настройки выплаты"
 
-#: web/models.py:1558
+#: web/models.py:1504
 msgctxt "UI"
 msgid "Zcash payout settings updated"
 msgstr "Обновлены настройки выплаты Zcash"
 
-#: web/models.py:1562
+#: web/models.py:1508
 msgctxt "UI"
 msgid "Wallet change confirmed"
 msgstr "Подтверждено изменение кошелька"
 
-#: web/models.py:1566
+#: web/models.py:1512
 msgctxt "UI"
 msgid "Wallet change cancelled"
 msgstr "Изменение кошелька отменено"
 
-#: web/models.py:1570
+#: web/models.py:1516
 msgctxt "UI"
 msgid "Wallet change confirmation resent"
 msgstr "Подтверждение изменения кошелька отправлено повторно"
 
-#: web/models.py:1574
+#: web/models.py:1520
 msgctxt "UI"
 msgid "Zcash wallet change confirmed"
 msgstr "Изменение Zcash кошелька подтверждено"
 
-#: web/models.py:1578
+#: web/models.py:1524
 msgctxt "UI"
 msgid "Zcash wallet change cancelled"
 msgstr "Изменение Zcash кошелька отменено"
 
-#: web/models.py:1582
+#: web/models.py:1528
 msgctxt "UI"
 msgid "Zcash wallet change confirmation resent"
 msgstr "Подтверждение изменения Zcash кошелька отправлено повторно"
 
-#: web/models.py:1586
+#: web/models.py:1532
 msgctxt "UI"
 msgid "Wallet locked"
 msgstr "Изменение кошелька заблокировано"
 
-#: web/models.py:1590
+#: web/models.py:1536
 msgctxt "UI"
 msgid "Wallet unlocked"
 msgstr "Изменение кошелька разблокировано"
 
-#: web/models.py:1594
+#: web/models.py:1540
 msgctxt "UI"
 msgid "Zcash wallet locked"
 msgstr "Изменение Zcash кошелька заблокировано"
 
-#: web/models.py:1598
+#: web/models.py:1544
 msgctxt "UI"
 msgid "Zcash wallet unlocked"
 msgstr "Изменение Zcash кошелька разблокировано"
 
-#: web/models_zec.py:78
-msgctxt "UI"
-msgid "Zcash wallet change confirmation"
-msgstr "Подтверждение изменения Zcash кошелька"
-
-#: web/permissions.py:43
+#: web/permissions.py:47
 msgctxt "UI"
 msgid "Full access"
 msgstr "Полный доступ"
 
-#: web/permissions.py:44
+#: web/permissions.py:48
 msgctxt "UI"
 msgid "Read-only"
 msgstr "Только для чтения"
 
-#: web/permissions.py:45
+#: web/permissions.py:49
 msgctxt "UI"
 msgid "Limited read-only"
 msgstr "Доступ ограничен – режим только для чтения"
@@ -2649,9 +3076,9 @@ msgid ""
 "missed this e-mail and the link expired, please make a new request on the "
 "pool website."
 msgstr ""
-"Если Вы действительно хотите удалить свою учетную запись "
-"<strong>%(username)s</strong>, пожалуйста, пройдите по этой ссылке <a href=\""
-"%(delete_url)s\">&nbsp;для подтверждения&nbsp;</a>. Ссылка будет "
+"Если Вы действительно хотите удалить свою учетную запись <strong>"
+"%(username)s</strong>, пожалуйста, пройдите по этой ссылке <a href="
+"\"%(delete_url)s\">&nbsp;для подтверждения&nbsp;</a>. Ссылка будет "
 "действительна только в течение часа. Если вы пропустите этот е-мейл и срок "
 "действия ссылки истечет, пожалуйста, отправьте новый запрос на сайт пула."
 
@@ -2783,6 +3210,46 @@ msgid ""
 msgstr ""
 "Мы зарегистрировали изменение в текущем состоянии ваших %(coin)s воркеров. "
 "Пожалуйста, прочтите отчет ниже:"
+
+#: web/templates/email/monitoring_body.html:8
+msgctxt "UI"
+msgid "Event Time"
+msgstr "Время события"
+
+#: web/templates/email/monitoring_body.html:9
+msgctxt "UI"
+msgid "Account Hash Rate"
+msgstr "Хешрейт учетной записи"
+
+#: web/templates/email/monitoring_body.html:10
+msgctxt "UI"
+msgid "Worker States (Changes)"
+msgstr "Состояния воркеров (изменения)"
+
+#: web/templates/email/monitoring_body.html:20
+msgctxt "UI"
+msgid "Worker Name"
+msgstr "Имя воркера"
+
+#: web/templates/email/monitoring_body.html:21
+msgctxt "UI"
+msgid "State Change"
+msgstr "Изменение состояния"
+
+#: web/templates/email/monitoring_body.html:22
+msgctxt "UI"
+msgid "State Changed After"
+msgstr "Состояние изменено после"
+
+#: web/templates/email/monitoring_body.html:23
+msgctxt "UI"
+msgid "Actual Hash Rate"
+msgstr "Действительный хешрейт"
+
+#: web/templates/email/monitoring_body.html:24
+msgctxt "UI"
+msgid "Alert Limit"
+msgstr "Предел оповещений"
 
 #: web/templates/email/monitoring_body.html:42
 #, python-format
@@ -3094,6 +3561,245 @@ msgid "Names and shortcuts must be unique."
 msgstr "Имена и сочетания горячих клавиш (shortcuts) должны быть уникальными."
 
 #~ msgctxt "UI"
+#~ msgid ""
+#~ "If you <strong>did not</strong> ask us to change your email address, "
+#~ "please <a href=\"%(url)s\">cancel&nbsp;the&nbsp;request</a> and change "
+#~ "your password immediately."
+#~ msgstr ""
+#~ "Если вы <strong>не запрашивали</strong> изменение адреса электронной "
+#~ "почты, пожалуйста, <a href=\"%(url)s\">отмените&nbsp;этот&nbsp;запрос</a> "
+#~ "и измените свой пароль без промедления."
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "It's Pavel Moravec, co-CEO of Braiins. I wanted to reach out to you "
+#~ "personally and thank you for giving Slush Pool a shot."
+#~ msgstr ""
+#~ "Это Павел Моравец, со-генеральный директор Braiins. Я хотел связаться с "
+#~ "вами лично и поблагодарить вас за то, что вы дали Slush Pool шанс."
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "If you’d still like to delete your account, make sure you <strong>request "
+#~ "your final payout BEFORE</strong> doing so. Otherwise, any remaining "
+#~ "balances are considered a generous donation to the pool. Then click this "
+#~ "<a href=\"%(url)s\">confirmation link</a> to delete your account. For "
+#~ "your security, the link is only good for an hour."
+#~ msgstr ""
+#~ "Если вы все еще хотите удалить свою учетную запись, убедитесь, что вы "
+#~ "<strong>запрашиваете окончательную выплату, ДО этого</strong>. В "
+#~ "противном случае любые оставшиеся остатки считаются щедрым пожертвованием "
+#~ "в пул. Затем нажмите эту <a href=\"%(url)s\">ссылку для подтверждения</"
+#~ "a>, чтобы удалить свой аккаунт. В целях безопасности ссылка действительна "
+#~ "только в течение часа."
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "Lastly, if you DIDN’T request to delete your account, make sure you "
+#~ "change your password ASAP.️"
+#~ msgstr ""
+#~ "Наконец, если вы не запрашивали удаление своей учетной записи, убедитесь, "
+#~ "что вы сменили свой пароль как можно скорее."
+
+#~ msgctxt "UI"
+#~ msgid "We hope to see you back soon."
+#~ msgstr "Мы надеемся скоро увидеть вас снова."
+
+#~ msgctxt "UI"
+#~ msgid "Hey <strong>%(username)s</strong>,"
+#~ msgstr "Привет,<strong>%(username)s</strong>,"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "You can also <a href=\"%(url)s\">click here</a> to see this report online."
+#~ msgstr ""
+#~ "Вы также можете <a href=\"%(url)s\">нажать здесь</a>, чтобы увидеть этот "
+#~ "отчет онлайн."
+
+#~ msgctxt "UI"
+#~ msgid "– The Slush Pool Team"
+#~ msgstr "– Команда Slush Pool"
+
+#~ msgctxt "UI"
+#~ msgid "Ready to jumpstart your mining? 🔥🚀"
+#~ msgstr "Готовы запустить майнинг? 🔥🚀"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "Right now, Slush Pool supports <strong>Bitcoin</strong> and "
+#~ "<strong>Zcash</strong> mining, but make sure you keep an eye out for an "
+#~ "announcement coming soon! (Hint: 3 more cryptos incoming 🎉)"
+#~ msgstr ""
+#~ "Прямо сейчас Slush Pool поддерживает майнинг <strong>Биткойн</strong> и "
+#~ "<strong>Zcash</strong>, но будьте внимательны и ожидайте объявления в "
+#~ "ближайшее время! (Подсказка: еще 3 криптовалюты поступают 🎉)"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "If you ever need help with anything else, make sure you check out "
+#~ "our&nbsp;<a href=\"%(url)s\"><strong>online support portal</strong></a>"
+#~ msgstr ""
+#~ "Если вам когда-нибудь понадобится помощь, обязательно посетите наш &nbsp;"
+#~ "<a href=\"%(url)s\"><strong>онлайн-портал поддержки</strong></a>"
+
+#~ msgctxt "UI"
+#~ msgid "We've transferred %(amount)s %(coin)s to your address %(address)s."
+#~ msgstr "Мы перешли %(amount)s%(coin)s на ваш адрес %(address)s."
+
+#~ msgctxt "UI"
+#~ msgid "Keep up the good work and happy mining!"
+#~ msgstr "Продолжайте в том же духе и счастливого майнинга!"
+
+#~ msgctxt "UI"
+#~ msgid "Thanks for joining Slush Pool! 💪"
+#~ msgstr "Спасибо, что присоединились к Slush Pool! 💪"
+
+#~ msgctxt "UI"
+#~ msgid "START MINING"
+#~ msgstr "НАЧАТЬ МАЙНИНГ"
+
+#~ msgctxt "UI"
+#~ msgid "We got a password reset request for your Slush Pool account."
+#~ msgstr ""
+#~ "Мы получили запрос на сброс пароля для вашей учетной записи Slush Pool."
+
+#~ msgctxt "UI"
+#~ msgid "RESET PASSWORD"
+#~ msgstr "СБРОС ПАРОЛЯ"
+
+#~ msgctxt "UI"
+#~ msgid "CONFIRM CHANGE"
+#~ msgstr "ПОДТВЕРДИТЬ ИЗМЕНЕНИЕ"
+
+#~ msgctxt "UI"
+#~ msgid "Invalid payout channel id."
+#~ msgstr "Неверный идентификатор канала выплат."
+
+#~ msgctxt "UI"
+#~ msgid "Payout channel confirmation has been cancelled."
+#~ msgstr "Подтверждение канала выплат было отменено."
+
+#~ msgctxt "UI"
+#~ msgid "Signature is not valid."
+#~ msgstr "Подпись не действительна."
+
+#~ msgctxt "UI"
+#~ msgid "Message is wrong."
+#~ msgstr "Неверное сообщение."
+
+#~ msgctxt "UI"
+#~ msgid "Signature is out of date."
+#~ msgstr "Подпись просрочена."
+
+#~ msgctxt "UI"
+#~ msgid "Payouts are not locked."
+#~ msgstr "Выплаты не заблокированы."
+
+#~ msgctxt "UI"
+#~ msgid "This wallet is not a target of any locked split rule."
+#~ msgstr ""
+#~ "Этот кошелек не является целью какого-либо закрытого правила разделения."
+
+#~ msgctxt "UI"
+#~ msgid "This type of wallet is not supported for signatures."
+#~ msgstr "Этот тип кошелька не поддерживается для подписей."
+
+#~ msgid "French"
+#~ msgstr "Французский"
+
+#~ msgctxt "UI"
+#~ msgid "You can not change a locked wallet."
+#~ msgstr "Вы не можете изменить заблокированный кошелек."
+
+#~ msgctxt "UI"
+#~ msgid "New wallet is already set."
+#~ msgstr "Новый кошелек уже настроен."
+
+#~ msgctxt "UI"
+#~ msgid "No pending wallet to confirm."
+#~ msgstr "Нет кошельков, ожидающих подтверждения."
+
+#~ msgctxt "UI"
+#~ msgid "Zcash wallet has been changed."
+#~ msgstr "Zcash кошелек был изменен."
+
+#~ msgctxt "UI"
+#~ msgid "Zcash wallet change request has been cancelled."
+#~ msgstr "Запрос на изменение Zcash кошелька был отменён."
+
+#~ msgctxt "UI"
+#~ msgid "Payout channel verification has been cancelled."
+#~ msgstr "Подтверждение канала для выплат было отменено."
+
+#~ msgctxt "UI"
+#~ msgid "Please, contact our support for further details."
+#~ msgstr ""
+#~ "Пожалуйста, свяжитесь с нашей службой поддержки для получения детальной "
+#~ "информации."
+
+#~ msgctxt "UI"
+#~ msgid "Pending %(coin)s Wallet"
+#~ msgstr "В ожидании %(coin)s кошелька"
+
+#~ msgctxt "UI"
+#~ msgid "Change my Password"
+#~ msgstr "Изменить мой пароль"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "Please setup your payout address. Your balance is over your payout "
+#~ "threshold."
+#~ msgstr ""
+#~ "Пожалуйста, настройте свой адрес для выплат. Ваш баланс превышает порог "
+#~ "для выплат."
+
+#~ msgctxt "UI"
+#~ msgid "Your balance is {balance} and threshold is {threshold}."
+#~ msgstr "Ваш баланс составляет {balance}, а порог для выплат {threshold}."
+
+#~ msgctxt "UI"
+#~ msgid "Account Settings"
+#~ msgstr "Настройки аккаунта"
+
+#~ msgctxt "UI"
+#~ msgid "Unable to send {coin} payout"
+#~ msgstr "Невозможно отправить {coin} выплату"
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "Your opinion on block size matters to the whole community. It is up to "
+#~ "you to make a choice. Please, select one of the options below."
+#~ msgstr ""
+#~ "Ваше мнение о размере блока влияет на всё сообщество. Выбор делаете "
+#~ "именно вы. Пожалуйста, выберете одну из опций ниже."
+
+#~ msgctxt "UI"
+#~ msgid ""
+#~ "If you change your mind later on, you can make a new choice in <a href="
+#~ "\"%(settings)s\">settings</a>. Check out the latest <a href=\"%(stats)s"
+#~ "\">results</a>."
+#~ msgstr ""
+#~ "Если позже вы измените свое мнение, вы можете сделать новый выбор в <a "
+#~ "href=\"%(settings)s\">настройках</a>. Проверьте последние <a href="
+#~ "\"%(stats)s\">результаты</a>."
+
+#~ msgctxt "UI"
+#~ msgid "Bitcoin Proposal Preference"
+#~ msgstr "Предпочтение по биткойн-предложениям"
+
+#~ msgctxt "UI"
+#~ msgid "Wallet change confirmation"
+#~ msgstr "Подтверждение изменения кошелька"
+
+#~ msgctxt "UI"
+#~ msgid "Payout channel confirmation cancelled"
+#~ msgstr "Подтверждение канала для выплат отменено"
+
+#~ msgctxt "UI"
+#~ msgid "Zcash wallet change confirmation"
+#~ msgstr "Подтверждение изменения Zcash кошелька"
+
+#~ msgctxt "UI"
 #~ msgid "Integrity error on worker update"
 #~ msgstr "Ошибка целостности в ходе обновления воркера"
 
@@ -3113,9 +3819,6 @@ msgstr "Имена и сочетания горячих клавиш (shortcuts)
 
 #~ msgid "Zcash Setup"
 #~ msgstr "Установка Zcash"
-
-#~ msgid "Rewards & Payouts"
-#~ msgstr "Вознаграждения и Выплаты"
 
 #~ msgid "Pool Terminology"
 #~ msgstr "Терминология пула"
@@ -3441,9 +4144,6 @@ msgstr "Имена и сочетания горячих клавиш (shortcuts)
 
 #~ msgid "<a href=\"%(login)s\">Log into</a> your account."
 #~ msgstr "<a href=\"%(login)s\">Войдите</a> в свою учетную запись."
-
-#~ msgid "Configure your mining device"
-#~ msgstr "Настройте ваше майнинговое устройство"
 
 #~ msgid ""
 #~ "Individual hardware manufacturers may have specific settings requirements "
@@ -5267,9 +5967,6 @@ msgstr "Имена и сочетания горячих клавиш (shortcuts)
 #~ "вашей учетной записи. Просто нажмите <em>+Создать новый</em> и выберите "
 #~ "из списка возможностей."
 
-#~ msgid "Access permissions"
-#~ msgstr "Права доступа"
-
 #~ msgid ""
 #~ "Choose between granting full access or just read-only access to a "
 #~ "selected profile. If you, for example, run a larger mining operation and "
@@ -6280,9 +6977,6 @@ msgstr "Имена и сочетания горячих клавиш (shortcuts)
 #~ msgid "Device setup, connectivity, power"
 #~ msgstr "Настройки устройства, подсоединение, мощность"
 
-#~ msgid "Namecoin mining all the way"
-#~ msgstr "Полностью майнинг неймкоинов"
-
 #~ msgid "FAQ: Mining"
 #~ msgstr "FAQ: Майнинг"
 
@@ -6674,9 +7368,6 @@ msgstr "Имена и сочетания горячих клавиш (shortcuts)
 
 #~ msgid "Create an <strong>account</strong> on slushpool.com"
 #~ msgstr "Создать <strong> учетную запись </strong> на slushpool.com"
-
-#~ msgid "Create your <strong>Bitcoin payout address</strong>"
-#~ msgstr "Создать <strong> адрес для выплат в Биткойнах </strong>"
 
 #~ msgid "Secure your <strong>electricity supply</strong>"
 #~ msgstr "Обеспечить безопасность <strong> подачи электроэнергии </strong>"
@@ -8657,9 +9348,6 @@ msgstr "Имена и сочетания горячих клавиш (shortcuts)
 #~ "Майнеры на базе чипов ASIC предлагают значительно более высокий <a href="
 #~ "\"%(link)s\">хешрейт</a> при более низком потреблении электроэнергии."
 
-#~ msgid "Alert Limit"
-#~ msgstr "Порог оповещения"
-
 #~ msgctxt "UI"
 #~ msgid "Troubleshooting"
 #~ msgstr "Устранение неполадок"
@@ -9624,10 +10312,6 @@ msgstr "Имена и сочетания горячих клавиш (shortcuts)
 #~ msgid "User Manual"
 #~ msgstr "Руководство пользователя"
 
-#~ msgctxt "UI, Page title"
-#~ msgid "Password reset"
-#~ msgstr "Переустановка пароля"
-
 #~ msgctxt "UI"
 #~ msgid "Password reset"
 #~ msgstr "Переустановка пароля"
@@ -9856,12 +10540,6 @@ msgstr "Имена и сочетания горячих клавиш (shortcuts)
 
 #~ msgid "My account"
 #~ msgstr "Моя учетная запись"
-
-#~ msgid "Contact Us"
-#~ msgstr "Связаться с нами"
-
-#~ msgid "Contact us"
-#~ msgstr "Связаться с нами"
 
 #, fuzzy
 #~ msgid "SlushPool Team"
@@ -10927,9 +11605,6 @@ msgstr "Имена и сочетания горячих клавиш (shortcuts)
 #~ msgid "Category"
 #~ msgstr "Категория"
 
-#~ msgid "No article found."
-#~ msgstr "Статей не найдено."
-
 #~ msgid "previous"
 #~ msgstr "предыдущий"
 
@@ -11621,11 +12296,6 @@ msgstr "Имена и сочетания горячих клавиш (shortcuts)
 
 #, fuzzy
 #~ msgctxt "UI"
-#~ msgid "Confirmation Status"
-#~ msgstr "подтверждений остаётся"
-
-#, fuzzy
-#~ msgctxt "UI"
 #~ msgid "Go to Rewards"
 #~ msgstr "Общее вознаграждение"
 
@@ -12008,11 +12678,6 @@ msgstr "Имена и сочетания горячих клавиш (shortcuts)
 #~ msgctxt "UI, Page title"
 #~ msgid "New proposal"
 #~ msgstr "страницу Вашего профиля"
-
-#, fuzzy
-#~ msgctxt "UI"
-#~ msgid "API details"
-#~ msgstr "Детали API"
 
 #, fuzzy
 #~ msgctxt "UI"
