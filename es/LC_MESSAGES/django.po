@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-06 15:24+0100\n"
-"PO-Revision-Date: 2020-10-29 19:26+0000\n"
-"Last-Translator: Estarossa <lpusoldier14@gmail.com>\n"
+"PO-Revision-Date: 2020-11-11 02:28+0000\n"
+"Last-Translator: Artemis3 v <artemis3@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/slushpool/mining/"
 "es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: api/bulk.py:84 api/bulk.py:93 api/bulk.py:102
 msgctxt "UI"
@@ -270,12 +270,9 @@ msgstr ""
 "favor, ajuste su selección."
 
 #: backend/queries/finance.py:234
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid currency."
 msgctxt "UI"
 msgid "Invalid currency code"
-msgstr "Moneda inválida."
+msgstr "Código de moneda inválido"
 
 #: campaigns/email_templates/footer_system.html:34
 msgctxt "UI"
@@ -287,24 +284,15 @@ msgstr "Ajustes"
 #, python-format
 msgctxt "email"
 msgid "We received a request to delete your %(name)s account."
-msgstr ""
+msgstr "Hemos recibido una solicitud para borrar su cuenta %(name)s."
 
 #: campaigns/email_templates/v4_account_delete.html:219
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Account deletion requested"
 msgctxt "email"
 msgid "Account deletion request"
-msgstr "Eliminación de cuenta solicitada"
+msgstr "Solicitud para eliminar cuenta"
 
 #: campaigns/email_templates/v4_account_delete.html:257
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid ""
-#| "Did you run into any issues using Slush Pool that our support team can <a "
-#| "href=\"%(support)s\">help you with</a>? Or perhaps you are missing some "
-#| "features? <a href=\"%(new_ticket)s\">Please&nbsp;let&nbsp;us&nbsp;know</"
-#| "a> so that we can make Slush Pool better."
+#, python-format
 msgctxt "email"
 msgid ""
 "Did you run into any issues using Slush Pool that our support team can <a "
@@ -313,14 +301,14 @@ msgid ""
 "services better."
 msgstr ""
 "¿Se encontró con algún problema usando Slush Pool que nuestro equipo de "
-"soporte pueda <a href=\"%(support)s\">ayudarle con</a>? ¿O tal vez le falte "
-"alguna característica? <a href=\"%(new_ticket)s\">Por&nbsp;favor&nbsp;"
-"permítanos&nbsp;saber</a> para que podamos mejorar Slush Pool."
+"soporte pueda <a href=\"%(url)s\">ayudarle con?</a> ¿O tal vez le falten "
+"algunas características? <a href=\"%(url)s\">Permítanos saber</a> para que "
+"podamos mejorar nuestros servicios."
 
 #: campaigns/email_templates/v4_account_delete.html:269
 msgctxt "email"
 msgid "In any case, if you’d still like to delete your account:"
-msgstr ""
+msgstr "En todo caso, si todavía le gustaría borrar su cuenta:"
 
 #: campaigns/email_templates/v4_account_delete.html:270
 msgctxt "email"
@@ -329,6 +317,9 @@ msgid ""
 "Otherwise, any remaining balances are considered a generous donation to the "
 "pool."
 msgstr ""
+"1.Asegúrese de hacer su <strong>última solicitud de pago ANTES de hacerlo.</"
+"strong> De lo contrario, cualquier balance restante será considerado una "
+"generosa donación para el pool."
 
 #: campaigns/email_templates/v4_account_delete.html:271
 #, python-format
@@ -337,6 +328,8 @@ msgid ""
 "2. Then click <a href=\"%(url)s\">this confirmation link to delete your "
 "account.</a> For your security, the link is only valid for 1 hour."
 msgstr ""
+"2. Luego haga clic <a href=\"%(url)s\">en este enlace de confirmación para "
+"borrar su cuenta.</a> Por su seguridad, el enlace es válido solo 1 hora."
 
 #: campaigns/email_templates/v4_account_delete.html:296
 #: campaigns/email_templates/v4_email_change.html:287
@@ -346,22 +339,20 @@ msgid ""
 "<strong>If you didn’t initiate</strong> this process, your account may be "
 "compromised."
 msgstr ""
+"<strong>Si usted no inició</strong> este proceso, su cuenta podría estar "
+"comprometida."
 
 #: campaigns/email_templates/v4_account_delete.html:297
 #: campaigns/email_templates/v4_email_change.html:290
 #: campaigns/email_templates/v4_payout_channel_verification.html:293
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid ""
-#| "If you didn’t request an address change, please <a href=\"%(url)s"
-#| "\">cancel this request</a> and change your password immediately."
+#, python-format
 msgctxt "email"
 msgid ""
 "Please <a href=\"%(url)s\">cancel the request</a> and change your password "
 "immediately."
 msgstr ""
-"Si usted no solicitó un cambio de dirección, por favor <a href=\"%(url)s"
-"\">cancele esta solicitud</a> y cambie su contraseña de inmediato."
+"Por favor <a href=\"%(url)s\">cancele la solicitud</a> y cambie su "
+"contraseña de inmediato."
 
 #: campaigns/email_templates/v4_account_delete.html:305
 #: campaigns/email_templates/v4_email_change.html:302
@@ -373,6 +364,8 @@ msgid ""
 "In case you need assistance or help with securing your account, please "
 "contact our support team. We are here to help."
 msgstr ""
+"En caso de necesitar asistencia o ayuda para asegurar su cuenta, por favor "
+"contacte nuestro equipo de soporte. Estamos para ayudarle."
 
 #: campaigns/email_templates/v4_account_delete.html:316
 #: campaigns/email_templates/v4_email_change.html:316
@@ -382,11 +375,9 @@ msgstr ""
 #: campaigns/email_templates/v4_payout_channel_verification.html:319
 #: campaigns/email_templates/v4_payout_sent.html:335
 #: campaigns/email_templates/v4_signup_confirmation.html:311
-#, fuzzy
-#| msgid "Contact us"
 msgctxt "email"
 msgid "Contact Support"
-msgstr "Contáctenos"
+msgstr "Contacte Soporte"
 
 #: campaigns/email_templates/v4_account_delete.html:327
 #: campaigns/email_templates/v4_email_change.html:328
@@ -394,7 +385,7 @@ msgstr "Contáctenos"
 #: campaigns/email_templates/v4_payout_channel_verification.html:331
 msgctxt "email"
 msgid "Don't trust, verify!"
-msgstr ""
+msgstr "¡No confíe, verifique!"
 
 #: campaigns/email_templates/v4_account_delete.html:369
 #: campaigns/email_templates/v4_email_change.html:370
@@ -404,11 +395,9 @@ msgstr ""
 #: campaigns/email_templates/v4_payout_channel_verification.html:373
 #: campaigns/email_templates/v4_payout_sent.html:393
 #: campaigns/email_templates/v4_signup_confirmation.html:368
-#, fuzzy
-#| msgid "Namecoin mining all the way"
 msgctxt "email"
 msgid "Bitcoin mining full stack company"
-msgstr "Minería Namecoin todo el trayecto"
+msgstr "Compañía de portafolio completo Bitcoin"
 
 #: campaigns/email_templates/v4_account_delete.html:382
 #: campaigns/email_templates/v4_email_change.html:385
@@ -420,167 +409,111 @@ msgstr "Minería Namecoin todo el trayecto"
 #: campaigns/email_templates/v4_signup_confirmation.html:382
 msgctxt "email"
 msgid "FOLLOW US"
-msgstr ""
+msgstr "SÍGUENOS"
 
 #: campaigns/email_templates/v4_email_change.html:167
 #: campaigns/email_templates/v4_email_change.html:226
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid ""
-#| "We got a request to change your email address to <strong>%(email)s</"
-#| "strong>."
+#, python-format
 msgctxt "email"
 msgid ""
 "We received a request to change the email address of your account %(name)s "
 "to: %(email)s"
 msgstr ""
-"Recibimos una solicitud para cambiar su dirección de correo electrónico a "
-"<strong>%(email)s</strong>."
+"Recibimos una solicitud para cambiar su dirección de correo electrónico "
+"%(name)s a: %(email)s"
 
 #: campaigns/email_templates/v4_email_change.html:210
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Email change confirmed"
 msgctxt "email"
 msgid "Email change request"
-msgstr "Cambio de correo electrónico confirmado"
+msgstr "Petición de cambio de correo"
 
 #: campaigns/email_templates/v4_email_change.html:248
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "To authorize this change, please click the button below."
 msgctxt "email"
 msgid "To authorize this change, please click the button below."
-msgstr "Para autorizar este cambio, haga clic en el botón a continuación."
+msgstr "Para autorizar este cambio, haga clic en el botón abajo."
 
 #: campaigns/email_templates/v4_email_change.html:260
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Change email address"
 msgctxt "email"
 msgid "Change Email Address"
-msgstr "Cambiar dirección de correo electrónico"
+msgstr "Cambiar Dirección de Correo"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:191
 #: campaigns/email_templates/v4_monitoring_incident.html:263
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid ""
-#| "We wanted to let you know that we noticed something going on with your "
-#| "<strong>%(coin)s</strong> workers. You can see the details below."
+#, python-format
 msgctxt "email"
 msgid ""
 "We have detected that something is going on with your %(coin)s workers. You "
 "can see the details below."
 msgstr ""
-"Queremos notificarle que hemos notado que algo está ocurriendo con sus "
-"mineros <strong>%(coin)s</strong>. Puede ver los detalles abajo."
+"Hemos detectado que algo está ocurriendo con sus mineros %(coin)s. Puede ver "
+"los detalles abajo."
 
 #: campaigns/email_templates/v4_monitoring_incident.html:247
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Worker States (Changes)"
 msgctxt "email"
 msgid "Worker State Changes"
-msgstr "Estados del Equipo de Minería (Cambios)"
+msgstr "Cambios de Estado en Equipos"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:300
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Event Time"
 msgctxt "email"
 msgid "Event Time"
 msgstr "Tiempo del Evento"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:305
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Account Hash Rate"
 msgctxt "email"
 msgid "Account Hash Rate"
-msgstr "Hashrate de la Cuenta"
+msgstr "Tasa de Hash en la Cuenta"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:320
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Worker States (Changes)"
 msgctxt "email"
 msgid "Worker States (changes)"
-msgstr "Estados del Equipo de Minería (Cambios)"
+msgstr "Estado de Equipos (cambios)"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:339
-#, fuzzy
-#| msgctxt "UI, Monitoring"
-#| msgid "OK"
 msgctxt "email"
 msgid "OK"
 msgstr "OK"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:353
-#, fuzzy
-#| msgctxt "UI, Monitoring"
-#| msgid "Low"
 msgctxt "email"
 msgid "Low"
 msgstr "Bajo"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:367
-#, fuzzy
-#| msgctxt "UI, Monitoring"
-#| msgid "Offline"
 msgctxt "email"
 msgid "Offline"
-msgstr "Fuera de línea"
+msgstr "Desconectado"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:381
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Disabled"
 msgctxt "email"
 msgid "Disabled"
 msgstr "Deshabilitado"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:410
-#, fuzzy
 msgctxt "email"
 msgid "Incident detail"
-msgstr "Detalles del API"
+msgstr "Detalle del incidente"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:445
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Worker Name"
 msgctxt "email"
 msgid "Worker Name"
-msgstr "Nombre del Equipo de Minería"
+msgstr "Nombre de Equipo"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:495
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "State Change"
 msgctxt "email"
 msgid "State Change"
 msgstr "Cambio de Estado"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:514
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Actual Hash Rate"
 msgctxt "email"
 msgid "Actual Hash Rate"
-msgstr "Hashrate actual"
+msgstr "Tasa de Hash actual"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:540
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "State Changed After"
 msgctxt "email"
 msgid "State Changed After"
-msgstr "Estado cambiado después de"
+msgstr "Cambió Estado Luego de"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:558
-#, fuzzy
-#| msgid "Alert Limit"
 msgctxt "email"
 msgid "Alert Limit"
 msgstr "Límite de Alerta"
@@ -592,11 +525,13 @@ msgid ""
 "<strong>Showing %(shown)s out of %(total)s changes.</strong> To see full "
 "report click the button below."
 msgstr ""
+"<strong>Mostrando %(shown)s de %(total)s cambios.</strong> Para ver un "
+"reporte completo clic al botón abajo."
 
 #: campaigns/email_templates/v4_monitoring_incident.html:613
 msgctxt "email"
 msgid "View Full Report"
-msgstr ""
+msgstr "Ver Reporte Completo"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:641
 #: campaigns/email_templates/v4_payout_sent.html:323
@@ -604,88 +539,68 @@ msgctxt "email"
 msgid ""
 "In case of any issues please contact our support team. We are here to help."
 msgstr ""
+"En caso de problemas favor contacte nuestro equipo de soporte. Estamos para "
+"ayudarle."
 
 #: campaigns/email_templates/v4_onboarding.html:212
 msgctxt "email"
 msgid "Ready, set, mine!"
-msgstr ""
+msgstr "Preparado, listo, ¡mina!"
 
 #: campaigns/email_templates/v4_onboarding.html:226
-#, fuzzy
-#| msgctxt "UI"
-#| msgid ""
-#| "Need a little help getting started? These how-to guides will help get you "
-#| "up and running."
 msgctxt "email"
 msgid ""
 "Need a little assistance getting started? These setup guides will help get "
 "you up and running."
 msgstr ""
-"¿Necesita una pequeña ayuda para comenzar? Estas guías de como-hacer le "
-"ayudarán a levantarse y correr."
+"¿Necesita un poco de asistencia para comenzar? Estas guías de configuración "
+"le ayudarán a levantarse y correr."
 
 #: campaigns/email_templates/v4_onboarding.html:250
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Quickstart Guide"
 msgctxt "email"
 msgid "Bitcoin Quickstart Guide"
-msgstr "Guía de Inicio rápido"
+msgstr "Guía de Inicio rápido Bitcoin"
 
 #: campaigns/email_templates/v4_onboarding.html:273
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Quickstart Guide"
 msgctxt "email"
 msgid "Zcash Quickstart Guide"
-msgstr "Guía de Inicio rápido"
+msgstr "Guía de Inicio rápido Zcash"
 
 #: campaigns/email_templates/v4_onboarding.html:298
 msgctxt "email"
 msgid "Do you have more questions? Our support team is always here to help."
 msgstr ""
+"¿Tiene mas preguntas? Nuestro equipo de soporte siempre está aquí para "
+"ayudar."
 
 #: campaigns/email_templates/v4_onboarding.html:321
 #: campaigns/email_templates/v4_signup_confirmation.html:325
 msgctxt "email"
 msgid "Let’s mine some blocks!"
-msgstr ""
+msgstr "¡Minemos unos bloques!"
 
 #: campaigns/email_templates/v4_password_reset.html:166
 #: campaigns/email_templates/v4_password_reset.html:228
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid ""
-#| "You are receiving this email because you requested a password reset for "
-#| "your user account at <a href=\"%(site_url)s\">%(site_name)s</a>."
+#, python-format
 msgctxt "email"
 msgid "We received a request for a password reset on your account %(name)s."
 msgstr ""
-"Está recibiendo este email porque solicitó un restablecimiento de contraseña "
-"para su cuenta de usuario en <a href=\"%(site_url)s\">%(site_name)s</a>."
+"Hemos recibido una petición de restablecer contraseña a su cuenta %(name)s."
 
 #: campaigns/email_templates/v4_password_reset.html:214
-#, fuzzy
-#| msgctxt "UI, Page title"
-#| msgid "Password reset"
 msgctxt "email"
 msgid "Password reset request"
-msgstr "Restablecer contraseña"
+msgstr "Petición de restablecer contraseña"
 
 #: campaigns/email_templates/v4_password_reset.html:248
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "To reset your password, click the button below."
 msgctxt "email"
 msgid "To reset your password, click the button below."
-msgstr "Para restablecer su palabra clave, presione el botón debajo."
+msgstr "Para restablecer su contraseña, haga clic al botón abajo."
 
 #: campaigns/email_templates/v4_password_reset.html:281
-#, fuzzy
-#| msgid "Reset password"
 msgctxt "email"
 msgid "Reset Password"
-msgstr "Restablecer contraseña"
+msgstr "Restablecer Contraseña"
 
 #: campaigns/email_templates/v4_password_reset.html:308
 msgctxt "email"
@@ -693,144 +608,112 @@ msgid ""
 "<strong>If you didn’t initiate</strong> this process, you can ignore this "
 "message."
 msgstr ""
+"<strong>Si usted no inició</strong> este proceso, puede ignorar este mensaje."
 
 #: campaigns/email_templates/v4_payout_channel_verification.html:168
 #: campaigns/email_templates/v4_payout_channel_verification.html:227
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid ""
-#| "We received a request to change your %(coin)s wallet to this new address: "
-#| "<strong>%(address)s</strong>"
+#, python-format
 msgctxt "email"
 msgid ""
 "We received a request to change your %(coin)s wallet under the financial "
 "account \"%(account)s\" to this new address: %(address)s"
 msgstr ""
-"Hemos recibido una petición para cambiar su cartera %(coin)s a esta nueva "
-"dirección: <strong>%(address)s</strong>"
+"Hemos recibido una petición para cambiar su cartera %(coin)s dentro de la "
+"cuenta financiera \"%(account)s\" a esta nueva dirección: %(address)s"
 
 #: campaigns/email_templates/v4_payout_channel_verification.html:212
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Zcash wallet change confirmed"
+#, python-format
 msgctxt "email"
 msgid "%(coin)s wallet change request"
-msgstr "Cambio de cartera Zcash confirmado"
+msgstr "Cambio de cartera %(coin)s solicitado"
 
 #: campaigns/email_templates/v4_payout_channel_verification.html:249
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "To authorize this change, please click the button below."
 msgctxt "email"
 msgid "To confirm this change, click the button below."
-msgstr "Para autorizar este cambio, haga clic en el botón a continuación."
+msgstr "Para confirmar este cambio, haga clic al botón abajo."
 
 #: campaigns/email_templates/v4_payout_channel_verification.html:263
-#, fuzzy
-#| msgid "Change my wallet"
 msgctxt "email"
 msgid "Change Wallet"
-msgstr "Cambiar mi cartera"
+msgstr "Cambiar Cartera"
 
 #: campaigns/email_templates/v4_payout_sent.html:171
 #: campaigns/email_templates/v4_payout_sent.html:231
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Congrats! You've hit your %(coin)s payout threshold 🎉"
+#, python-format
 msgctxt "email"
 msgid ""
 "Congratulations! You've just reached your %(coin)s payout threshold on the "
 "financial account \"%(name)s\"."
-msgstr "¡Felicitaciones! Alcanzó el umbral de pago para %(coin)s 🎉"
+msgstr ""
+"¡Felicitaciones! Acaba de alcanzar el umbral de pago %(coin)s en la cuenta "
+"financiera \"%(name)s\"."
 
 #: campaigns/email_templates/v4_payout_sent.html:215
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Blocked %(coin)s Payouts"
+#, python-format
 msgctxt "email"
 msgid "Your %(coin)s payout"
-msgstr "Pagos de %(coin)s bloqueados"
+msgstr "Su pago de %(coin)s"
 
 #: campaigns/email_templates/v4_payout_sent.html:255
 msgctxt "email"
 msgid "For this reason we’ve transferred:"
-msgstr ""
+msgstr "Por esta razón hemos transferido:"
 
 #: campaigns/email_templates/v4_payout_sent.html:270
-#, fuzzy, python-format
-#| msgid "Create your <strong>Bitcoin payout address</strong>"
+#, python-format
 msgctxt "email"
 msgid "to your address <strong>(%(address)s)</strong>"
-msgstr "Crea tu <strong>dirección de pago Bitcoin</strong>"
+msgstr "a su dirección <strong>(%(address)s)</strong>"
 
 #: campaigns/email_templates/v4_payout_sent.html:272
 #, python-format
 msgctxt "email"
 msgid "on %(date)s"
-msgstr ""
+msgstr "el %(date)s"
 
 #: campaigns/email_templates/v4_payout_sent.html:284
-#, fuzzy
-#| msgctxt "UI"
-#| msgid ""
-#| "Typically, payments take somewhere between 30 minutes to 3 hours to go "
-#| "through. You can keep an eye on your payment's status <a href=\"%(url)s"
-#| "\">here</a>."
 msgctxt "email"
 msgid ""
 "Typically, payments take somewhere between 30 minutes to 3 hours to go "
 "through. You can keep an eye on your payment's status here:</span>"
 msgstr ""
 "Normalmente, los pagos toman desde 30 minutos a 3 horas para ser procesados. "
-"Puede vigilar el estado de su pago <a href=\"%(url)s\">aquí</a>."
+"Puede vigilar el estado de su pago aquí:</span>"
 
 #: campaigns/email_templates/v4_payout_sent.html:298
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Confirmation Status"
 msgctxt "email"
 msgid "Check Transaction Status"
-msgstr "Estado de confirmación"
+msgstr "Revisar Estado de Transacción"
 
 #: campaigns/email_templates/v4_signup_confirmation.html:168
 #: campaigns/email_templates/v4_signup_confirmation.html:226
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "To start mining, activate your account by clicking the button below."
+#, python-format
 msgctxt "email"
 msgid ""
 "To start mining, activate your account %(username)s by clicking the button "
 "below."
-msgstr "Para comenzar a minar, active su cuenta haciendo clic al botón debajo."
+msgstr ""
+"Para comenzar a minar, active su cuenta %(username)s haciendo clic al botón "
+"abajo."
 
 #: campaigns/email_templates/v4_signup_confirmation.html:212
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Slush Pool"
 msgctxt "email"
 msgid "Welcome to Slush Pool!"
-msgstr "Slush Pool"
+msgstr "¡Bienvenidos Slush Pool!"
 
 #: campaigns/email_templates/v4_signup_confirmation.html:251
-#, fuzzy
-#| msgid "Configure your mining device"
 msgctxt "email"
 msgid "Confirm your email"
-msgstr "Configure su dispositivo de minería"
+msgstr "Confirme su correo"
 
 #: campaigns/email_templates/v4_signup_confirmation.html:267
-#, fuzzy
-#| msgctxt "UI"
-#| msgid ""
-#| "If that link doesn't work, try copy and pasting the full link below into "
-#| "your browser address bar:"
 msgctxt "email"
 msgid ""
 "If the link doesn't work, try copy and pasting the full link below into your "
 "browser address bar:"
 msgstr ""
-"Si ese enlace no funciona, intente copiar y pegar el enlace completo debajo, "
-"en la barra de direcciones de su navegador:"
+"Si no funciona el enlace, intente copiar y pegar todo el enlace abajo dentro "
+"de la barra de direcciones de su navegador:"
 
 #: campaigns/forms/campaign.py:59 campaigns/forms/campaign.py:104
 #: campaigns/forms/campaign.py:161 campaigns/forms/campaign.py:219
@@ -853,6 +736,9 @@ msgid ""
 "\"%(campaign_name)s\". To be able to change the template, you must abort the "
 "campaign run first."
 msgstr ""
+"Esta plantilla se usa en la ejecución de campaña \"%(campaign_run_name)s\" "
+"de la campaña \"%(campaign_name)s\". Para cambiar su plantilla, debe detener "
+"la ejecución de su campaña primero."
 
 #: campaigns/forms/validators.py:518 mailing/forms/validators.py:36
 msgctxt "UI"
@@ -926,12 +812,9 @@ msgid "Workers"
 msgstr "Equipos de minería"
 
 #: finance/api/v1/api_actions.py:33 finance/forms/validators.py:278
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid payout account id."
 msgctxt "UI"
 msgid "Invalid payout account id!"
-msgstr "ID de cuenta de pago inválida."
+msgstr "¡ID de cuenta de pago inválida!"
 
 #: finance/api/v1/api_actions.py:47
 msgctxt "UI"
@@ -1001,65 +884,46 @@ msgstr ""
 "pagos."
 
 #: finance/forms/payout_split.py:47
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payouts are locked."
 msgctxt "UI"
 msgid "Payouts are locked!"
-msgstr "Los pagos están bloqueados."
+msgstr "¡Los pagos están bloqueados!"
 
 #: finance/forms/payout_split.py:62
 msgctxt "UI"
 msgid "Reward split is not allowed for mining units with API driven payouts."
 msgstr ""
+"No se permite la repartición de recompensa en equipos mineros con pagos "
+"llevados por API."
 
 #: finance/forms/validators.py:29
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid currency."
 msgctxt "UI"
 msgid "Invalid currency!"
-msgstr "Moneda inválida."
+msgstr "¡Moneda inválida!"
 
 #: finance/forms/validators.py:46
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid wallet id."
 msgctxt "UI"
 msgid "Invalid wallet id!"
-msgstr "ID de cartera inválida."
+msgstr "¡ID de cartera inválida!"
 
 #: finance/forms/validators.py:56
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Wallet name must be a string!"
 msgctxt "UI"
 msgid "The wallet must be active!"
-msgstr "¡El nombre de la cartera debe ser una frase!"
+msgstr "¡La cartera debe estar activa!"
 
 #: finance/forms/validators.py:65
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid date range!"
 msgctxt "UI"
 msgid "Invalid \"is_active\" parameter!"
-msgstr "¡Rango de fechas inválido!"
+msgstr "¡Parámetro \"es_activa\" inválido!"
 
 #: finance/forms/validators.py:70
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "This wallet already exists."
 msgctxt "UI"
 msgid "This wallet is already active!"
-msgstr "Esta cartera ya existe."
+msgstr "¡Esta cartera ya está activa!"
 
 #: finance/forms/validators.py:73
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "This wallet already exists."
 msgctxt "UI"
 msgid "This wallet has already been deactivated!"
-msgstr "Esta cartera ya existe."
+msgstr "¡Esta cartera ya fue desactivada!"
 
 #: finance/forms/validators.py:80
 msgctxt "UI"
@@ -1067,76 +931,51 @@ msgid "Wallet name must be a string!"
 msgstr "¡El nombre de la cartera debe ser una frase!"
 
 #: finance/forms/validators.py:85 finance/forms/validators.py:299
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Name can not be longer than %(length)s characters."
+#, python-format
 msgctxt "UI"
 msgid "Name can not be longer than %(length)s characters!"
-msgstr "El nombre no puede tener mas de %(length)s caracteres."
+msgstr "¡El nombre no puede tener mas de %(length)s caracteres!"
 
 #: finance/forms/validators.py:92
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Character \"#\" is not allowed in wallet name."
 msgctxt "UI"
 msgid "Character \"#\" is not allowed in wallet name!"
-msgstr "El carácter \"#\" no está permitido en el nombre de la cartera."
+msgstr "¡El caracter \"#\" no está permitido en el nombre de la cartera!"
 
 #: finance/forms/validators.py:109 finance/forms/validators.py:126
 #: finance/forms/validators.py:325 finance/forms/validators.py:344
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "This name is already used."
 msgctxt "UI"
 msgid "This name is already used!"
-msgstr "Este nombre ya está en uso."
+msgstr "¡Este nombre ya fue usado!"
 
 #: finance/forms/validators.py:141
-#, fuzzy
-#| msgid "Access permissions"
 msgctxt "UI"
 msgid "Adress missing!"
-msgstr "Permisos de acceso"
+msgstr "¡Falta la dirección!"
 
 #: finance/forms/validators.py:144
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid address format."
 msgctxt "UI"
 msgid "Invalid address format!"
-msgstr "Formato de dirección inválida."
+msgstr "¡Formato de dirección inválida!"
 
 #: finance/forms/validators.py:149
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Blockchain address is not supported for this coin."
 msgctxt "UI"
 msgid "Blockchain address is not supported for this coin!"
-msgstr "Esta moneda no soporta una dirección de cadena de bloques."
+msgstr "¡No se soporta una dirección de cadena de bloques para esta moneda!"
 
 #: finance/forms/validators.py:189
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid xpub format."
 msgctxt "UI"
 msgid "Invalid xpub format!"
-msgstr "Formato xpub inválido."
+msgstr "¡Formato xpub inválido!"
 
 #: finance/forms/validators.py:194
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "XPub is not supported for this coin."
 msgctxt "UI"
 msgid "XPub is not supported for this coin!"
-msgstr "Esta moneda no soporta XPub."
+msgstr "¡XPub no está soportado para esta moneda!"
 
 #: finance/forms/validators.py:210
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "This wallet already exists."
 msgctxt "UI"
 msgid "This wallet already exists!"
-msgstr "Esta cartera ya existe."
+msgstr "¡Esta cartera ya existe!"
 
 #: finance/forms/validators.py:230
 msgctxt "UI"
@@ -1144,20 +983,14 @@ msgid "Invalid params format."
 msgstr "Formato de parámetros inválido."
 
 #: finance/forms/validators.py:234
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Missing \"types\" parameter!"
 msgctxt "UI"
 msgid "Missing \"type\" attribute in wallet params."
-msgstr "¡Falta el parámetro \"tipos\"!"
+msgstr "Falta el atributo \"tipo\" en los parámetros de la cartera."
 
 #: finance/forms/validators.py:242
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid type."
 msgctxt "UI"
 msgid "Invalid type!"
-msgstr "Tipo inválido."
+msgstr "¡Tipo inválido!"
 
 #: finance/forms/validators.py:259
 msgctxt "UI"
@@ -1165,205 +998,143 @@ msgid "Invalid payout account id."
 msgstr "ID de cuenta de pago inválida."
 
 #: finance/forms/validators.py:288
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid payout account name."
 msgctxt "UI"
 msgid "Invalid payout account name!"
-msgstr "Nombre de cuenta de pago inválida."
+msgstr "¡Nombre de cuenta de pago inválida!"
 
 #: finance/forms/validators.py:294
 msgctxt "UI"
 msgid "Name cannot be empty!"
-msgstr ""
+msgstr "¡El nombre no puede estar en blanco!"
 
 #: finance/forms/validators.py:306
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Character \"#\" is not allowed in payout account name."
 msgctxt "UI"
 msgid "Character \"#\" is not allowed in payout account name!"
-msgstr "El carácter \"#\" no está permitido en el nombre de la cuenta de pago."
+msgstr "¡El caracter \"#\" no está permitido en el nombre de la cuenta de pago!"
 
 #: finance/forms/validators.py:358
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid payout request value."
 msgctxt "UI"
 msgid "Invalid payout request value!"
-msgstr "Valor solicitado de pago inválido."
+msgstr "¡Valor solicitado de pago inválido!"
 
 #: finance/forms/validators.py:367
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payout has already been requested for this payout account."
 msgctxt "UI"
 msgid "Payout has already been requested for this payout account!"
-msgstr "El pago ya ha sido solicitado para esta cuenta de pago."
+msgstr "¡El pago ya ha sido solicitado para esta cuenta de pago!"
 
 #: finance/forms/validators.py:378
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Account balance must be higher than %(amount)s %(unit)s."
+#, python-format
 msgctxt "UI"
 msgid "Account balance must be higher than %(amount)s %(unit)s!"
-msgstr "El balance de la cuenta debe ser mayor que %(amount)s %(unit)s."
+msgstr "¡El balance de la cuenta debe ser mayor a %(amount)s %(unit)s!"
 
 #: finance/forms/validators.py:394
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "There is no wallet for this payout account."
 msgctxt "UI"
 msgid "There is no wallet for this payout account!"
-msgstr "No hay una cartera para esta cuenta de pago."
+msgstr "¡No hay una cartera para esta cuenta de pago!"
 
 #: finance/forms/validators.py:398
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Zcash wallet change confirmed"
 msgctxt "UI"
 msgid "The assigned wallet is not confirmed yet!"
-msgstr "Cambio de cartera Zcash confirmado"
+msgstr "¡La cartera asignada aún no está confirmada!"
 
 #: finance/forms/validators.py:405
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payout was not requested for this payout account."
 msgctxt "UI"
 msgid "Payout was not requested for this payout account!"
-msgstr "No se ha solicitado pago en esta cuenta de pago."
+msgstr "¡No se ha solicitado pago en esta cuenta de pago!"
 
 #: finance/forms/validators.py:422
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid split format."
 msgctxt "UI"
 msgid "Invalid split format!"
-msgstr "Formato dividido no válido."
+msgstr "¡Formato de reparto no válido!"
 
 #: finance/forms/validators.py:426
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Percentages must add up to 100 %."
 msgctxt "UI"
 msgid "Percentages must add up to 100%!"
-msgstr "Los porcentajes deben sumar hasta el 100%."
+msgstr "¡Los porcentajes deben sumar hasta 100%!"
 
 #: finance/forms/validators.py:432
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid payout account ids."
 msgctxt "UI"
 msgid "Invalid payout account ids!"
-msgstr "ID de cuenta de pago no válidos."
+msgstr "¡IDs de cuenta de pago no válidos!"
 
 #: finance/forms/validators.py:439
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid payout accounts."
 msgctxt "UI"
 msgid "Invalid payout accounts!"
-msgstr "Cuentas de pago no válidas."
+msgstr "¡Cuentas de pago no válidas!"
 
 #: finance/forms/validators.py:455
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid threshold format."
 msgctxt "UI"
 msgid "Invalid threshold format!"
-msgstr "Formato de umbral no válido."
+msgstr "¡Formato de umbral no válido!"
 
 #: finance/forms/validators.py:471
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Threshold must be higher than %(minimum)s %(unit)s."
+#, python-format
 msgctxt "UI"
 msgid "Threshold must be higher than %(minimum)s %(unit)s!"
-msgstr "El umbral debe ser superior a %(minimum)s %(unit)s."
+msgstr "¡El umbral debe ser superior a %(minimum)s %(unit)s!"
 
 #: finance/forms/validators.py:480
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Threshold must be lower than %(minimum)s %(unit)s."
+#, python-format
 msgctxt "UI"
 msgid "Threshold must be lower than %(minimum)s %(unit)s!"
-msgstr "El umbral debe ser inferior a %(minimum)s%(unit)s."
+msgstr "¡El umbral debe ser inferior a %(minimum)s%(unit)s!"
 
 #: finance/forms/validators.py:501
 msgctxt "UI"
 msgid "You have to set a frequency!!"
-msgstr ""
+msgstr "¡¡Debe fijar una frecuencia!!"
 
 #: finance/forms/validators.py:503 finance/forms/validators.py:505
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid email format!"
 msgctxt "UI"
 msgid "Invalid frequency format!"
-msgstr "Formato de correo electrónico inválido!"
+msgstr "¡Formato de frecuencia inválido!"
 
 #: finance/forms/validators.py:511
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid payout frequency."
 msgctxt "UI"
 msgid "Invalid payout frequency!"
-msgstr "Frecuencia de pago no válida."
+msgstr "¡Frecuencia de pago no válida!"
 
 #: finance/forms/validators.py:515
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid day in period."
 msgctxt "UI"
 msgid "Invalid day in period!"
-msgstr "Día inválido en el período."
+msgstr "¡Día inválido en el período!"
 
 #: finance/forms/validators.py:523
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Day of the week must be a number between %(min)s and %(max)s."
+#, python-format
 msgctxt "UI"
 msgid "Day of the week must be a number between %(min)s and %(max)s!"
-msgstr "El día de la semana debe ser un número entre %(min)s y %(max)s."
+msgstr "¡El día de la semana debe ser un número entre %(min)s y %(max)s!"
 
 #: finance/forms/validators.py:533
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Day of the month must be a number between %(min)s and %(max)s."
+#, python-format
 msgctxt "UI"
 msgid "Day of the month must be a number between %(min)s and %(max)s!"
-msgstr "El día del mes debe ser un número entre %(min)s y %(max)s."
+msgstr "¡El día del mes debe ser un número entre %(min)s y %(max)s!"
 
 #: finance/forms/validators.py:558
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid trigger format."
 msgctxt "UI"
 msgid "Invalid trigger format!"
-msgstr "Formato de disparador no válido."
+msgstr "¡Formato de disparador no válido!"
 
 #: finance/forms/validators.py:578
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Unknown trigger type \"%(type)s\"."
+#, python-format
 msgctxt "UI"
 msgid "Unknown trigger type \"%(type)s\"!"
-msgstr "Tipo de disparador desconocido \"%(type)s\"."
+msgstr "¡Tipo de disparador desconocido \"%(type)s\"!"
 
 #: finance/forms/validators.py:597
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Choose a %(coin)s wallet."
+#, python-format
 msgctxt "UI"
 msgid "Choose a %(coin)s wallet!"
-msgstr "Elija una billetera de %(coin)s."
+msgstr "¡Elija una cartera de %(coin)s!"
 
 #. Translators: type = type of address (P2PKH, P2SH, Sapling etc.)
 #: finance/utils.py:52
 #, python-format
 msgctxt "UI"
 msgid "%(type)s addresses are not supported."
-msgstr "Las direcciones %(type)s no son compatibles."
+msgstr "Las direcciones %(type)s no están soportadas."
 
 #: finance/utils.py:65
 msgctxt "UI"
@@ -1781,11 +1552,10 @@ msgid ""
 msgstr "Solo se aceptan letras, números y los siguientes caracteres: _ @ + - :"
 
 #: news/api/v1/views.py:110 news/api/v1/views.py:115
-#, fuzzy, python-format
-#| msgid "No article found."
+#, python-format
 msgctxt "UI"
 msgid "News article not found: \"%s\""
-msgstr "Artículo no encontrado."
+msgstr "Artículo de noticias no encontrado: \"%s\""
 
 #: news/models.py:49
 msgctxt "UI"
@@ -1896,25 +1666,17 @@ msgid "Your Zcash payout address has been locked."
 msgstr "Su dirección de pago Zcash ha sido bloqueada."
 
 #: settings/api/v1/api_actions.py:112
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "No pending email."
 msgctxt "UI"
 msgid "No pending e-mail."
-msgstr "Sin email pendiente."
+msgstr "Sin correo pendiente."
 
 #: settings/api/v1/api_actions.py:122
-#, fuzzy
-#| msgctxt "UI"
-#| msgid ""
-#| "Confirmation email has been sent. Please, check your mailbox and follow "
-#| "the link."
 msgctxt "UI"
 msgid ""
 "Confirmation e-mail has been sent. Please, check your mailbox and follow the "
 "link."
 msgstr ""
-"Se ha enviado un correo electrónico de confirmación. Por favor, revise su "
+"Se ha enviado un correo de confirmación. Por favor, revise su cuenta de "
 "correo y siga el enlace."
 
 #: settings/api/v1/api_actions.py:135
@@ -1923,13 +1685,9 @@ msgid "No pending email."
 msgstr "Sin email pendiente."
 
 #: settings/api/v1/api_actions.py:145
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Email change request has been successfully canceled."
 msgctxt "UI"
 msgid "E-mail change request has been successfully canceled."
-msgstr ""
-"La solicitud de cambio de correo electrónico se ha cancelado exitosamente."
+msgstr "La solicitud de cambio de correo se ha cancelado exitosamente."
 
 #: settings/api/v1/api_actions.py:156 settings/api/v1/api_actions.py:188
 msgctxt "UI"
@@ -2027,12 +1785,9 @@ msgid "Second factor authentication missing."
 msgstr "Falta el segundo factor de autenticación."
 
 #: user_request/api/v1/views.py:79
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "User request"
 msgctxt "UI"
 msgid "User request not found!"
-msgstr "Solicitud de usuario"
+msgstr "¡Solicitud de usuario no encontrada!"
 
 #: user_request/api/v1/views.py:83
 msgctxt "UI"
@@ -2056,7 +1811,7 @@ msgstr ""
 #: user_request/models.py:388
 msgctxt "UI"
 msgid "This request has expired."
-msgstr ""
+msgstr "Esta solicitud ha expirado."
 
 #: user_request/models.py:437
 msgctxt "UI"
@@ -2089,12 +1844,9 @@ msgid "Payout channel not found."
 msgstr "No se encontró el canal de pago."
 
 #: user_request/models.py:708
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payout channel has been verified."
 msgctxt "UI"
 msgid "Payout settings have been verified."
-msgstr "El canal de pago ha sido verificado."
+msgstr "La configuración de pago ha sido verificada."
 
 #: user_request/models.py:733
 msgctxt "UI"
@@ -2102,6 +1854,8 @@ msgid ""
 "Payout channel verification request can not be canceled. To return to the "
 "previous state create a new payout channel with the same values."
 msgstr ""
+"La petición de verificación del canal de pagos no puede ser cancelada. Para "
+"volver al estado previo cree un nuevo canal de pagos con los mismos valores."
 
 #: user_request/views.py:38
 msgctxt "UI"
@@ -2115,93 +1869,60 @@ msgstr ""
 "(mencionado en el correo electrónico de confirmación) e inténtelo de nuevo."
 
 #: user_request/views.py:52
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "You do not have permission to submit this form."
 msgctxt "UI"
 msgid "You don't have sufficient permissions to confirm user requests."
-msgstr "No tiene permiso para enviar este formulario."
+msgstr "No tiene permiso suficiente para confirmar solicitudes de usuario."
 
 #: web/api/v1/appeals.py:34
-#, fuzzy
-#| msgctxt "UI"
-#| msgid ""
-#| "Your %(coin)s payouts have been temporarily blocked by the pool operator "
-#| "(%(reason)s)."
 msgctxt "UI"
 msgid "Your payouts have been temporarily blocked by the pool operator"
-msgstr ""
-"Sus pagos de %(coin)s han sido bloqueados temporalmente por el operador del "
-"pool (%(reason)s)."
+msgstr "Sus pagos han sido bloqueados temporalmente por el operador del pool"
 
 #: web/api/v1/appeals.py:44
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payouts blocked"
 msgctxt "UI"
 msgid "Payouts blocked by sysadmin"
-msgstr "Pagos bloqueados"
+msgstr "Pagos bloqueados por el administrador de sistema"
 
 #: web/api/v1/appeals.py:49
-#, fuzzy
-#| msgid "Contact Us"
 msgctxt "UI"
 msgid "Contact support"
-msgstr "Contáctenos"
+msgstr "Contacte soporte"
 
 #: web/api/v1/appeals.py:58
 msgctxt "UI"
 msgid "Your payouts have been paused on your request."
-msgstr ""
+msgstr "Sus pagos han sido pausados a petición suya."
 
 #: web/api/v1/appeals.py:63
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payouts blocked"
 msgctxt "UI"
 msgid "Payouts blocked by user"
-msgstr "Pagos bloqueados"
+msgstr "Pagos bloqueados por usuario"
 
 #: web/api/v1/appeals.py:68
-#, fuzzy
-#| msgid "Rewards & Payouts"
 msgctxt "UI"
 msgid "Resume payouts"
-msgstr "Recompensas & Pagos"
+msgstr "Continúe los pagos"
 
 #: web/api/v1/appeals.py:89
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "No pending email."
 msgctxt "UI"
 msgid "Pending email change"
-msgstr "Sin email pendiente."
+msgstr "Cambio de correo pendiente"
 
 #: web/api/v1/appeals.py:92
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid ""
-#| "We got a request to change your email address to <strong>%(email)s</"
-#| "strong>."
+#, python-format
 msgctxt "UI"
 msgid ""
 "You have a pending request to change your email address to: %(email_address)s"
 msgstr ""
-"Recibimos una solicitud para cambiar su dirección de correo electrónico a "
-"<strong>%(email)s</strong>."
+"Tiene una solicitud pendiente para cambiar su dirección de correo a: "
+"%(email_address)s"
 
 #: web/api/v1/appeals.py:98
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Cancel the Request"
 msgctxt "UI"
 msgid "Cancel request"
-msgstr "Cancelar la Solicitud"
+msgstr "Cancelar solicitud"
 
 #: web/api/v1/appeals.py:103
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Resend Confirmation"
 msgctxt "UI"
 msgid "Resend confirmation"
 msgstr "Reenviar confirmación"
@@ -2498,7 +2219,7 @@ msgstr "Perfil de Acceso: %s"
 #: web/models.py:1005
 msgctxt "UI"
 msgid "Worker"
-msgstr "Equipo de Minería"
+msgstr "Equipo"
 
 #: web/models.py:1080
 #, python-format
@@ -2519,15 +2240,12 @@ msgstr "Zona horaria preferida"
 #: web/models.py:1228
 msgctxt "UI"
 msgid "Color theme"
-msgstr ""
+msgstr "Color del tema"
 
 #: web/models.py:1229
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Change email address"
 msgctxt "UI"
 msgid "E-mail address"
-msgstr "Cambiar dirección de correo electrónico"
+msgstr "Dirección de correo"
 
 #: web/models.py:1230
 msgctxt "UI"
@@ -2700,12 +2418,9 @@ msgid "Wallet deleted"
 msgstr "Cartera borrada"
 
 #: web/models.py:1318
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Wallet updated"
 msgctxt "UI"
 msgid "Wallet reactivated"
-msgstr "Cartera actualizada"
+msgstr "Cartera reactivada"
 
 #: web/models.py:1320
 msgctxt "UI"
@@ -2723,12 +2438,9 @@ msgid "New payout account created"
 msgstr "Nueva cuenta de pago creada"
 
 #: web/models.py:1324
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payout account updated"
 msgctxt "UI"
 msgid "Financial account updated"
-msgstr "Cuenta de pago actualizada"
+msgstr "Cuenta Financiera de pago actualizada"
 
 #: web/models.py:1326
 msgctxt "UI"
