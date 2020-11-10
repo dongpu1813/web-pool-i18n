@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-06 15:24+0100\n"
-"PO-Revision-Date: 2020-10-31 14:26+0000\n"
-"Last-Translator: JohnsonWang <johnsonwong@westudyin.cz>\n"
+"PO-Revision-Date: 2020-11-11 02:29+0000\n"
+"Last-Translator: Jáchym Černý <jachym.cerny@braiins.cz>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "slushpool/mining/zh_Hans/>\n"
 "Language: zh\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: api/bulk.py:84 api/bulk.py:93 api/bulk.py:102
 msgctxt "UI"
@@ -275,10 +275,10 @@ msgstr "设置"
 
 #: campaigns/email_templates/v4_account_delete.html:171
 #: campaigns/email_templates/v4_account_delete.html:235
-#, python-format
+#, fuzzy, python-format
 msgctxt "email"
 msgid "We received a request to delete your %(name)s account."
-msgstr ""
+msgstr "我们收到了删除您%(name)s 账户的请求。"
 
 #: campaigns/email_templates/v4_account_delete.html:219
 #, fuzzy
@@ -286,7 +286,7 @@ msgstr ""
 #| msgid "Account deletion requested"
 msgctxt "email"
 msgid "Account deletion request"
-msgstr "账户删除已申请"
+msgstr "账户删除申请"
 
 #: campaigns/email_templates/v4_account_delete.html:257
 #, fuzzy, python-format
@@ -309,34 +309,37 @@ msgstr ""
 "完善得更好。"
 
 #: campaigns/email_templates/v4_account_delete.html:269
+#, fuzzy
 msgctxt "email"
 msgid "In any case, if you’d still like to delete your account:"
-msgstr ""
+msgstr "无论如何，如果您仍然希望删除您的账户："
 
 #: campaigns/email_templates/v4_account_delete.html:270
+#, fuzzy
 msgctxt "email"
 msgid ""
 "1. Make sure you <strong>request your final payout BEFORE doing so.</strong> "
 "Otherwise, any remaining balances are considered a generous donation to the "
 "pool."
-msgstr ""
+msgstr "1. 请保证 <strong>您在删除账户之前申请您最后的提现。</strong> 否则所有剩下的余额视为对矿池的捐赠。"
 
 #: campaigns/email_templates/v4_account_delete.html:271
-#, python-format
+#, fuzzy, python-format
 msgctxt "email"
 msgid ""
 "2. Then click <a href=\"%(url)s\">this confirmation link to delete your "
 "account.</a> For your security, the link is only valid for 1 hour."
-msgstr ""
+msgstr "2. 然后点击 <a href=\"%(url)s\">此确认链接来删除您的账户</a> 为您的安全，该链接仅有效一个小时。"
 
 #: campaigns/email_templates/v4_account_delete.html:296
 #: campaigns/email_templates/v4_email_change.html:287
 #: campaigns/email_templates/v4_payout_channel_verification.html:290
+#, fuzzy
 msgctxt "email"
 msgid ""
 "<strong>If you didn’t initiate</strong> this process, your account may be "
 "compromised."
-msgstr ""
+msgstr "<strong>如果您不启动</strong> 该过程， 则您的账户可能会被盗用。"
 
 #: campaigns/email_templates/v4_account_delete.html:297
 #: campaigns/email_templates/v4_email_change.html:290
@@ -350,19 +353,19 @@ msgctxt "email"
 msgid ""
 "Please <a href=\"%(url)s\">cancel the request</a> and change your password "
 "immediately."
-msgstr ""
-"如您未曾请求更改地址，请<a href=\"%(url)s\">取消这一请求</a>并立即更改密码。"
+msgstr "请<a href=\"%(url)s\">取消该请求</a>并立即更改密码。"
 
 #: campaigns/email_templates/v4_account_delete.html:305
 #: campaigns/email_templates/v4_email_change.html:302
 #: campaigns/email_templates/v4_password_reset.html:318
 #: campaigns/email_templates/v4_payout_channel_verification.html:305
 #: campaigns/email_templates/v4_signup_confirmation.html:297
+#, fuzzy
 msgctxt "email"
 msgid ""
 "In case you need assistance or help with securing your account, please "
 "contact our support team. We are here to help."
-msgstr ""
+msgstr "如果您需要协办或者帮助确保账户的安全，请联系我们客户团队。我们在此为您提供帮助！"
 
 #: campaigns/email_templates/v4_account_delete.html:316
 #: campaigns/email_templates/v4_email_change.html:316
@@ -376,15 +379,16 @@ msgstr ""
 #| msgid "Contact us"
 msgctxt "email"
 msgid "Contact Support"
-msgstr "联系我们"
+msgstr "联系客户团队"
 
 #: campaigns/email_templates/v4_account_delete.html:327
 #: campaigns/email_templates/v4_email_change.html:328
 #: campaigns/email_templates/v4_password_reset.html:342
 #: campaigns/email_templates/v4_payout_channel_verification.html:331
+#, fuzzy
 msgctxt "email"
 msgid "Don't trust, verify!"
-msgstr ""
+msgstr "别轻易相信，总是再三确认!"
 
 #: campaigns/email_templates/v4_account_delete.html:369
 #: campaigns/email_templates/v4_email_change.html:370
@@ -398,7 +402,7 @@ msgstr ""
 #| msgid "Namecoin mining all the way"
 msgctxt "email"
 msgid "Bitcoin mining full stack company"
-msgstr "关于Namecoin挖矿的一切"
+msgstr "有比特币挖矿全堆栈的公司"
 
 #: campaigns/email_templates/v4_account_delete.html:382
 #: campaigns/email_templates/v4_email_change.html:385
@@ -408,9 +412,10 @@ msgstr "关于Namecoin挖矿的一切"
 #: campaigns/email_templates/v4_payout_channel_verification.html:387
 #: campaigns/email_templates/v4_payout_sent.html:408
 #: campaigns/email_templates/v4_signup_confirmation.html:382
+#, fuzzy
 msgctxt "email"
 msgid "FOLLOW US"
-msgstr ""
+msgstr "关注我们"
 
 #: campaigns/email_templates/v4_email_change.html:167
 #: campaigns/email_templates/v4_email_change.html:226
@@ -423,7 +428,7 @@ msgctxt "email"
 msgid ""
 "We received a request to change the email address of your account %(name)s "
 "to: %(email)s"
-msgstr "我们收到了您想将邮件地址改到：<strong>%(email)s</strong> 的请求。"
+msgstr "我们收到了您账户邮件地址更改的请求：<strong>%(email)s</strong>"
 
 #: campaigns/email_templates/v4_email_change.html:210
 #, fuzzy
@@ -431,7 +436,7 @@ msgstr "我们收到了您想将邮件地址改到：<strong>%(email)s</strong> 
 #| msgid "Email change confirmed"
 msgctxt "email"
 msgid "Email change request"
-msgstr "更改邮箱地址已确认"
+msgstr "更改邮箱地址请求"
 
 #: campaigns/email_templates/v4_email_change.html:248
 #, fuzzy
@@ -442,9 +447,6 @@ msgid "To authorize this change, please click the button below."
 msgstr "请点击下方按钮许可更改。"
 
 #: campaigns/email_templates/v4_email_change.html:260
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Change email address"
 msgctxt "email"
 msgid "Change Email Address"
 msgstr "更改邮箱地址"
@@ -470,7 +472,7 @@ msgstr ""
 #| msgid "Worker States (Changes)"
 msgctxt "email"
 msgid "Worker State Changes"
-msgstr "矿工状态 (变化)"
+msgstr "矿工状态变化"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:300
 #, fuzzy
@@ -489,9 +491,6 @@ msgid "Account Hash Rate"
 msgstr "账户算力"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:320
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Worker States (Changes)"
 msgctxt "email"
 msgid "Worker States (changes)"
 msgstr "矿工状态 (变化)"
@@ -530,7 +529,7 @@ msgstr "已禁用"
 #| msgid "API details"
 msgctxt "email"
 msgid "Incident detail"
-msgstr "API详情"
+msgstr "故障详情"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:445
 #, fuzzy
@@ -580,21 +579,24 @@ msgid ""
 msgstr ""
 
 #: campaigns/email_templates/v4_monitoring_incident.html:613
+#, fuzzy
 msgctxt "email"
 msgid "View Full Report"
-msgstr ""
+msgstr "看完整报告"
 
 #: campaigns/email_templates/v4_monitoring_incident.html:641
 #: campaigns/email_templates/v4_payout_sent.html:323
+#, fuzzy
 msgctxt "email"
 msgid ""
 "In case of any issues please contact our support team. We are here to help."
-msgstr ""
+msgstr "如果遇到了任何问题，请联系我们客服团队。我们在此为您提供帮助。"
 
 #: campaigns/email_templates/v4_onboarding.html:212
+#, fuzzy
 msgctxt "email"
 msgid "Ready, set, mine!"
-msgstr ""
+msgstr "准备，预备，挖矿！"
 
 #: campaigns/email_templates/v4_onboarding.html:226
 #, fuzzy
@@ -625,15 +627,17 @@ msgid "Zcash Quickstart Guide"
 msgstr "快速指南"
 
 #: campaigns/email_templates/v4_onboarding.html:298
+#, fuzzy
 msgctxt "email"
 msgid "Do you have more questions? Our support team is always here to help."
-msgstr ""
+msgstr "您有多个问题？我们客户团队总是为您提供帮助。"
 
 #: campaigns/email_templates/v4_onboarding.html:321
 #: campaigns/email_templates/v4_signup_confirmation.html:325
+#, fuzzy
 msgctxt "email"
 msgid "Let’s mine some blocks!"
-msgstr ""
+msgstr "开始挖矿吧！"
 
 #: campaigns/email_templates/v4_password_reset.html:166
 #: campaigns/email_templates/v4_password_reset.html:228
@@ -672,11 +676,12 @@ msgid "Reset Password"
 msgstr "重置密码"
 
 #: campaigns/email_templates/v4_password_reset.html:308
+#, fuzzy
 msgctxt "email"
 msgid ""
 "<strong>If you didn’t initiate</strong> this process, you can ignore this "
 "message."
-msgstr ""
+msgstr "<strong>如果您不启动</strong> 该过程，您可以忽略此消息。"
 
 #: campaigns/email_templates/v4_payout_channel_verification.html:168
 #: campaigns/email_templates/v4_payout_channel_verification.html:227
@@ -736,9 +741,10 @@ msgid "Your %(coin)s payout"
 msgstr "已锁定的%(coin)s 提现"
 
 #: campaigns/email_templates/v4_payout_sent.html:255
+#, fuzzy
 msgctxt "email"
 msgid "For this reason we’ve transferred:"
-msgstr ""
+msgstr "为此原因我们已转账了："
 
 #: campaigns/email_templates/v4_payout_sent.html:270
 #, fuzzy, python-format
@@ -982,25 +988,20 @@ msgid "Payouts are locked!"
 msgstr "提现已被锁定。"
 
 #: finance/forms/payout_split.py:62
+#, fuzzy
 msgctxt "UI"
 msgid "Reward split is not allowed for mining units with API driven payouts."
-msgstr ""
+msgstr "带有API驱动提现的挖矿单位不可进行奖励分开"
 
 #: finance/forms/validators.py:29
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid currency."
 msgctxt "UI"
 msgid "Invalid currency!"
-msgstr "币种无效。"
+msgstr "币种无效!"
 
 #: finance/forms/validators.py:46
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid wallet id."
 msgctxt "UI"
 msgid "Invalid wallet id!"
-msgstr "无效的钱包ID。"
+msgstr "无效的钱包ID!"
 
 #: finance/forms/validators.py:56
 #, fuzzy
@@ -1008,7 +1009,7 @@ msgstr "无效的钱包ID。"
 #| msgid "Wallet name must be a string!"
 msgctxt "UI"
 msgid "The wallet must be active!"
-msgstr "钱包名必须以字符为格式！"
+msgstr "钱包名必须在活动状态！"
 
 #: finance/forms/validators.py:65
 #, fuzzy
@@ -1016,7 +1017,7 @@ msgstr "钱包名必须以字符为格式！"
 #| msgid "Invalid date range!"
 msgctxt "UI"
 msgid "Invalid \"is_active\" parameter!"
-msgstr "无效数据范围！"
+msgstr "\"is_active\"参数无效!"
 
 #: finance/forms/validators.py:70
 #, fuzzy
@@ -1024,7 +1025,7 @@ msgstr "无效数据范围！"
 #| msgid "This wallet already exists."
 msgctxt "UI"
 msgid "This wallet is already active!"
-msgstr "此钱包已存在。"
+msgstr "此钱包已在活动状态！"
 
 #: finance/forms/validators.py:73
 #, fuzzy
@@ -1032,7 +1033,7 @@ msgstr "此钱包已存在。"
 #| msgid "This wallet already exists."
 msgctxt "UI"
 msgid "This wallet has already been deactivated!"
-msgstr "此钱包已存在。"
+msgstr "此钱包已停用！"
 
 #: finance/forms/validators.py:80
 msgctxt "UI"
@@ -1040,76 +1041,53 @@ msgid "Wallet name must be a string!"
 msgstr "钱包名必须以字符为格式！"
 
 #: finance/forms/validators.py:85 finance/forms/validators.py:299
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Name can not be longer than %(length)s characters."
+#, python-format
 msgctxt "UI"
 msgid "Name can not be longer than %(length)s characters!"
-msgstr "名字不能长于%(length)s个字符。"
+msgstr "名字不能长于%(length)s个字符！"
 
 #: finance/forms/validators.py:92
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Character \"#\" is not allowed in wallet name."
 msgctxt "UI"
 msgid "Character \"#\" is not allowed in wallet name!"
-msgstr "符号 \"#\" 在钱包名中不可使用。"
+msgstr "符号 \"#\" 在钱包名中不可使用！"
 
 #: finance/forms/validators.py:109 finance/forms/validators.py:126
 #: finance/forms/validators.py:325 finance/forms/validators.py:344
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "This name is already used."
 msgctxt "UI"
 msgid "This name is already used!"
-msgstr "此名已占用。"
+msgstr "此名已占用！"
 
 #: finance/forms/validators.py:141
 #, fuzzy
 #| msgid "Access permissions"
 msgctxt "UI"
 msgid "Adress missing!"
-msgstr "访问权限"
+msgstr "缺失地址！"
 
 #: finance/forms/validators.py:144
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid address format."
 msgctxt "UI"
 msgid "Invalid address format!"
-msgstr "无效的地址格式。"
+msgstr "无效的地址格式！"
 
 #: finance/forms/validators.py:149
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Blockchain address is not supported for this coin."
 msgctxt "UI"
 msgid "Blockchain address is not supported for this coin!"
-msgstr "此货币不支持区块链地址。"
+msgstr "此货币不支持区块链地址！"
 
 #: finance/forms/validators.py:189
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid xpub format."
 msgctxt "UI"
 msgid "Invalid xpub format!"
-msgstr "无效的xpub格式。"
+msgstr "无效的xpub格式！"
 
 #: finance/forms/validators.py:194
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "XPub is not supported for this coin."
 msgctxt "UI"
 msgid "XPub is not supported for this coin!"
-msgstr "此货币不支持XPub。"
+msgstr "此货币不支持XPub！"
 
 #: finance/forms/validators.py:210
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "This wallet already exists."
 msgctxt "UI"
 msgid "This wallet already exists!"
-msgstr "此钱包已存在。"
+msgstr "此钱包已存在！"
 
 #: finance/forms/validators.py:230
 msgctxt "UI"
@@ -1122,15 +1100,12 @@ msgstr "无效的参数格式。"
 #| msgid "Missing \"types\" parameter!"
 msgctxt "UI"
 msgid "Missing \"type\" attribute in wallet params."
-msgstr "缺失“类型”参数！"
+msgstr "钱包参数缺失“类型”属性！"
 
 #: finance/forms/validators.py:242
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid type."
 msgctxt "UI"
 msgid "Invalid type!"
-msgstr "无效的类型。"
+msgstr "无效的类型！"
 
 #: finance/forms/validators.py:259
 msgctxt "UI"
@@ -1138,57 +1113,41 @@ msgid "Invalid payout account id."
 msgstr "无效的提现账户ID。"
 
 #: finance/forms/validators.py:288
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid payout account name."
 msgctxt "UI"
 msgid "Invalid payout account name!"
-msgstr "无效的提现账户名。"
+msgstr "无效的提现账户名！"
 
 #: finance/forms/validators.py:294
+#, fuzzy
 msgctxt "UI"
 msgid "Name cannot be empty!"
-msgstr ""
+msgstr "名字项不可留空！"
 
 #: finance/forms/validators.py:306
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Character \"#\" is not allowed in payout account name."
 msgctxt "UI"
 msgid "Character \"#\" is not allowed in payout account name!"
-msgstr "“#”号不能在提现账户名中使用。"
+msgstr "“#”号不能在提现账户名中使用！"
 
 #: finance/forms/validators.py:358
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid payout request value."
 msgctxt "UI"
 msgid "Invalid payout request value!"
-msgstr "请求的提现值无效。"
+msgstr "请求的提现值无效！"
 
 #: finance/forms/validators.py:367
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payout has already been requested for this payout account."
 msgctxt "UI"
 msgid "Payout has already been requested for this payout account!"
-msgstr "已经请求过此提现账户的提现了。"
+msgstr "已经请求过此提现账户的提现了！"
 
 #: finance/forms/validators.py:378
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Account balance must be higher than %(amount)s %(unit)s."
+#, python-format
 msgctxt "UI"
 msgid "Account balance must be higher than %(amount)s %(unit)s!"
-msgstr "账户余额必须高于%(amount)s %(unit)s。"
+msgstr "账户余额必须高于%(amount)s %(unit)s！"
 
 #: finance/forms/validators.py:394
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "There is no wallet for this payout account."
 msgctxt "UI"
 msgid "There is no wallet for this payout account!"
-msgstr "此提现账户未设置钱包地址。"
+msgstr "此提现账户未设置钱包地址！"
 
 #: finance/forms/validators.py:398
 #, fuzzy
@@ -1196,84 +1155,60 @@ msgstr "此提现账户未设置钱包地址。"
 #| msgid "Zcash wallet change confirmed"
 msgctxt "UI"
 msgid "The assigned wallet is not confirmed yet!"
-msgstr "Zcash钱包更改已确认"
+msgstr "分配的钱包仍未确认！"
 
 #: finance/forms/validators.py:405
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payout was not requested for this payout account."
 msgctxt "UI"
 msgid "Payout was not requested for this payout account!"
-msgstr "尚未请求提现此账户。"
+msgstr "尚未请求提现此账户！"
 
 #: finance/forms/validators.py:422
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid split format."
 msgctxt "UI"
 msgid "Invalid split format!"
-msgstr "无效的分配格式。"
+msgstr "无效的分配格式！"
 
 #: finance/forms/validators.py:426
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Percentages must add up to 100 %."
 msgctxt "UI"
 msgid "Percentages must add up to 100%!"
-msgstr "总百分比须为100%。"
+msgstr "总百分比须为100%！"
 
 #: finance/forms/validators.py:432
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid payout account ids."
 msgctxt "UI"
 msgid "Invalid payout account ids!"
-msgstr "无效的提现账户ID。"
+msgstr "无效的提现账户ID！"
 
 #: finance/forms/validators.py:439
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid payout accounts."
 msgctxt "UI"
 msgid "Invalid payout accounts!"
-msgstr "无效的提现账户。"
+msgstr "无效的提现账户！"
 
 #: finance/forms/validators.py:455
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid threshold format."
 msgctxt "UI"
 msgid "Invalid threshold format!"
-msgstr "无效的阈值格式。"
+msgstr "无效的阈值格式！"
 
 #: finance/forms/validators.py:471
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Threshold must be higher than %(minimum)s %(unit)s."
+#, python-format
 msgctxt "UI"
 msgid "Threshold must be higher than %(minimum)s %(unit)s!"
-msgstr "阈值必须高于%(minimum)s %(unit)s。"
+msgstr "阈值必须高于%(minimum)s %(unit)s！"
 
 #: finance/forms/validators.py:480
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Threshold must be lower than %(minimum)s %(unit)s."
+#, python-format
 msgctxt "UI"
 msgid "Threshold must be lower than %(minimum)s %(unit)s!"
-msgstr "阈值必须低于%(minimum)s %(unit)s。"
+msgstr "阈值必须低于%(minimum)s %(unit)s！"
 
 #: finance/forms/validators.py:501
+#, fuzzy
 msgctxt "UI"
 msgid "You have to set a frequency!!"
-msgstr ""
+msgstr "您必须设定频率！！"
 
 #: finance/forms/validators.py:503 finance/forms/validators.py:505
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid email format!"
 msgctxt "UI"
 msgid "Invalid frequency format!"
-msgstr "无效邮箱格式！"
+msgstr "无效频率格式！"
 
 #: finance/forms/validators.py:511
 #, fuzzy
@@ -1281,55 +1216,41 @@ msgstr "无效邮箱格式！"
 #| msgid "Invalid payout frequency."
 msgctxt "UI"
 msgid "Invalid payout frequency!"
-msgstr "无效的提现频率。"
+msgstr "无效的提现频率！"
 
 #: finance/forms/validators.py:515
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid day in period."
 msgctxt "UI"
 msgid "Invalid day in period!"
-msgstr "周期内的天数无效。"
+msgstr "周期内的天数无效！"
 
 #: finance/forms/validators.py:523
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Day of the week must be a number between %(min)s and %(max)s."
+#, python-format
 msgctxt "UI"
 msgid "Day of the week must be a number between %(min)s and %(max)s!"
-msgstr "单周内天数必须是在%(min)s和%(max)s之间的一个值。"
+msgstr "单周内天数必须是在%(min)s和%(max)s之间的一个值！"
 
 #: finance/forms/validators.py:533
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Day of the month must be a number between %(min)s and %(max)s."
+#, python-format
 msgctxt "UI"
 msgid "Day of the month must be a number between %(min)s and %(max)s!"
-msgstr "单月内天数必须是在%(min)s和%(max)s之间的一个值。"
+msgstr "单月内天数必须是在%(min)s和%(max)s之间的一个值！"
 
 #: finance/forms/validators.py:558
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Invalid trigger format."
 msgctxt "UI"
 msgid "Invalid trigger format!"
-msgstr "无效的触发格式。"
+msgstr "无效的触发格式！"
 
 #: finance/forms/validators.py:578
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Unknown trigger type \"%(type)s\"."
+#, python-format
 msgctxt "UI"
 msgid "Unknown trigger type \"%(type)s\"!"
-msgstr "未知的触发类型，“%(type)s”。"
+msgstr "未知的触发类型，“%(type)s”！"
 
 #: finance/forms/validators.py:597
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid "Choose a %(coin)s wallet."
+#, python-format
 msgctxt "UI"
 msgid "Choose a %(coin)s wallet!"
-msgstr "选择一个%(coin)s钱包。"
+msgstr "选择一个%(coin)s钱包！"
 
 #. Translators: type = type of address (P2PKH, P2SH, Sapling etc.)
 #: finance/utils.py:52
@@ -1748,7 +1669,7 @@ msgstr "只有字母，数字以及这些字符可以被使用：_ @ + - :"
 #| msgid "No article found."
 msgctxt "UI"
 msgid "News article not found: \"%s\""
-msgstr "未发现文章。"
+msgstr "未发现新闻文章 : \"%s\""
 
 #: news/models.py:49
 msgctxt "UI"
@@ -1859,19 +1780,11 @@ msgid "Your Zcash payout address has been locked."
 msgstr "您的Zcash提现地址已被锁定。"
 
 #: settings/api/v1/api_actions.py:112
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "No pending email."
 msgctxt "UI"
 msgid "No pending e-mail."
 msgstr "没有等待中的邮件。"
 
 #: settings/api/v1/api_actions.py:122
-#, fuzzy
-#| msgctxt "UI"
-#| msgid ""
-#| "Confirmation email has been sent. Please, check your mailbox and follow "
-#| "the link."
 msgctxt "UI"
 msgid ""
 "Confirmation e-mail has been sent. Please, check your mailbox and follow the "
@@ -1884,9 +1797,6 @@ msgid "No pending email."
 msgstr "没有等待中的邮件。"
 
 #: settings/api/v1/api_actions.py:145
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Email change request has been successfully canceled."
 msgctxt "UI"
 msgid "E-mail change request has been successfully canceled."
 msgstr "更改邮箱地址的请求已成功取消。"
@@ -1987,7 +1897,7 @@ msgstr "缺少两步验证。"
 #| msgid "User request"
 msgctxt "UI"
 msgid "User request not found!"
-msgstr "用户请求"
+msgstr "未发现用户请求！"
 
 #: user_request/api/v1/views.py:83
 msgctxt "UI"
@@ -2007,9 +1917,10 @@ msgid ""
 msgstr "和确认连接相关的请求已失效。<br>它可能在之前已经被确认或取消了。"
 
 #: user_request/models.py:388
+#, fuzzy
 msgctxt "UI"
 msgid "This request has expired."
-msgstr ""
+msgstr "此请求已过期了"
 
 #: user_request/models.py:437
 msgctxt "UI"
@@ -2047,14 +1958,15 @@ msgstr "未找到提现渠道。"
 #| msgid "Payout channel has been verified."
 msgctxt "UI"
 msgid "Payout settings have been verified."
-msgstr "提现渠道已认证。"
+msgstr "提现设置已认证。"
 
 #: user_request/models.py:733
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "Payout channel verification request can not be canceled. To return to the "
 "previous state create a new payout channel with the same values."
-msgstr ""
+msgstr "提现信道验证请求不可取消。使用同样值创建新的提现信道来返回以前的状态。"
 
 #: user_request/views.py:38
 msgctxt "UI"
@@ -2072,7 +1984,7 @@ msgstr ""
 #| msgid "You do not have permission to submit this form."
 msgctxt "UI"
 msgid "You don't have sufficient permissions to confirm user requests."
-msgstr "您没有提交此表的权限。"
+msgstr "您没有足够的权限来确认用户提交。"
 
 #: web/api/v1/appeals.py:34
 #, fuzzy
@@ -2082,7 +1994,7 @@ msgstr "您没有提交此表的权限。"
 #| "(%(reason)s)."
 msgctxt "UI"
 msgid "Your payouts have been temporarily blocked by the pool operator"
-msgstr "您的%(coin)s提现已暂被矿池运管锁定 (原因：%(reason)s)。"
+msgstr "您的提现已暂被矿池运管锁定。"
 
 #: web/api/v1/appeals.py:44
 #, fuzzy
@@ -2090,19 +2002,20 @@ msgstr "您的%(coin)s提现已暂被矿池运管锁定 (原因：%(reason)s)。
 #| msgid "Payouts blocked"
 msgctxt "UI"
 msgid "Payouts blocked by sysadmin"
-msgstr "提现已被锁定"
+msgstr "提现已被系统管理员锁定"
 
 #: web/api/v1/appeals.py:49
 #, fuzzy
 #| msgid "Contact Us"
 msgctxt "UI"
 msgid "Contact support"
-msgstr "联系我们"
+msgstr "联系客服"
 
 #: web/api/v1/appeals.py:58
+#, fuzzy
 msgctxt "UI"
 msgid "Your payouts have been paused on your request."
-msgstr ""
+msgstr "您的提现按照您的请求暂停。"
 
 #: web/api/v1/appeals.py:63
 #, fuzzy
@@ -2110,14 +2023,14 @@ msgstr ""
 #| msgid "Payouts blocked"
 msgctxt "UI"
 msgid "Payouts blocked by user"
-msgstr "提现已被锁定"
+msgstr "提现已被用户锁定"
 
 #: web/api/v1/appeals.py:68
 #, fuzzy
 #| msgid "Rewards & Payouts"
 msgctxt "UI"
 msgid "Resume payouts"
-msgstr "收益与提现"
+msgstr "恢复提现"
 
 #: web/api/v1/appeals.py:89
 #, fuzzy
@@ -2125,7 +2038,7 @@ msgstr "收益与提现"
 #| msgid "No pending email."
 msgctxt "UI"
 msgid "Pending email change"
-msgstr "没有等待中的邮件。"
+msgstr "等待中邮件的变化。"
 
 #: web/api/v1/appeals.py:92
 #, fuzzy, python-format
@@ -2136,20 +2049,14 @@ msgstr "没有等待中的邮件。"
 msgctxt "UI"
 msgid ""
 "You have a pending request to change your email address to: %(email_address)s"
-msgstr "我们收到了您想将邮件地址改到：<strong>%(email)s</strong> 的请求。"
+msgstr "您有将邮件地址改到：%(email_address)s 的等待中请求。"
 
 #: web/api/v1/appeals.py:98
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Cancel the Request"
 msgctxt "UI"
 msgid "Cancel request"
 msgstr "取消请求"
 
 #: web/api/v1/appeals.py:103
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Resend Confirmation"
 msgctxt "UI"
 msgid "Resend confirmation"
 msgstr "重发确认信息"
@@ -2459,9 +2366,10 @@ msgid "Preferred timezone"
 msgstr "时区"
 
 #: web/models.py:1228
+#, fuzzy
 msgctxt "UI"
 msgid "Color theme"
-msgstr ""
+msgstr "颜色主题"
 
 #: web/models.py:1229
 #, fuzzy
@@ -2469,7 +2377,7 @@ msgstr ""
 #| msgid "Change email address"
 msgctxt "UI"
 msgid "E-mail address"
-msgstr "更改邮箱地址"
+msgstr "电子邮箱地址"
 
 #: web/models.py:1230
 msgctxt "UI"
@@ -2647,7 +2555,7 @@ msgstr "钱包已删除"
 #| msgid "Wallet updated"
 msgctxt "UI"
 msgid "Wallet reactivated"
-msgstr "钱包已更新"
+msgstr "钱包已重新激活"
 
 #: web/models.py:1320
 msgctxt "UI"
@@ -2670,7 +2578,7 @@ msgstr "已创建新的提现账户"
 #| msgid "Payout account updated"
 msgctxt "UI"
 msgid "Financial account updated"
-msgstr "提现地址已更新"
+msgstr "金融地址已更新"
 
 #: web/models.py:1326
 msgctxt "UI"
