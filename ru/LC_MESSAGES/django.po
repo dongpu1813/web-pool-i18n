@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-06 15:24+0100\n"
-"PO-Revision-Date: 2020-11-11 02:29+0000\n"
+"PO-Revision-Date: 2020-11-15 15:28+0000\n"
 "Last-Translator: Iryna Bashkova <csepcsar@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/mining/"
 "ru/>\n"
@@ -1862,96 +1862,63 @@ msgstr ""
 "попытку."
 
 #: user_request/views.py:52
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "You do not have permission to submit this form."
 msgctxt "UI"
 msgid "You don't have sufficient permissions to confirm user requests."
-msgstr "У вас нет разрешения на отправку этой формы."
+msgstr "У вас недостаточно прав для подтверждения пользовательских запросов."
 
 #: web/api/v1/appeals.py:34
-#, fuzzy
-#| msgctxt "UI"
-#| msgid ""
-#| "Your %(coin)s payouts have been temporarily blocked by the pool operator "
-#| "(%(reason)s)."
 msgctxt "UI"
 msgid "Your payouts have been temporarily blocked by the pool operator"
-msgstr ""
-"Ваши выплаты %(coin)s были временно заблокированы оператором пула "
-"(%(reason)s)."
+msgstr "Ваши выплаты были временно заблокированы оператором пула"
 
 #: web/api/v1/appeals.py:44
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payouts blocked"
 msgctxt "UI"
 msgid "Payouts blocked by sysadmin"
-msgstr "Выплаты заблокированы"
+msgstr "Выплаты заблокированы сисадмином"
 
 #: web/api/v1/appeals.py:49
-#, fuzzy
-#| msgid "Contact Us"
 msgctxt "UI"
 msgid "Contact support"
-msgstr "Связаться с нами"
+msgstr "Контактировать поддержку"
 
 #: web/api/v1/appeals.py:58
 msgctxt "UI"
 msgid "Your payouts have been paused on your request."
-msgstr ""
+msgstr "Ваши выплаты были приостановлены по вашему запросу."
 
 #: web/api/v1/appeals.py:63
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payouts blocked"
 msgctxt "UI"
 msgid "Payouts blocked by user"
-msgstr "Выплаты заблокированы"
+msgstr "Выплаты заблокированы пользователем"
 
 #: web/api/v1/appeals.py:68
-#, fuzzy
-#| msgid "Rewards & Payouts"
 msgctxt "UI"
 msgid "Resume payouts"
-msgstr "Вознаграждения и Выплаты"
+msgstr "Возобновить выплаты"
 
 #: web/api/v1/appeals.py:89
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "No pending email."
 msgctxt "UI"
 msgid "Pending email change"
-msgstr "Нет ожидающих е-мейлов."
+msgstr "Изменение адреса электронной почты рассматривается"
 
 #: web/api/v1/appeals.py:92
-#, fuzzy, python-format
-#| msgctxt "UI"
-#| msgid ""
-#| "We got a request to change your email address to <strong>%(email)s</"
-#| "strong>."
+#, python-format
 msgctxt "UI"
 msgid ""
 "You have a pending request to change your email address to: %(email_address)s"
 msgstr ""
-"Мы получили запрос на изменение вашего адреса электронной почты на <strong>"
-"%(email)s</strong>."
+"У вас есть ожидающий запрос на изменение вашего адреса электронной почты на: "
+"%(email_address)s"
 
 #: web/api/v1/appeals.py:98
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Cancel the Request"
 msgctxt "UI"
 msgid "Cancel request"
 msgstr "Отменить запрос"
 
 #: web/api/v1/appeals.py:103
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Resend Confirmation"
 msgctxt "UI"
 msgid "Resend confirmation"
-msgstr "Отправить повторно подтверждение"
+msgstr "Отправить подтверждение повторно"
 
 #: web/api/v1/appeals.py:143
 msgctxt "UI"
@@ -2262,15 +2229,12 @@ msgstr "Предпочтительный часовой пояс"
 #: web/models.py:1228
 msgctxt "UI"
 msgid "Color theme"
-msgstr ""
+msgstr "Цветовая тема"
 
 #: web/models.py:1229
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Change email address"
 msgctxt "UI"
 msgid "E-mail address"
-msgstr "Изменить адрес электронной почты"
+msgstr "Адрес электронной почты"
 
 #: web/models.py:1230
 msgctxt "UI"
@@ -2443,12 +2407,9 @@ msgid "Wallet deleted"
 msgstr "Кошелек удален"
 
 #: web/models.py:1318
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Wallet updated"
 msgctxt "UI"
 msgid "Wallet reactivated"
-msgstr "Кошелек обновлен"
+msgstr "Кошелек повторно активирован"
 
 #: web/models.py:1320
 msgctxt "UI"
@@ -2466,12 +2427,9 @@ msgid "New payout account created"
 msgstr "Создан новый аккаунт для выплат"
 
 #: web/models.py:1324
-#, fuzzy
-#| msgctxt "UI"
-#| msgid "Payout account updated"
 msgctxt "UI"
 msgid "Financial account updated"
-msgstr "Аккаунт для выплат обновлен"
+msgstr "Финансовый счет обновлен"
 
 #: web/models.py:1326
 msgctxt "UI"
