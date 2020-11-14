@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-10 09:32+0000\n"
-"PO-Revision-Date: 2020-10-31 14:26+0000\n"
+"PO-Revision-Date: 2020-11-15 15:28+0000\n"
 "Last-Translator: Iryna Bashkova <csepcsar@gmail.com>\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/js/ru/>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/js/ru/>"
+"\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.3.2-dev\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4-dev\n"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:768
 #: packages/slushpool/app/workspace/mining/workers/modules/LabelsManager.tsx:570
@@ -3284,7 +3286,7 @@ msgstr "Отключить"
 #: /checksum/DI3eXXShyd
 msgctxt "UI"
 msgid "An error has occurred while loading the page!"
-msgstr ""
+msgstr "Произошла ошибка при загрузке страницы!"
 
 #: packages/slushpool/app/@routes/containers/Public.tsx:354
 #: packages/slushpool/app/@routes/containers/Public.tsx:354
@@ -3295,7 +3297,7 @@ msgstr ""
 #: /checksum/+2DTFUN1Wz
 msgctxt "UI"
 msgid "Sign Up"
-msgstr ""
+msgstr "Зарегистрироваться"
 
 #: packages/slushpool/app/@routes/containers/Public.tsx:425
 #: packages/slushpool/app/@routes/containers/Public.tsx:425
@@ -3305,7 +3307,7 @@ msgstr ""
 #: packages/slushpool/components/shell/BarLinks.tsx:61 /checksum/4arFVhx+6a
 msgctxt "UI"
 msgid "Language"
-msgstr ""
+msgstr "Язык"
 
 #: packages/slushpool/app/@routes/containers/Public.tsx:452
 #: packages/slushpool/app/@routes/containers/Public.tsx:452
@@ -3313,14 +3315,14 @@ msgstr ""
 #: /checksum/uxqc6sfqLo
 msgctxt "UI"
 msgid "Braiins | Bitcoin mining full stack company"
-msgstr ""
+msgstr "Braiins | Компания с полным стеком биткойн майнинга"
 
 #: packages/slushpool/app/@routes/containers/Public.tsx:453
 #: packages/slushpool/app/@routes/containers/Public.tsx:453
 #: /checksum/ceat+CKIE+
 msgctxt "UI"
 msgid "Bitcoin mining full stack company"
-msgstr ""
+msgstr "Компания с полным стеком биткойн майнинга"
 
 #: packages/slushpool/app/@routes/containers/Public.tsx:454
 #: packages/slushpool/app/@routes/containers/Public.tsx:454
@@ -3330,41 +3332,42 @@ msgid ""
 "Pushing the mining industry forward with a full-stack solution from mining "
 "firmware up to the pool"
 msgstr ""
+"Продвигаем отрасль вперед с помощью полного майниг стека, от прошивки до пула"
 
 #: packages/slushpool/app/@routes/containers/Public.tsx:472
 #: packages/slushpool/app/@routes/containers/Public.tsx:472
 #: /checksum/eEmDhl/XJX
 msgctxt "UI"
 msgid "Mobile app"
-msgstr ""
+msgstr "Мобильное приложение"
 
 #: packages/slushpool/app/@routes/containers/Public.tsx:481
 #: packages/slushpool/app/@routes/containers/Public.tsx:481
 #: /checksum/t4mIsufmwu
 msgctxt "UI"
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Диагностика & Устранение неполадок"
 
 #: packages/slushpool/app/@routes/containers/Public.tsx:485
 #: packages/slushpool/app/@routes/containers/Public.tsx:485
 #: /checksum/ukbShBZwK9
 msgctxt "UI"
 msgid "API & Proxy"
-msgstr ""
+msgstr "API & Proxy"
 
 #: packages/slushpool/app/@routes/containers/Public.tsx:489
 #: packages/slushpool/app/@routes/containers/Public.tsx:489
 #: /checksum/pdHjAp1wEx
 msgctxt "UI"
 msgid "Contact us"
-msgstr ""
+msgstr "Свяжитесь с нами"
 
 #: packages/slushpool/app/@routes/containers/Public.tsx:498
 #: packages/slushpool/app/@routes/containers/Public.tsx:498
 #: /checksum/Sdq6eGF2h/
 msgctxt "UI"
 msgid "Terms & Conditions"
-msgstr ""
+msgstr "Условия & Политики"
 
 #: packages/slushpool/app/@routes/authViews/AccountConfirm.tsx:83
 #: packages/slushpool/app/@routes/authViews/AccountConfirm.tsx:83
@@ -3396,28 +3399,28 @@ msgstr ""
 #: /checksum/ZYbsui/w4d
 msgctxt "UI"
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 #: packages/slushpool/app/@routes/authViews/PasswordResetConfirm.tsx:230
 #: packages/slushpool/app/@routes/authViews/PasswordResetConfirm.tsx:230
 #: /checksum/aqHapJdcWt
 msgctxt "UI"
 msgid "Enter new Password"
-msgstr ""
+msgstr "Введите новый пароль"
 
 #: packages/slushpool/app/@routes/authViews/ConfirmUserRequest.tsx:110
 #: packages/slushpool/app/@routes/authViews/ConfirmUserRequest.tsx:110
 #: /checksum/ntWXz7R3EG
 msgctxt "UI"
 msgid "Access denied, you need to login first!"
-msgstr ""
+msgstr "В доступе отказано, сначала вам необходимо войти в систему!"
 
 #: packages/slushpool/app/@routes/authViews/ConfirmUserRequest.tsx:165
 #: packages/slushpool/app/@routes/authViews/ConfirmUserRequest.tsx:165
 #: /checksum/vCucoDJ6+S
 msgctxt "UI"
 msgid "User Request"
-msgstr ""
+msgstr "Запрос пользователя"
 
 #: packages/slushpool/app/@routes/authViews/ConfirmUserRequest.tsx:232
 #: packages/slushpool/app/@routes/authViews/ConfirmUserRequest.tsx:232
@@ -3426,7 +3429,7 @@ msgstr ""
 #: /checksum/1q2oGHtz1h
 msgctxt "UI"
 msgid "Continue"
-msgstr ""
+msgstr "Продолжить"
 
 #: packages/slushpool/app/@routes/authViews/PasswordReset.tsx:109
 #: packages/slushpool/app/@routes/authViews/PasswordReset.tsx:109
@@ -3436,6 +3439,8 @@ msgid ""
 "Please enter your e-mail address below. We will send you instructions for "
 "setting a new password."
 msgstr ""
+"Пожалуйста введите свою электронную почту ниже. Мы отправим вам инструкции "
+"по установке нового пароля."
 
 #: packages/slushpool/app/@routes/authViews/PasswordReset.tsx:122
 #: packages/slushpool/app/@routes/authViews/PasswordReset.tsx:122
@@ -3445,20 +3450,22 @@ msgid ""
 "If there is an account associated with this email address you will receive a"
 " password reset email."
 msgstr ""
+"Если с этим адресом электронной почты связана учетная запись, вы получите "
+"письмо для сброса пароля."
 
 #: packages/slushpool/app/@routes/authViews/PasswordReset.tsx:140
 #: packages/slushpool/app/@routes/authViews/PasswordReset.tsx:140
 #: /checksum/c8mWFcMXtx
 msgctxt "UI"
 msgid "Go back to Log In"
-msgstr ""
+msgstr "Вернуться к входу в систему"
 
 #: packages/slushpool/app/@routes/authViews/PasswordReset.tsx:167
 #: packages/slushpool/app/@routes/authViews/PasswordReset.tsx:167
 #: /checksum/52jqxzhVUG
 msgctxt "UI"
 msgid "Your e-mail"
-msgstr ""
+msgstr "Ваш адрес электронной почты"
 
 #: packages/slushpool/app/@routes/authViews/Unsubscribe.tsx:96
 #: packages/slushpool/app/@routes/authViews/Unsubscribe.tsx:96
@@ -3467,7 +3474,7 @@ msgstr ""
 #: /checksum/Gv+maudXng
 msgctxt "UI"
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Отказаться от подписки"
 
 #: packages/slushpool/app/@routes/authViews/ThankYou.tsx:22
 #: packages/slushpool/app/@routes/authViews/ThankYou.tsx:22
@@ -3477,6 +3484,8 @@ msgid ""
 "Please finish the registration by following the activation link in your "
 "email. (Do not forget to check the Spam folder if necessary)"
 msgstr ""
+"Завершите регистрацию, перейдя по ссылке активации в вашем электронном "
+"письме. (Не забудьте при необходимости проверить папку «Спам»)"
 
 #: packages/slushpool/app/workspace/mining/dashboard/containers/Dashboard.tsx:136
 #: shared/lib/layout/components/Layout.tsx:106
@@ -3485,35 +3494,35 @@ msgstr ""
 #: shared/lib/layout/components/Layout.tsx:106 /checksum/cVJRkxBrxE
 msgctxt "UI"
 msgid "An error has occurred!"
-msgstr ""
+msgstr "Произошла ошибка!"
 
 #: packages/slushpool/app/workspace/mining/workers/constants.tsx:86
 #: packages/slushpool/app/workspace/mining/workers/constants.tsx:86
 #: /checksum/p1kceGIUOS
 msgctxt "UI"
 msgid "Less Than"
-msgstr ""
+msgstr "Меньше, чем"
 
 #: packages/slushpool/app/workspace/mining/workers/constants.tsx:87
 #: packages/slushpool/app/workspace/mining/workers/constants.tsx:87
 #: /checksum/CCN0EaO6qg
 msgctxt "UI"
 msgid "Equals"
-msgstr ""
+msgstr "Равно"
 
 #: packages/slushpool/app/workspace/mining/workers/constants.tsx:88
 #: packages/slushpool/app/workspace/mining/workers/constants.tsx:88
 #: /checksum/qfvVARQ3UF
 msgctxt "UI"
 msgid "More Than"
-msgstr ""
+msgstr "Больше, чем"
 
 #: packages/slushpool/admin/administrative/containers/AdministrativeOverview.tsx:86
 #: packages/slushpool/admin/administrative/containers/AdministrativeOverview.tsx:86
 #: /checksum/LCpBtbm6oj
 msgctxt "UI"
 msgid "Filter"
-msgstr ""
+msgstr "Фильтровать"
 
 #: packages/slushpool/admin/administrative/components/AdministrativeForm.tsx:337
 #: packages/slushpool/admin/administrative/components/AdministrativeForm.tsx:337
@@ -3522,35 +3531,35 @@ msgstr ""
 #: /checksum/frku1KthfI
 msgctxt "UI"
 msgid "Create Request"
-msgstr ""
+msgstr "Создать запрос"
 
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:221
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:221
 #: /checksum/mEH04WmWNY
 msgctxt "UI"
 msgid "Block Rewards"
-msgstr ""
+msgstr "Вознаграждения за блок"
 
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:222
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:222
 #: /checksum/dnK3RcL+9z
 msgctxt "UI"
 msgid "Special Rewards"
-msgstr ""
+msgstr "Специальные вознаграждения"
 
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:240
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:240
 #: /checksum/3SYsSQJhII
 msgctxt "UI"
 msgid "Rewards Type"
-msgstr ""
+msgstr "Тип вознаграждения"
 
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:331
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:331
 #: /checksum//e3Aznop9V
 msgctxt "UI"
 msgid "Mining Units Rewards Chart"
-msgstr ""
+msgstr "Таблица вознаграждений за майнинг единицы"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:463
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:357
@@ -3559,28 +3568,28 @@ msgstr ""
 #: /checksum/f6H2CDZXHc
 msgctxt "UI"
 msgid "Rewards History"
-msgstr ""
+msgstr "История вознаграждений"
 
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:367
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:367
 #: /checksum/6n4Ysj8Uvp
 msgctxt "UI"
 msgid "Confirmed Rewards"
-msgstr ""
+msgstr "Подтвержденные вознаграждения"
 
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:374
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:374
 #: shared/components/jsonView/templates.tsx:21 /checksum/erDOVAqoS8
 msgctxt "UI"
 msgid "Unconfirmed Rewards"
-msgstr ""
+msgstr "Неподтвержденные вознаграждения"
 
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:380
 #: packages/slushpool/app/workspace/history/rewards/Rewards.tsx:380
 #: /checksum/8DoQDFwLgG
 msgctxt "UI"
 msgid "All-time Rewards"
-msgstr ""
+msgstr "Вознаграждения за все время"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:474
 #: packages/slushpool/app/workspace/history/activity/Activity.tsx:145
@@ -3588,7 +3597,7 @@ msgstr ""
 #: /checksum/kzNaw/70C7
 msgctxt "UI"
 msgid "Activity history"
-msgstr ""
+msgstr "История активности"
 
 #: packages/slushpool/app/workspace/history/payouts/Payouts.tsx:117
 #: packages/slushpool/app/workspace/history/payouts/Payouts.tsx:117
@@ -3596,7 +3605,7 @@ msgstr ""
 #: /checksum/ZDMO442rfS
 msgctxt "UI"
 msgid "Financial Account"
-msgstr ""
+msgstr "Финансовый счет"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:468
 #: packages/slushpool/app/workspace/history/payouts/Payouts.tsx:162
@@ -3604,20 +3613,20 @@ msgstr ""
 #: /checksum/CoI4PlzeUW
 msgctxt "UI"
 msgid "Payouts History"
-msgstr ""
+msgstr "История выплат"
 
 #: packages/slushpool/app/workspace/history/payouts/Payouts.tsx:169
 #: packages/slushpool/app/workspace/history/payouts/Payouts.tsx:169
 #: /checksum/mlYYWUHYBg
 msgctxt "UI"
 msgid "You don't have any payouts yet…"
-msgstr ""
+msgstr "У вас пока нет выплат…"
 
 #: packages/slushpool/app/stats/containers/Stats.tsx:151
 #: packages/slushpool/app/stats/containers/Stats.tsx:151 /checksum/oD7ea6Xmt9
 msgctxt "UI"
 msgid "System Statistics"
-msgstr ""
+msgstr "Системная статистика"
 
 #: packages/slushpool/app/stats/containers/Stats.tsx:162
 #: packages/slushpool/app/stats/containers/Stats.tsx:162
@@ -3627,7 +3636,7 @@ msgstr ""
 #: /checksum/luTG62kKuc
 msgctxt "UI"
 msgid "Recent Hash Rate"
-msgstr ""
+msgstr "Недавний хешрейт"
 
 #: packages/slushpool/app/homepage/containers/Homepage.tsx:96
 #: packages/slushpool/app/homepage/containers/Homepage.tsx:96
