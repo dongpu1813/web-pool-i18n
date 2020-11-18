@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-10 09:33+0000\n"
 "PO-Revision-Date: 2020-11-20 01:29+0000\n"
-"Last-Translator: Jáchym Černý <jachym.cerny@braiins.cz>\n"
+"Last-Translator: JohnsonWang <johnsonwong@westudyin.cz>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "slushpool/js/zh_Hans/>\n"
 "Language: zh\n"
@@ -5432,7 +5432,6 @@ msgstr "矿工编辑"
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:692
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:702
 #: /checksum/LtqahrcRnS
-#, fuzzy
 msgctxt "UI"
 msgid "Worker"
 msgstr "矿工"
