@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-10 09:33+0000\n"
 "PO-Revision-Date: 2020-11-22 16:29+0000\n"
-"Last-Translator: JohnsonWang <johnsonwong@westudyin.cz>\n"
+"Last-Translator: Jáchym Černý <jachym.cerny@braiins.cz>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "slushpool/js/zh_Hans/>\n"
 "Language: zh\n"
@@ -3902,7 +3902,7 @@ msgstr "算力（5分钟）"
 #, fuzzy
 msgctxt "UI"
 msgid "Worker States"
-msgstr "矿工名状态"
+msgstr "矿工状态"
 
 #: shared/constants/strings.tsx:25 shared/constants/strings.tsx:25
 #: /checksum/c9zC8MorzW
@@ -4499,11 +4499,12 @@ msgstr "您可以暂停您所有的提现，覆盖您的提现规则，并无限
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:241
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:241
 #: /checksum/0k4dxewhd8
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "To resume payouts in the future, you will be prompted for your password and "
 "2FA if enabled."
-msgstr ""
+msgstr "想要继续提现，您将会看到弹出要求您输入密码和2FA（如果启用）的提示。"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:351
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:351
@@ -4630,12 +4631,13 @@ msgstr "自定API和数据输出"
 
 #: packages/slushpool/app/VIP/VIP.tsx:182
 #: packages/slushpool/app/VIP/VIP.tsx:182 /checksum/7zGjho0+Tq
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "Eager for more data? We can provide you with data exports customized for "
 "your needs. API improvements are also possible, either by extending our "
 "<a>public API</a> or by deploying a private API endpoint."
-msgstr ""
+msgstr "想要多个数据？我们可以给您提供自定数据输出。API改进也可以做，要么通过扩展我们 <a>公共API</a> 要么通过部署个人API终端。"
 
 #: packages/slushpool/app/VIP/VIP.tsx:194
 #: packages/slushpool/app/VIP/VIP.tsx:194 /checksum/lNO5HVAIen
@@ -4646,53 +4648,61 @@ msgstr "请求数据"
 
 #: packages/slushpool/app/VIP/VIP.tsx:207
 #: packages/slushpool/app/VIP/VIP.tsx:207 /checksum/Q1uTEBJuuR
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "As a Slush Pool VIP, you qualify for extra support setting up and running "
 "<a>Braiins OS+</a>, our enterprise-ready per-chip autotuning firmware."
-msgstr ""
+msgstr "作为Slush Pool矿池的VIP，您可以享受高级的客服来设置和运营<a>Braiins OS+</a>我们公司的企业级每芯片自动调整固件。"
 
 #: packages/slushpool/app/VIP/VIP.tsx:236
 #: packages/slushpool/app/VIP/VIP.tsx:236 /checksum/XoerhlljCp
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "Braiins OS+ also includes an implementation of the next-generation mining "
 "protocol, <a>Stratum V2</a>."
-msgstr ""
+msgstr "Braiins OS+也包含下一代挖矿协议<a>阶层Stratum V2协议</a>的应用。"
 
 #: packages/slushpool/app/VIP/VIP.tsx:257
 #: packages/slushpool/app/VIP/VIP.tsx:257 /checksum/jhlEtw9yuy
+#, fuzzy
 msgctxt "UI"
 msgid "Help me Switch to bOS"
-msgstr ""
+msgstr "帮我切换到bOS"
 
 #: packages/slushpool/app/VIP/VIP.tsx:330
 #: packages/slushpool/app/VIP/VIP.tsx:330 /checksum/8B0EZ4nH2c
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "You are a <b>Slush Pool VIP</b>.<br />Thank you for your valuable "
 "contribution to our pool.<br />As a VIP, you have access to the following "
 "premium features and services."
 msgstr ""
+"您是<b>Slush Pool矿池的VIP</b>.<br />感谢您对矿池的重要贡献<br />作为VIP， 您可以使用以下的高级特性和服务。"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:156
 #: /checksum/2yeFDWJtKj
+#, fuzzy
 msgctxt "UI"
 msgid "(Un)Lock Payouts"
-msgstr ""
+msgstr "解锁/锁定提现"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:179
 #: /checksum/6sv1/Q4A4J
+#, fuzzy
 msgctxt "UI"
 msgid "Modify Reward Split"
-msgstr ""
+msgstr "调整收益拆分"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:193
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:213
 #: /checksum/xRbj9iy83R
+#, fuzzy
 msgctxt "UI"
 msgid "The split sum must be exactly 100%, but yours is $value!"
-msgstr ""
+msgstr "拆分必须是100%，但您的是$值！"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:205
 #: /checksum/9vAq+tpXP6
@@ -4702,59 +4712,68 @@ msgstr ""
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:231
 #: /checksum/DL6km327wf
+#, fuzzy
 msgctxt "UI"
 msgid "The changes have been saved"
-msgstr ""
+msgstr "更新已保存"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:249
 #: /checksum/2yGEwzRa5w
+#, fuzzy
 msgctxt "UI"
 msgid "Create a new Financial Account"
-msgstr ""
+msgstr "创建新金融账户"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:324
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:217
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:217
 #: /checksum/mOQPUnzQyj
+#, fuzzy
 msgctxt "UI"
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:339
 #: /checksum/2V7x0SBHy8
+#, fuzzy
 msgctxt "UI"
 msgid "Payouts are locked"
-msgstr ""
+msgstr "提现已锁定"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:347
 #: /checksum/YLzqzRXWWW
+#, fuzzy
 msgctxt "UI"
 msgid "Select how you want to split rewards between your financial accounts."
-msgstr ""
+msgstr "选择如何在您金融账户之间拆分收益。"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:361
 #: /checksum/zuaCfA2m9o
+#, fuzzy
 msgctxt "UI"
 msgid "No accounts have been assigned yet…"
-msgstr ""
+msgstr "还没分配任何账户…"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:369
 #: /checksum//fMfEYbtgm
+#, fuzzy
 msgctxt "UI"
 msgid "No Accounts Available!"
-msgstr ""
+msgstr "没有任何账户！"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:371
 #: /checksum/6ttaOIhgI+
+#, fuzzy
 msgctxt "UI"
 msgid "Add Another Financial Account"
-msgstr ""
+msgstr "添加其他金融账户"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:396
 #: /checksum/EAlOzfosrv
+#, fuzzy
 msgctxt "UI"
 msgid "Change the Reward Split of this Mining Unit"
-msgstr ""
+msgstr "为此挖矿单位更改收益拆分"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:399
 #: /checksum//OPTBlwu72
@@ -4765,207 +4784,238 @@ msgstr ""
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:409
 #: /checksum/ufNxHx0Q6f
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "As a security precaution, you may lock your payout setup so that it cannot "
 "be changed by anyone who gains access to your pool account. In practice, it "
 "means that <b>it won’t be possible to</b>:"
-msgstr ""
+msgstr "作为安全预防措施，您可以锁定您当前的提现设置，让任何取得您矿池账户的访问权的人也无法改变它。实际上，这意味着<b>无法</b>:"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:418
 #: /checksum/GenE7gMjia
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "To unlock the setup in the future, you will need to contact our support team"
 " and provide proof of your control over at least one of the linked "
 "cryptocurrency addresses or over the hash rate."
-msgstr ""
+msgstr "想要在以后解锁设置，您将需要联系我们客服团队并提供您对至少一个连接的加密货币地址或算力的控制。"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:425
 #: /checksum/LDOvXNIuAH
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "Please note that the manual verification procedure may take up to several "
 "days to complete."
-msgstr ""
+msgstr "请注意手动验证过程可能需要几天的时间才能完成。"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:438
 #: /checksum/B1ZC54mw/w
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "Your payout setup has been locked on your request. It means that it is "
 "<b>not possible to</b>:"
-msgstr ""
+msgstr "按照您的请求，您的提现设置已锁定了。这意味着 <b>无法</b>:"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:447
 #: /checksum/IslqjNcnL2
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "If you wish to unlock your payout setup, please contact our support team and"
 " follow their instructions."
-msgstr ""
+msgstr "如果您想解锁您的提现设置，请联系我们客服团队并按照他们的步骤进行解锁。"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:458
 #: /checksum/yAE5sYbDPa
+#, fuzzy
 msgctxt "UI"
 msgid "Payout Setup Lock"
-msgstr ""
+msgstr "提现设置锁"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:478
 #: /checksum/jUDDwKlnGG
+#, fuzzy
 msgctxt "UI"
 msgid "I understand the consequences and I wish to lock my payout setup"
-msgstr ""
+msgstr "我了解后果并希望锁定我的提现设置"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:500
 #: /checksum/XYapy9vKUS
+#, fuzzy
 msgctxt "UI"
 msgid "Contact Support"
-msgstr ""
+msgstr "联系客服"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:521
 #: /checksum/qafS9tHCQy
+#, fuzzy
 msgctxt "UI"
 msgid "Monitoring settings changed"
-msgstr ""
+msgstr "监控设置已更改"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:522
 #: /checksum/UMsTLbHveL
+#, fuzzy
 msgctxt "UI"
 msgid "Failed to save monitoring settings!"
-msgstr ""
+msgstr "保存监控更改失败！"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:537
 #: /checksum/cx48aCGzPm
+#, fuzzy
 msgctxt "UI"
 msgid "Receive e-mail notifications from the monitoring system."
-msgstr ""
+msgstr "收到监控系统的电邮通知"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:559
 #: /checksum/4anV84Z5al
+#, fuzzy
 msgctxt "UI"
 msgid "Modify Mining Settings"
-msgstr ""
+msgstr "更改挖矿设置"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:574
 #: /checksum/gxsKStnAgc
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "The pool automatically assings jobs to your devices with an optimal "
 "difficulty using the VarDiff algorithm. In the majority of cases, there is "
 "no need to adjust the minimum difficulty."
-msgstr ""
+msgstr "矿池通过使用变量困难值(Vardiff)算法，自动为您的设备优化难度。在大部分情况下，您不需要自己手动调整最低难度。"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:630
 #: /checksum/EoYtcUYsGL
+#, fuzzy
 msgctxt "UI"
 msgid "Tag"
-msgstr ""
+msgstr "标签"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:636
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:870
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:135
 #: /checksum/XyJnswG0wU
+#, fuzzy
 msgctxt "UI"
 msgid "Connect Workers"
-msgstr ""
+msgstr "连接矿工名"
 
 #: packages/slushpool/app/stats/containers/PoolHashrateChart.tsx:54
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkerHashRateChart.tsx:52
 #: shared/components/jsonView/registry/panel/RowUserHashrateChart.tsx:60
 #: shared/components/jsonView/registry/panel/RowUserHashrateChart.tsx:60
 #: /checksum/RvSjiI9GOV
+#, fuzzy
 msgctxt "UI"
 msgid "Show found blocks"
-msgstr ""
+msgstr "表示已发现的区块"
 
 #: packages/slushpool/app/stats/constants.tsx:13
 #: packages/slushpool/app/workspace/mining/dashboard/constants.tsx:103
 #: /checksum/b/2jM5Kp8A
+#, fuzzy
 msgctxt "UI"
 msgid "Current Block Info"
-msgstr ""
+msgstr "当前区块消息"
 
 #: packages/slushpool/app/stats/constants.tsx:27
 #: packages/slushpool/app/workspace/mining/dashboard/constants.tsx:124
 #: /checksum/eNpihnOYBZ
+#, fuzzy
 msgctxt "UI"
 msgid "Luck per Number of Blocks"
-msgstr ""
+msgstr "每数字区块的幸运值"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:283
 #: /checksum/Msgn22qbsq
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "Showing <strong>{visible, number}</strong> of {all, plural, =1 {# Worker} "
 "other {# Workers}}."
 msgstr ""
+"表示 <strong>{visible, number}</strong> 的{all, plural, =1 {# Worker} 其他 {# "
+"Workers}}."
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:424
 #: /checksum/wHOXxtZ/fp
+#, fuzzy
 msgctxt "UI"
 msgid "Worker(s) update has been applied"
-msgstr ""
+msgstr "矿工名更新已执行"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:438
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:231
 #: /checksum/V+J1FveCej
+#, fuzzy
 msgctxt "UI"
 msgid "Delete {count, plural, =1 {# Worker} other {# Workers}}?"
-msgstr ""
+msgstr "删除{count, plural, =1 {# Worker} 其他 {# Workers}}?"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:441
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:234
 #: /checksum/8hf38dpBIH
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "Do you really want to delete {count, plural, =1 {# worker} other {# "
 "workers}}?"
-msgstr ""
+msgstr "您真的想删除{count, plural, =1 {# worker} 其他 {# workers}}?"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:528
 #: /checksum/PdFwacNZR0
+#, fuzzy
 msgctxt "UI"
 msgid "HR (5 minute)"
-msgstr ""
+msgstr "算力（5分钟）"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:535
 #: /checksum/5wJJo6o22X
+#, fuzzy
 msgctxt "UI"
 msgid "HR (1 hour)"
-msgstr ""
+msgstr "算力（一个小时）"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:542
 #: /checksum/7q7wHN6YUg
+#, fuzzy
 msgctxt "UI"
 msgid "HR (1 day)"
-msgstr ""
+msgstr "算力（一天）"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:572
 #: shared/components/jsonView/registry/panel/CellBlocksTable.tsx:55
 #: shared/components/jsonView/registry/panel/CellBlocksTable.tsx:55
 #: /checksum/I6d4bb/PFs
+#, fuzzy
 msgctxt "UI"
 msgid "Scoring HR"
-msgstr ""
+msgstr "计分算力"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:703
 #: /checksum/0IM1nSbzzC
+#, fuzzy
 msgctxt "UI"
 msgid "5 minute"
-msgstr ""
+msgstr "5分钟"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:706
 #: /checksum/JFhZJvdi9A
+#, fuzzy
 msgctxt "UI"
 msgid "1 hour"
-msgstr ""
+msgstr "一个小时"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:708
 #: /checksum/fqdP/W2T/h
+#, fuzzy
 msgctxt "UI"
 msgid "1 day"
-msgstr ""
+msgstr "一天"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:787
 #: /checksum/pAAFLUQNaU
@@ -4975,58 +5025,67 @@ msgstr ""
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:788
 #: /checksum/nXiVKn5CtN
+#, fuzzy
 msgctxt "UI"
 msgid "No workers…"
-msgstr ""
+msgstr "没有矿工名…"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:808
 #: /checksum/UUmSZ4xvkX
+#, fuzzy
 msgctxt "UI"
 msgid "Filter by"
-msgstr ""
+msgstr "筛选以"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:824
 #: /checksum/l+6Qh7aYkr
+#, fuzzy
 msgctxt "UI"
 msgid "Input string or RegExp to filter the table"
-msgstr ""
+msgstr "输入串或正式表达式(RegExp)来筛选表格"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:837
 #: /checksum/G6BtbGYi3A
+#, fuzzy
 msgctxt "UI"
 msgid "Secondary HR"
-msgstr ""
+msgstr "次要算力"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkerDetail.tsx:307
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:971
 #: /checksum/0zl2KfrT2e
+#, fuzzy
 msgctxt "UI"
 msgid "5 minute HR"
-msgstr ""
+msgstr "5分钟算力"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:975
 #: shared/components/jsonView/templates.tsx:44 /checksum/dNKb5ni9mt
+#, fuzzy
 msgctxt "UI"
 msgid "1 Hour HR"
-msgstr ""
+msgstr "一个小时算力"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:979
 #: /checksum/4FOvTuPFWc
+#, fuzzy
 msgctxt "UI"
 msgid "24 Hour HR"
-msgstr ""
+msgstr "24个小时算力"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:1002
 #: /checksum/fh7DA6jyhy
+#, fuzzy
 msgctxt "UI"
 msgid "Apply Filter"
-msgstr ""
+msgstr "应用筛选"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:1035
 #: /checksum/3W96F0pPES
+#, fuzzy
 msgctxt "UI"
 msgid "Workers List"
-msgstr ""
+msgstr "矿工名列表"
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:225
 #: packages/slushpool/components/Appeals/Appeals.tsx:93
@@ -5035,9 +5094,10 @@ msgstr ""
 #: shared/components/carbon/DatePager/DatePager.tsx:90
 #: shared/lib/helpOverlay/HelpMe.tsx:103 shared/lib/helpOverlay/HelpMe.tsx:103
 #: /checksum/xku/Ae0wC2
+#, fuzzy
 msgctxt "UI"
 msgid "Previous"
-msgstr ""
+msgstr "上一"
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:232
 #: packages/slushpool/components/Appeals/Appeals.tsx:102
@@ -5046,29 +5106,33 @@ msgstr ""
 #: shared/components/carbon/DatePager/DatePager.tsx:102
 #: shared/lib/helpOverlay/HelpMe.tsx:109 shared/lib/helpOverlay/HelpMe.tsx:109
 #: /checksum/FLgviAnpcl
+#, fuzzy
 msgctxt "UI"
 msgid "Next"
-msgstr ""
+msgstr "下一"
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:345
 #: /checksum/dGhcnmnb/r
+#, fuzzy
 msgctxt "UI"
 msgid "Incident detail"
-msgstr ""
+msgstr "事件详细"
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:356
 #: /checksum/WawhIiQrta
+#, fuzzy
 msgctxt "UI"
 msgid "Event Time: {time}"
-msgstr ""
+msgstr "事件时间: {time}"
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:413
 #: /checksum/kOqnN8ZSfL
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "Use <b>arrow keys</b> to navigate through other incidents. Close by "
 "<b>Esc</b>."
-msgstr ""
+msgstr "使用 <b>导航键</b> 定位其他事件。用 <b>Esc键</b>关闭。"
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:599
 #: /checksum/uRt+gPout/
@@ -5078,51 +5142,59 @@ msgstr ""
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkerDetail.tsx:311
 #: /checksum/MAHUe8fnl1
+#, fuzzy
 msgctxt "UI"
 msgid "Hour HR"
-msgstr ""
+msgstr "小时算力"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkerDetail.tsx:315
 #: /checksum/IL07wqMQAb
+#, fuzzy
 msgctxt "UI"
 msgid "24 Hours HR"
-msgstr ""
+msgstr "24个小时算力"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkerDetail.tsx:383
 #: /checksum/zzxVRMFJ1A
+#, fuzzy
 msgctxt "UI"
 msgid "Worker Detail"
-msgstr ""
+msgstr "矿工详细"
 
 #: packages/slushpool/app/@containers/RewardsChart.tsx:104
 #: /checksum/9BGGL7/Ssg
+#, fuzzy
 msgctxt "UI"
 msgid "Reward"
-msgstr ""
+msgstr "收益"
 
 #: packages/slushpool/app/@containers/RewardsChart.tsx:164
 #: /checksum/yieT/QnKQL
+#, fuzzy
 msgctxt "UI"
 msgid "Toggle Active Range"
-msgstr ""
+msgstr "切换启用范围"
 
 #: shared/types/payouts.tsx:239 shared/types/payouts.tsx:239
 #: /checksum/XiWjcBPtMW
+#, fuzzy
 msgctxt "UI"
 msgid "BTC Address"
-msgstr ""
+msgstr "比特币地址"
 
 #: shared/types/payouts.tsx:247 shared/types/payouts.tsx:247
 #: /checksum/YV+7EVjD6L
+#, fuzzy
 msgctxt "UI"
 msgid "Invalid BTC Wallet Address"
-msgstr ""
+msgstr "比特币钱包地址无效"
 
 #: shared/types/payouts.tsx:421 shared/types/payouts.tsx:421
 #: /checksum/HChn9Vp9XP
+#, fuzzy
 msgctxt "UI"
 msgid "Please enter number between $min and $max"
-msgstr ""
+msgstr "请您输入介于 $min 和 $max之间的数字。"
 
 #: shared/types/payouts.tsx:437 shared/types/payouts.tsx:437
 #: /checksum/FJaI5GBqE0
@@ -5144,44 +5216,50 @@ msgstr ""
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:33
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:33
 #: /checksum/PoE/yfXK6c
+#, fuzzy
 msgctxt "UI"
 msgid "Date of the reward event"
-msgstr ""
+msgstr "收益事件的日期"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:39
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:39
 #: /checksum/RV+4D/ARVk
+#, fuzzy
 msgctxt "UI"
 msgid "Reward type"
-msgstr ""
+msgstr "收益类型"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:45
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:45
 #: /checksum/eJhgXB8Ebo
+#, fuzzy
 msgctxt "UI"
 msgid "Time period"
-msgstr ""
+msgstr "时间段"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:51
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:51
 #: /checksum/1CF+c13iPp
+#, fuzzy
 msgctxt "UI"
 msgid "Rebate rate"
-msgstr ""
+msgstr "回返率"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:57
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:57
 #: /checksum/T1rg09AkN+
+#, fuzzy
 msgctxt "UI"
 msgid "Your reward"
-msgstr ""
+msgstr "您的收益"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:69
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:69
 #: /checksum/vC6dwzZe0P
+#, fuzzy
 msgctxt "UI"
 msgid "VIP rebate"
-msgstr ""
+msgstr "VIP回返"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:74
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:74
@@ -5193,25 +5271,28 @@ msgstr ""
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:79
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:79
 #: /checksum/zfTKYDX9Nc
+#, fuzzy
 msgctxt "UI"
 msgid "Braiins OS+ rebate"
-msgstr ""
+msgstr "Braiins OS+ 回返"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:121
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:121
 #: /checksum/FtpLLacUMl
+#, fuzzy
 msgctxt "UI"
 msgid "We're not using Special Rewards anymore from 1st October 2020."
-msgstr ""
+msgstr "我们从2020年10月1号再不使用特殊收益。"
 
 #: packages/slushpool/app/workspace/history/rewards/components/RewardsOverview.tsx:110
 #: packages/slushpool/app/workspace/history/rewards/components/RewardsOverview.tsx:110
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:126
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:126
 #: /checksum/izDDZl0OM2
+#, fuzzy
 msgctxt "UI"
 msgid "You don't have any rewards yet…"
-msgstr ""
+msgstr "您还没有任何收益…"
 
 #: packages/slushpool/app/workspace/history/rewards/components/RewardsOverview.tsx:54
 #: packages/slushpool/app/workspace/history/rewards/components/RewardsOverview.tsx:54
@@ -5255,10 +5336,11 @@ msgstr "登录来看您的通知…"
 #: packages/slushpool/app/@modules/notifications/containers/NotificationsList.tsx:129
 #: packages/slushpool/app/@modules/notifications/containers/NotificationsList.tsx:129
 #: /checksum/95yIsAOHSY
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "{count} unread {count, plural, one {notification} other {notifications}}"
-msgstr ""
+msgstr "{count} 未读 {count, plural, one {notification} 其他 {notifications}}"
 
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:150
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:150
@@ -5413,9 +5495,10 @@ msgstr ""
 
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:367
 #: /checksum/047QURhiaM
+#, fuzzy
 msgctxt "UI"
 msgid "Delete Workers"
-msgstr ""
+msgstr "删除矿工"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:460
 #: /checksum/Wm3a1rEPT5
@@ -5471,9 +5554,10 @@ msgstr "存在的标签"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:115
 #: /checksum/v1VUzyc7RR
+#, fuzzy
 msgctxt "UI"
 msgid "No available URLs for selected location & protocol!"
-msgstr ""
+msgstr "所选的地位和协议没有任何URL链接"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:127
 #: /checksum/aKx6j37gs+
@@ -5483,12 +5567,13 @@ msgstr ""
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:145
 #: /checksum/+wCyIMy1zH
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "Slush Pool servers are located all around the world. For a stable connection"
 " and lower latency, <strong>please select a location</strong> that is "
 "closest to your mining location."
-msgstr ""
+msgstr "Slush Pool的服务器位于世界各地。 <strong>请您选择</strong>最近的地位以获得更稳定的连接和更低的延迟。"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:155
 #: /checksum/ctrsi+0/t8
@@ -5585,20 +5670,22 @@ msgstr "标签"
 
 #: packages/slushpool/app/workspace/mining/monitoring/components/MonitoringChart.tsx:56
 #: /checksum/J1l49XImwa
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "Each point on the chart represents a worker incident and its color describes"
 " the type of incident"
-msgstr ""
+msgstr "图表上的每个点表示矿工的事件，点的颜色表示事件类型"
 
 #: packages/slushpool/app/workspace/mining/monitoring/components/MonitoringChart.tsx:62
 #: /checksum/V0onVvdSJ4
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "For example, when your worker goes from Low to OK, you will see an orange "
 "line followed by a green point and green line, representing the state "
 "change."
-msgstr ""
+msgstr "例如，当您的矿工从低变为正常状态时，您好看到一个橙色线和绿点，表示状态的变化，以及一条绿线。"
 
 #: shared/components/jsonView/templates.tsx:18 /checksum/PwirBTiCuF
 msgctxt "UI"
@@ -5715,70 +5802,80 @@ msgid ""
 msgstr ""
 
 #: shared/components/jsonView/templates.tsx:112 /checksum//W1cXWVeZi
+#, fuzzy
 msgctxt "Intro"
 msgid "Time elapsed since the last payout from one of your Bitcoin accounts."
-msgstr ""
+msgstr "自从您上次从您的比特币账户之一提现已过时间。"
 
 #: shared/components/jsonView/templates.tsx:119 /checksum/8wlo1jwz3q
+#, fuzzy
 msgctxt "Intro"
 msgid ""
 "The estimation is based on your scoring hash rate as a proportion of the "
 "pool's scoring hash rate at the current moment."
-msgstr ""
+msgstr "估算是基于当前您的计分算力作为当前矿池计分算力的一个部分。"
 
 #: shared/components/jsonView/templates.tsx:129 /checksum//rKUedb/be
+#, fuzzy
 msgctxt "Intro"
 msgid "Average daily reward computed from your past rewards."
-msgstr ""
+msgstr "从您以前收益计算的平均每日收益"
 
 #: shared/components/jsonView/templates.tsx:136 /checksum/e2mS3+ORwJ
+#, fuzzy
 msgctxt "Intro"
 msgid ""
 "Estimate of your rewards per day based on your recent hash rate and the "
 "current difficulty. Actual rewards can be more or less depending on the "
 "pool's luck."
-msgstr ""
+msgstr "基于您最近的算力和当前难度，估算您每日的收益。这取决于运气，它可能会更多或更少。"
 
 #: shared/components/jsonView/templates.tsx:146 /checksum/mh1iBw/WKk
+#, fuzzy
 msgctxt "Intro"
 msgid ""
 "Simplified overview of your recent rewards (blocks found) and their "
 "confirmation progress."
-msgstr ""
+msgstr "您的最近收益（已发现的区块）和它们的确认过程的简化概况。"
 
 #: shared/components/jsonView/templates.tsx:155 /checksum/1bOWlLVqIl
+#, fuzzy
 msgctxt "Intro"
 msgid "Last 30 Days of Rewards"
-msgstr ""
+msgstr "最近30天的收益"
 
 #: shared/components/jsonView/templates.tsx:156 /checksum//dh4hWJWHb
+#, fuzzy
 msgctxt "Intro"
 msgid ""
 "Chart of your rewards for the last 30 days. It is normal for the daily "
 "values to fluctuate due to luck."
-msgstr ""
+msgstr "您最近30天收益的图表。您的每日收益值根据幸运值的变化有所变动是正常的。"
 
 #: shared/components/jsonView/templates.tsx:473 /checksum/A5EIQFTXUD
+#, fuzzy
 msgctxt "UI"
 msgid "CDF"
-msgstr ""
+msgstr "累积分布函数值(CDF, Cumulative distribution function)"
 
 #: shared/components/jsonView/templates.tsx:474 /checksum/1IO3l4ZNDo
 msgctxt "UI"
 msgid "Cumulative Distribution Function"
-msgstr ""
+msgstr "累积分布函数值"
 
 #: packages/slushpool/app/workspace/mining/dashboard/constants.tsx:14
 #: /checksum//zaInqUFgu
+#, fuzzy
 msgctxt "UI"
 msgid "Mining Unit Performance"
-msgstr ""
+msgstr "挖矿单位效能"
 
 #: packages/slushpool/app/workspace/mining/dashboard/constants.tsx:32
 #: /checksum/OIq2QxFlyR
+#, fuzzy
 msgctxt "UI"
 msgid "Last share $time ago"
-msgstr ""
+msgstr "最后份额 $时间前"
 
 #: packages/slushpool/app/workspace/mining/dashboard/constants.tsx:63
 #: /checksum/tXvYkVtPT3
@@ -6558,39 +6655,44 @@ msgstr "一次性密码启用失败"
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:356
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:356
 #: /checksum/Wl2iEJm2li
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "OTP secret (we recommend you to backup this secret safely to prevent "
 "autentication issues in case you lost your device)"
-msgstr ""
+msgstr "一次性密码的秘密钥（我们推荐备份密钥来防止验证问题，如果您丢失您的设备）"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:360
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:360
 #: /checksum/72Goh2lhHs
+#, fuzzy
 msgctxt "UI"
 msgid "Not loaded yet…"
-msgstr ""
+msgstr "还没加载…"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:413
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:413
 #: /checksum/DGDoZq5P1F
+#, fuzzy
 msgctxt "UI"
 msgid "OTP disabled"
-msgstr ""
+msgstr "一次性密码禁用"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:416
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:416
 #: /checksum/ut0m8YTZLL
+#, fuzzy
 msgctxt "UI"
 msgid "OTP disabling failed!"
-msgstr ""
+msgstr "一次性密码禁用失败！"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:473
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:473
 #: /checksum/px0S6htHpW
+#, fuzzy
 msgctxt "UI"
 msgid "One Time Password (OTP)"
-msgstr ""
+msgstr "一次性密码（OTP）"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:476
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:476
@@ -6614,16 +6716,18 @@ msgstr ""
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:572
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:572
 #: /checksum/48HlmmGXOi
+#, fuzzy
 msgctxt "UI"
 msgid "U2F token registered"
-msgstr ""
+msgstr "U2F令牌已注册"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:577
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:577
 #: /checksum/mX4cBIYASl
+#, fuzzy
 msgctxt "UI"
 msgid "U2F token registration failed!"
-msgstr ""
+msgstr "U2F令牌注册失败！"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:624
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:624
@@ -6635,96 +6739,109 @@ msgstr ""
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:655
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:655
 #: /checksum/jEejLMeF3h
+#, fuzzy
 msgctxt "UI"
 msgid "U2F token removed"
-msgstr ""
+msgstr "U2F令牌已移除"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:659
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:659
 #: /checksum/LWZqXGZPU+
+#, fuzzy
 msgctxt "UI"
 msgid "U2F token removal failed!"
-msgstr ""
+msgstr "U2F令牌移除失败！"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:766
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:766
 #: /checksum/f64PJu+FaU
+#, fuzzy
 msgctxt "UI"
 msgid "Register U2F device"
-msgstr ""
+msgstr "注册U2F设备"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:768
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:768
 #: /checksum/cQ6eftNb0l
+#, fuzzy
 msgctxt "UI"
 msgid "Remove U2F device"
-msgstr ""
+msgstr "移除U2F设备"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:812
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:812
 #: /checksum/0OYs8zqPEE
+#, fuzzy
 msgctxt "UI"
 msgid "{count} registered {count, plural, =1 {device} other {devices}}"
-msgstr ""
+msgstr "{count} 已注册 {count, plural, =1 {device} 其他 {devices}}"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:826
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:826
 #: /checksum//4FKOKjae1
+#, fuzzy
 msgctxt "UI"
 msgid "Universal Second Factor (U2F)"
-msgstr ""
+msgstr "通用第二因素（U2F）"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:830
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:830
 #: /checksum//vFyAEasrl
+#, fuzzy
 msgctxt "UI"
 msgid ""
 "Physical device following the FIDO Universal 2nd Factor standard. You can "
 "use multiple devices like TREZOR or Ubikey to add another level of security."
-msgstr ""
+msgstr "遵循FIDO通用第二因素标准的物理设备。您可以使用多种设备例如TREZOR或Ubikey来安全级别提高。"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:893
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:893
 #: /checksum/3RFVHvJgvu
+#, fuzzy
 msgctxt "UI"
 msgid "Two-Factor Authentication is currently active."
-msgstr ""
+msgstr "两步验证当前启用。"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:901
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:901
 #: /checksum/NADwaDAKu1
+#, fuzzy
 msgctxt "UI"
 msgid "Two-Factor Authentication is currently NOT active!"
-msgstr ""
+msgstr "两步验证当前不启用！"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:905
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:905
 #: /checksum/lhCC8OvD1j
+#, fuzzy
 msgctxt "UI"
 msgid "We highly recommend using 2FA. You can choose from two options below."
-msgstr ""
+msgstr "我们非常建议使用两步验证。您可以cingulate以下的两个选项选择。"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:916
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:916
 #: /checksum/fKp4Tvnzws
+#, fuzzy
 msgctxt "UI"
 msgid "Two-Factor Authentication"
-msgstr ""
+msgstr "两步验证"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:921
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:921
 #: /checksum/HtVzYrwqjJ
+#, fuzzy
 msgctxt "UI"
 msgid "Loading Data…"
-msgstr ""
+msgstr "加载数据…"
 
 #: shared/components/carbon/Panel/ProgressTable/ProgressTable.tsx:57
 #: shared/components/carbon/Panel/ProgressTable/ProgressTable.tsx:57
 #: shared/components/carbon/Panel/ProgressTable/ProgressTable.tsx:57
 #: /checksum/dKJ/VT5Fd3
+#, fuzzy
 msgctxt "UI"
 msgid "No data…"
-msgstr ""
+msgstr "没有数据…"
 
 #~ msgctxt "UI"
 #~ msgid "Hash Rate<br/>(5 minutes)"
