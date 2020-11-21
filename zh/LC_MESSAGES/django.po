@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-06 15:24+0100\n"
-"PO-Revision-Date: 2020-11-20 01:28+0000\n"
+"PO-Revision-Date: 2020-11-22 16:28+0000\n"
 "Last-Translator: JohnsonWang <johnsonwong@westudyin.cz>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "slushpool/mining/zh_Hans/>\n"
@@ -38,14 +38,14 @@ msgstr "未知错误"
 #, python-format
 msgctxt "UI"
 msgid "Request is not a %s"
-msgstr "请求未 %s"
+msgstr "请求非 %s"
 
 #. Translators: %s will be format description, eg.: JSON
 #: api/exceptions.py:50
 #, python-format
 msgctxt "UI"
 msgid "Response is not a %(format)s serializable"
-msgstr "回复不能%(format)s序列化"
+msgstr "响应不是 %(format)s 的可序列形式"
 
 #: api/exceptions.py:55
 msgctxt "UI"
@@ -91,40 +91,40 @@ msgstr "方法未找到"
 #, python-format
 msgctxt "UI"
 msgid "Bulk %s creation is not allowed"
-msgstr "大量的%s创建不允许"
+msgstr "大量创建%s是不允许的"
 
 #. Translators: %s = worker, label, ...
 #: api/exceptions.py:129
 #, python-format
 msgctxt "UI"
 msgid "Bulk %s deletion is not allowed"
-msgstr "批量%s删除不允许"
+msgstr "批量删除%s是不允许的"
 
 #. Translators: "Label / Worker can't be removed".
 #: api/exceptions.py:135
 #, python-format
 msgctxt "UI"
 msgid "%s can't be removed"
-msgstr "%s 无法删除"
+msgstr "%s 无法被删除"
 
 #. Translators: %s = worker, label, ...
 #: api/exceptions.py:141
 #, python-format
 msgctxt "UI"
 msgid "Access denied to object: %s"
-msgstr "访问: %s 被拒绝"
+msgstr "访问： %s 被拒绝"
 
 #: api/exceptions.py:149
 #, python-format
 msgctxt "UI"
 msgid "Worker \"%s\" already exists (it may have been deactivated)"
-msgstr "矿工 %s 已存在（或已禁用）"
+msgstr "矿工 “%s” 已存在（或已禁用）"
 
 #: api/exceptions.py:154
 #, python-format
 msgctxt "UI"
 msgid "Label \"%s\" already exists"
-msgstr "标签 %s 已经存在"
+msgstr "标签“ %s” 已经存在"
 
 #: api/exceptions.py:159
 msgctxt "UI"
@@ -146,21 +146,21 @@ msgstr "无效的矿工ID。"
 #, python-format
 msgctxt "UI"
 msgid "Slot \"%s\" not found"
-msgstr "时间戳 \"%s\" 未找到"
+msgstr "时间戳 “%s” 未找到"
 
 #. Translators: %s will be timestamp, eg.: "1471594856"
 #: api/exceptions.py:181
 #, python-format
 msgctxt "UI"
 msgid "Slot number \"%s\" is not valid."
-msgstr "编号为 \"%s\" 的时间戳无效。"
+msgstr "编号为 “%s” 的时间戳无效。"
 
 #. Translators: %s will be some invalid blockchain voting option
 #: api/exceptions.py:197
 #, python-format
 msgctxt "UI"
 msgid "You can't vote for \"%s\""
-msgstr "您不能投票给 \"%s\""
+msgstr "您不能投票给 “%s”"
 
 #: api/exceptions.py:202
 msgctxt "UI"
@@ -170,7 +170,7 @@ msgstr "您需指定“币种”属性！"
 #: api/exceptions.py:207
 msgctxt "UI"
 msgid "Missing data for HR distribution"
-msgstr "算力分配数据不足"
+msgstr "缺失算力分配数据"
 
 #: api/exceptions.py:217
 msgctxt "UI"
@@ -187,7 +187,7 @@ msgstr "格式错误"
 #, python-format
 msgctxt "UI"
 msgid "Form \"%s\" doesn't exist"
-msgstr "格式 \"%s\" 不存在"
+msgstr "格式 “%s” 不存在"
 
 #: api/exceptions.py:233
 msgctxt "UI"
@@ -207,7 +207,7 @@ msgstr "未找到双重认证U2F设备。"
 #: api/exceptions.py:263
 msgctxt "UI"
 msgid "U2F verification failed."
-msgstr "双重认证验证失败。"
+msgstr "双重认证U2F验证失败。"
 
 #: api/exceptions.py:268
 msgctxt "UI"
@@ -228,18 +228,18 @@ msgstr "相应口令的设备不存在，请重新配对您的设备。"
 #: api/exceptions.py:291
 msgctxt "UI"
 msgid "OTP verification failed."
-msgstr "一次性密码验证失败。"
+msgstr "一次性密码OTP验证失败。"
 
 #: api/exceptions.py:296
 #, python-format
 msgctxt "UI"
 msgid "Coin \"%(coin)s\" is not allowed. Use one of: %(choices)s"
-msgstr "“%(coin)s”币不被允许使用。 请使用%(choices)s中的一个"
+msgstr "“%(coin)s”币不被允许使用。 请使用：%(choices)s 中的一个"
 
 #: api/exceptions.py:301
 msgctxt "UI"
 msgid "Unexpected server error. Please try again later."
-msgstr "未预料到的服务器错误。请稍后再试。"
+msgstr "未知服务器错误。请稍后再试。"
 
 #: api/exceptions.py:306 formlib/core.py:72
 msgctxt "UI"
@@ -251,7 +251,7 @@ msgctxt "UI"
 msgid ""
 "Please update the app via Play Store / App Store. This version is no longer "
 "supported."
-msgstr "请通过Play 商店/App Store 更新应用。不再支持该版本。"
+msgstr "请通过Play 商店 / App Store 更新应用。该版本已不再提供支持。"
 
 #: api/exceptions.py:321
 msgctxt "UI"
@@ -538,7 +538,7 @@ msgstr "零币Zcash快速指南"
 #: campaigns/email_templates/v4_onboarding.html:298
 msgctxt "email"
 msgid "Do you have more questions? Our support team is always here to help."
-msgstr "您不止有一个问题？我们的客户团队竭诚为您提供帮助。"
+msgstr "您有不少问题？我们的客户团队竭诚为您提供帮助。"
 
 #: campaigns/email_templates/v4_onboarding.html:321
 #: campaigns/email_templates/v4_signup_confirmation.html:325
@@ -607,7 +607,7 @@ msgctxt "email"
 msgid ""
 "Congratulations! You've just reached your %(coin)s payout threshold on the "
 "financial account \"%(name)s\"."
-msgstr "恭喜！您的财务帐户 “%(name)s\" 已达到 %(coin)s 的提现阈值🎉。"
+msgstr "恭喜！您的财务帐户 “%(name)s” 已达到 %(coin)s 的提现阈值🎉。"
 
 #: campaigns/email_templates/v4_payout_sent.html:215
 #, python-format
@@ -707,7 +707,7 @@ msgstr "无效的退订理由。"
 #, python-format
 msgctxt "UI"
 msgid "Feedback must be a string no longer than %d characters."
-msgstr "反馈必须是长于%d个字的字符串。"
+msgstr "反馈必须长于%d个字。"
 
 #: campaigns/forms/validators.py:551
 msgctxt "UI"
@@ -732,13 +732,13 @@ msgstr "Slush Pool矿池团队"
 
 #: core/validators.py:10
 msgid "Enter a valid, non empty value."
-msgstr "请输入一个有效非空白的值。"
+msgstr "请输入一个有效的非空白值。"
 
 #: devices/models.py:50
 #, python-format
 msgctxt "UI"
 msgid "Device was not paired in time limit of %s seconds"
-msgstr "设备未在指定的%s秒内配对"
+msgstr "设备未在要求的%s秒内配对"
 
 #: devices/models.py:54
 msgctxt "UI"
@@ -798,7 +798,7 @@ msgstr "不能停用余额为零的账户。"
 msgctxt "UI"
 msgid ""
 "This account has non-zero split percentage. Reassign its rewards split first."
-msgstr "该账号的分配百分比非零。请先重新分配收益。"
+msgstr "该账号的分配比例非零。请先重新分配收益。"
 
 #: finance/forms/payout_channel.py:60 user_request/models.py:678
 msgctxt "UI"
@@ -825,7 +825,7 @@ msgstr "提现已被锁定。"
 msgctxt "UI"
 msgid ""
 "Payout account \"%(name)s\" does not meet the requirements for payouts lock."
-msgstr "提现账户 \"%(name)s\" 未能达到提现锁的要求。"
+msgstr "提现账户 “%(name)s” 未能达到提现锁的要求。"
 
 #: finance/forms/payout_split.py:47
 msgctxt "UI"
@@ -850,12 +850,12 @@ msgstr "无效的钱包ID!"
 #: finance/forms/validators.py:56
 msgctxt "UI"
 msgid "The wallet must be active!"
-msgstr "钱包名必须在启用状态！"
+msgstr "钱包必须处于启用状态！"
 
 #: finance/forms/validators.py:65
 msgctxt "UI"
 msgid "Invalid \"is_active\" parameter!"
-msgstr "\"is_active\" 参数无效!"
+msgstr "“is_active” 参数无效!"
 
 #: finance/forms/validators.py:70
 msgctxt "UI"
@@ -870,7 +870,7 @@ msgstr "该钱包已被停用！"
 #: finance/forms/validators.py:80
 msgctxt "UI"
 msgid "Wallet name must be a string!"
-msgstr "钱包名必须以字符为格式！"
+msgstr "钱包名中只能用合法字符！"
 
 #: finance/forms/validators.py:85 finance/forms/validators.py:299
 #, python-format
@@ -1325,7 +1325,7 @@ msgstr "您不能变更该访问配置的权限。"
 #: formlib/validators.py:337
 msgctxt "UI"
 msgid "Token must have 16 characters."
-msgstr "口令必须至少有16个字符。"
+msgstr "口令中必须至少有16个字。"
 
 #: formlib/validators.py:339 formlib/validators.py:344
 msgctxt "UI"
@@ -1375,7 +1375,7 @@ msgstr "实事通讯(Newsletter)接收人未找到。"
 #: mailing/forms/validators.py:46
 msgctxt "UI"
 msgid "Feedback must be a string no longer than 600 characters."
-msgstr "反馈必须是短于600个字符的字符串。"
+msgstr "反馈不能超过600个字。"
 
 #: mailing/models.py:507
 msgctxt "UI"
@@ -1869,7 +1869,7 @@ msgstr "无效邮箱格式！"
 #: web/api/v1/views.py:1440
 msgctxt "UI"
 msgid "Password must have at Least 5 characters!"
-msgstr "密码必须长于5个字符！"
+msgstr "密码必须长于5个字！"
 
 #: web/api/v1/views.py:1506 web/api/v1/views.py:1523 web/api/v1/views.py:1580
 msgctxt "UI"
@@ -1913,7 +1913,7 @@ msgstr "无效的口令！"
 #: web/api/v1/views.py:1917
 msgctxt "UI"
 msgid "Password must have at least 5 characters!"
-msgstr "密码必须至少有5个字符！"
+msgstr "密码中必须至少有5个字！"
 
 #: web/models.py:144
 msgctxt "UI"
@@ -1925,12 +1925,12 @@ msgctxt "UI"
 msgid ""
 "Only alphabetical characters, numbers, underscore and dash are allowed in "
 "name!"
-msgstr "用户名中只允许有字母字符，数字，下划线和连接号！"
+msgstr "用户名中只允许有字母字符，数字，下划线和连接符！"
 
 #: web/models.py:327
 msgctxt "UI"
 msgid "Password must be at least 5 characters long!"
-msgstr "密码必须至少包含5个字符！"
+msgstr "密码中必须至少包含5个字！"
 
 #: web/models.py:454
 msgctxt "UI, Transaction state"
@@ -3085,7 +3085,7 @@ msgstr "矿工"
 #: workers/api/v1/views.py:302
 msgctxt "UI"
 msgid "Label name must be a string."
-msgstr "必须使用字符作为标签名。"
+msgstr "标签名中只能用合法字符。"
 
 #: workers/api/v1/views.py:305
 msgctxt "UI"
@@ -3105,7 +3105,7 @@ msgstr "使用该名称的标签已存在。"
 #: workers/api/v1/views.py:316
 msgctxt "UI"
 msgid "Label shortcut must be a string."
-msgstr "必须使用字符作为标签快捷方式。"
+msgstr "标签快捷方式中只能用合法字符。"
 
 #: workers/api/v1/views.py:319
 msgctxt "UI"
@@ -3115,17 +3115,17 @@ msgstr "必须要有标签快捷方式。"
 #: workers/api/v1/views.py:321
 msgctxt "UI"
 msgid "Shortcut must not be longer than 2 characters."
-msgstr "快捷方式必须短于2字。"
+msgstr "快捷方式必须短于2个字。"
 
 #: workers/api/v1/views.py:332
 msgctxt "UI"
 msgid "Label description must be a string."
-msgstr "必须使用字符作为标签描述。"
+msgstr "标签描述中只能用合法字符。"
 
 #: workers/api/v1/views.py:336
 msgctxt "UI"
 msgid "Maximal length of label description is 100 characters."
-msgstr "标签描述的长度最长100字。"
+msgstr "标签描述的长度最长只能有100个字。"
 
 #: workers/api/v1/views.py:343
 msgctxt "UI"
