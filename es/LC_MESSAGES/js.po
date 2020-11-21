@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-10 09:33+0000\n"
-"PO-Revision-Date: 2020-11-11 02:29+0000\n"
+"PO-Revision-Date: 2020-11-22 16:28+0000\n"
 "Last-Translator: Artemis3 v <artemis3@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/slushpool/js/es/>"
 "\n"
@@ -842,7 +842,7 @@ msgstr "Recompensas por los Últimos 14 Días"
 #: shared/components/jsonView/templates.tsx:30 /checksum/bsHMrAKqj6
 msgctxt "UI"
 msgid "Pool Scoring Hash Rate"
-msgstr "Puntuación del Hashrate del Pool"
+msgstr "Tasa de hash Ponderada del Pool"
 
 #: packages/slushpool/components/Appeals/Appeals.tsx:55
 #: packages/slushpool/components/Appeals/Appeals.tsx:55 /checksum/t2Fs+xtZF4
@@ -1271,7 +1271,7 @@ msgstr "¡Campo requerido!"
 #: /checksum/y7+MJmFo6l
 msgctxt "UI"
 msgid "Dashboard"
-msgstr "Panel de Control"
+msgstr "Tablero"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:198
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:198
@@ -2093,7 +2093,7 @@ msgstr "El procesamiento del formulario ha fallado!"
 #: /checksum/tXrvhQYDIc
 msgctxt "UI"
 msgid "Show My Dashboard"
-msgstr "Mostrar mi Panel de Control"
+msgstr "Mostrar mi Tablero"
 
 #: packages/slushpool/app/@routes/authViews/ConfirmUserRequest.tsx:140
 #: packages/slushpool/app/@routes/authViews/ConfirmUserRequest.tsx:140
@@ -2531,10 +2531,10 @@ msgid ""
 "expended. CDF only reflects past luck and does not provide any estimation of"
 " future luck."
 msgstr ""
-"Alto CDF indica mala suerte en la ronda actual. Por ejemplo, si CDF supera "
+"Alto FDA indica mala suerte en la ronda actual. Por ejemplo, si FDA supera "
 "el 50%, significa que la ronda actual ha tardado más de lo debido (en "
 "promedio) con la dificultad actual de la red y la cantidad de trabajo "
-"invertido. CDF solo refleja la suerte pasada y no proporciona ninguna "
+"invertido. FDA solo refleja la suerte pasada y no proporciona ninguna "
 "estimación de la suerte futura."
 
 #: shared/components/jsonView/templates.tsx:57 /checksum/IQqbEOTaAh
@@ -2545,7 +2545,7 @@ msgstr "Última Participación"
 #: shared/components/jsonView/templates.tsx:67 /checksum/6xXb/2jqWQ
 msgctxt "Intro"
 msgid "CDF"
-msgstr "CDF"
+msgstr "FDA"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:390
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:390
