@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-10 09:33+0000\n"
-"PO-Revision-Date: 2020-11-20 01:29+0000\n"
+"PO-Revision-Date: 2020-11-22 16:29+0000\n"
 "Last-Translator: JohnsonWang <johnsonwong@westudyin.cz>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "slushpool/js/zh_Hans/>\n"
@@ -1459,7 +1459,7 @@ msgstr "请联系我们的技术支持客服。"
 #: /checksum/IJxd6vW/oO
 msgctxt "UI"
 msgid "Password must have at least 5 characters!"
-msgstr "密码必须至少有5个字符！"
+msgstr "密码中必须至少有5个字！"
 
 #: packages/slushpool/components/Search/Search.tsx:372
 #: packages/slushpool/components/Search/Search.tsx:372 /checksum/Ndo8W1/fwE
