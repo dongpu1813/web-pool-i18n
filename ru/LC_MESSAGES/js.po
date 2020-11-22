@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-10 09:32+0000\n"
-"PO-Revision-Date: 2020-11-20 01:28+0000\n"
+"PO-Revision-Date: 2020-11-22 16:29+0000\n"
 "Last-Translator: Iryna Bashkova <csepcsar@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/js/ru/>"
 "\n"
@@ -4174,27 +4174,29 @@ msgid ""
 "Do you really want to disable this financial account?<br />This action is "
 "<strong>permanent and irreversible</strong>."
 msgstr ""
+"Вы действительно хотите отключить этот финансовый аккаунт? <br />Это "
+"действие <strong>постоянно и необратимо</strong>."
 
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1003
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1003
 #: /checksum/aS1sOd73xL
 msgctxt "UI"
 msgid "Edit Financial Account: "
-msgstr ""
+msgstr "Изменить финансовый счет: "
 
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1027
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1027
 #: /checksum/5fzmuPIxSf
 msgctxt "UI"
 msgid "Changes Saved"
-msgstr ""
+msgstr "Изменения сохранены"
 
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1034
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1034
 #: /checksum/mOgkIWsil7
 msgctxt "UI"
 msgid "Edit Financial Account"
-msgstr ""
+msgstr "Изменить финансовый счет"
 
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1036
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1036
@@ -4207,7 +4209,7 @@ msgstr ""
 #: /checksum/xl692sCSZQ
 msgctxt "UI"
 msgid "Save Changes"
-msgstr ""
+msgstr "Сохранить изменения"
 
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1061
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1061
@@ -4218,28 +4220,28 @@ msgstr ""
 #: /checksum/6hL/WbS5A5
 msgctxt "UI"
 msgid "Account Name"
-msgstr ""
+msgstr "Имя учетной записи"
 
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1101
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1101
 #: /checksum/oA6HENrwbf
 msgctxt "UI"
 msgid "Rename account"
-msgstr ""
+msgstr "Переименовать аккаунт"
 
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1105
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1105
 #: /checksum/qdr/r68Ynl
 msgctxt "UI"
 msgid "Disable account"
-msgstr ""
+msgstr "Отключить аккаунт"
 
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1130
 #: packages/slushpool/app/workspace/funds/accounts/Detail.tsx:1130
 #: /checksum/RZRQhgvY7Z
 msgctxt "UI"
 msgid "Financial Account Detail"
-msgstr ""
+msgstr "Сведения о финансовом счете"
 
 #: packages/slushpool/app/workspace/funds/accounts/AccountsWrapper.tsx:41
 #: packages/slushpool/app/workspace/funds/accounts/AccountsWrapper.tsx:41
@@ -4247,13 +4249,14 @@ msgstr ""
 msgctxt "UI"
 msgid "Pending e-mail confirmation. <a>Resend e-mail</a>"
 msgstr ""
+"Ожидается подтверждения по электронной почте. <a>Отправить письмо еще раз</a>"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:144
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:144
 #: /checksum/UvXXXoqzK5
 msgctxt "UI"
 msgid "Create Financial Account"
-msgstr ""
+msgstr "Создать финансовый счет"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:157
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:157
@@ -4262,7 +4265,7 @@ msgstr ""
 #: /checksum/cG2BguMrsG
 msgctxt "UI"
 msgid "Pause Payouts"
-msgstr ""
+msgstr "Приостановить выплаты"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:162
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:162
@@ -4271,42 +4274,42 @@ msgstr ""
 #: /checksum/ig9IWh29m2
 msgctxt "UI"
 msgid "Resume Payouts"
-msgstr ""
+msgstr "Возобновить выплаты"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:179
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:179
 #: /checksum/OQAfEbBPIq
 msgctxt "UI"
 msgid "Payouts are blocked by Admin!"
-msgstr ""
+msgstr "Выплаты заблокированы Админом!"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:184
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:184
 #: /checksum/cCT9bXnrix
 msgctxt "UI"
 msgid "Your payouts have been resumed!"
-msgstr ""
+msgstr "Ваши выплаты возобновлены!"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:185
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:185
 #: /checksum/B4rXf7mxSL
 msgctxt "UI"
 msgid "Your payouts have been paused!"
-msgstr ""
+msgstr "Ваши выплаты приостановлены!"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:220
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:220
 #: /checksum/uLhxIPqf+z
 msgctxt "UI"
 msgid "Contact Us"
-msgstr ""
+msgstr "Связаться с нами"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:221
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:221
 #: /checksum/8G2viEcWd3
 msgctxt "UI"
 msgid "Blocked Payouts"
-msgstr ""
+msgstr "Заблокированные выплаты"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:223
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:223
@@ -4316,41 +4319,43 @@ msgid ""
 "Your payouts have been locked by admin! Please contact our technical support"
 " if you don't know why."
 msgstr ""
+"Ваши выплаты заблокированы администратором! Если вы не знаете почему, "
+"обратитесь в нашу службу технической поддержки."
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:227
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:227
 #: /checksum/tfsRiYKCbz
 msgctxt "UI"
 msgid "Your payouts have been locked by admin!"
-msgstr ""
+msgstr "Ваши выплаты заблокированы администратором!"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:230
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:230
 #: /checksum/nroNUh66e1
 msgctxt "UI"
 msgid "Resume"
-msgstr ""
+msgstr "Возобновить"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:231
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:231
 #: /checksum/5DCeFhpNbM
 msgctxt "UI"
 msgid "Resume All Payouts"
-msgstr ""
+msgstr "Возобновить все выплаты"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:232
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:232
 #: /checksum/Vqzhc3WtaV
 msgctxt "UI"
 msgid "Do you really want to resume your payouts?"
-msgstr ""
+msgstr "Вы действительно хотите возобновить выплаты?"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:234
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:234
 #: /checksum/uv6BAOBBVu
 msgctxt "UI"
 msgid "Pause"
-msgstr ""
+msgstr "Приостановить"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:235
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:235
@@ -4359,7 +4364,7 @@ msgstr ""
 #: /checksum/LxfvGkDMFH
 msgctxt "UI"
 msgid "Pause All Payouts"
-msgstr ""
+msgstr "Приостановить все выплаты"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:237
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:237
@@ -4369,6 +4374,8 @@ msgid ""
 "You can pause all your payouts, overriding your payout rules and stopping "
 "the payouts indefinitely."
 msgstr ""
+"Вы можете приостановить все выплаты, что отменит правила выплат и "
+"приостановит выплаты на неопределенный срок."
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:241
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:241
@@ -4378,13 +4385,15 @@ msgid ""
 "To resume payouts in the future, you will be prompted for your password and "
 "2FA if enabled."
 msgstr ""
+"Чтобы возобновить выплаты в будущем, вам будет предложено ввести пароль и "
+"двухфакторную аутентификацию, если она включена."
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:296
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:296
 #: /checksum/TB91+XJyo1
 msgctxt "UI"
 msgid "Invalid name format!"
-msgstr ""
+msgstr "Неверный формат имени!"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:351
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:351
@@ -4393,35 +4402,35 @@ msgstr ""
 #: /checksum/gf8uGH62uT
 msgctxt "UI"
 msgid "No accounts have been found…"
-msgstr ""
+msgstr "Аккаунты не найдены …"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:370
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:370
 #: /checksum/4ZFhboXKjp
 msgctxt "UI"
 msgid "Available Balance"
-msgstr ""
+msgstr "Доступные средства"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:376
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:376
 #: /checksum/Bz3rxFL10L
 msgctxt "UI"
 msgid "Fiat Equivalent"
-msgstr ""
+msgstr "Эквивалент в фиате"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:382
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:382
 #: /checksum/XRLsWWFYNW
 msgctxt "UI"
 msgid "Payout rule"
-msgstr ""
+msgstr "Правило для выплат"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:398
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:398
 #: /checksum/W9MW9H8ShL
 msgctxt "UI"
 msgid "No Payout Rule. <a>Setup Now</a>"
-msgstr ""
+msgstr "Нет правила для выплат. <a>Настроить сейчас</a>"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:523
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:523
@@ -4430,28 +4439,28 @@ msgstr ""
 #: /checksum/Mmsfh7SWlc
 msgctxt "UI"
 msgid "Add New Account"
-msgstr ""
+msgstr "Добавить новый счет"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:560
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:560
 #: /checksum/5BW8vnZdj5
 msgctxt "UI"
 msgid "Name your account"
-msgstr ""
+msgstr "Назовите свой счет"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:592
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:592
 #: /checksum/CkSWDoH36L
 msgctxt "UI"
 msgid "Create Account"
-msgstr ""
+msgstr "Создать счет"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:631
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:631
 #: /checksum/YXzdnHeNK6
 msgctxt "UI"
 msgid "Payouts Are Blocked!"
-msgstr ""
+msgstr "Выплаты заблокированы!"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:495
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:656
@@ -4459,21 +4468,21 @@ msgstr ""
 #: /checksum/qNsXeyjBB6
 msgctxt "UI"
 msgid "Financial Accounts"
-msgstr ""
+msgstr "Финансовые счета"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:672
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:672
 #: /checksum/mAtrE7q3do
 msgctxt "UI"
 msgid "Active accounts"
-msgstr ""
+msgstr "Активные счета"
 
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:678
 #: packages/slushpool/app/workspace/funds/accounts/Overview.tsx:678
 #: /checksum/p9vO8bjpMz
 msgctxt "UI"
 msgid "Disabled accounts"
-msgstr ""
+msgstr "Отключенные счета"
 
 #: packages/slushpool/app/@factories/createPagedChart.tsx:421
 #: packages/slushpool/app/private/components/ServersHashrateChart.tsx:65
@@ -4481,21 +4490,21 @@ msgstr ""
 #: /checksum/0uZZNN3DRx
 msgctxt "UI"
 msgid "HR"
-msgstr ""
+msgstr "ХР"
 
 #: packages/slushpool/app/private/components/ServersHashrateChart.tsx:110
 #: packages/slushpool/app/private/components/ServersHashrateChart.tsx:110
 #: /checksum/yd6i1+Zzjh
 msgctxt "UI"
 msgid "Hash Rate Per Location"
-msgstr ""
+msgstr "Хешрейт для каждого местоположения"
 
 #: packages/slushpool/app/private/components/HashrateDistribution.tsx:36
 #: packages/slushpool/app/private/components/HashrateDistribution.tsx:36
 #: /checksum/8WI67GFIFu
 msgctxt "UI"
 msgid "Hash Rate Distribution"
-msgstr ""
+msgstr "Распределение хешрейта"
 
 #: packages/slushpool/admin/administrative/components/AdministrativeForm.tsx:163
 #: packages/slushpool/admin/administrative/components/AdministrativeForm.tsx:163
@@ -4506,41 +4515,41 @@ msgstr ""
 #: /checksum/2mFXYpJU5C
 msgctxt "UI"
 msgid "Action"
-msgstr ""
+msgstr "Действие"
 
 #: packages/slushpool/admin/administrative/components/AdministrativeForm.tsx:215
 #: packages/slushpool/admin/administrative/components/AdministrativeForm.tsx:215
 #: /checksum/JH/h15QIdg
 msgctxt "UI"
 msgid "Ticket ID"
-msgstr ""
+msgstr "ID тикета"
 
 #: packages/slushpool/admin/administrative/components/AdministrativeForm.tsx:272
 #: packages/slushpool/admin/administrative/components/AdministrativeForm.tsx:272
 #: /checksum/TM063WEwK4
 msgctxt "UI"
 msgid "New email"
-msgstr ""
+msgstr "Новый email-адрес"
 
 #: packages/slushpool/admin/administrative/components/AdministrativeForm.tsx:290
 #: packages/slushpool/admin/administrative/components/AdministrativeForm.tsx:290
 #: /checksum/sCcf2a3rDg
 msgctxt "UI"
 msgid "2FA type (OTP/U2F)"
-msgstr ""
+msgstr "Тип 2FA (OTP/U2F)"
 
 #: packages/slushpool/admin/administrative/components/AdministrativeOverviewTable.tsx:55
 #: packages/slushpool/admin/administrative/components/AdministrativeOverviewTable.tsx:55
 #: /checksum/LYrDVK8FxE
 msgctxt "UI"
 msgid "Request ID"
-msgstr ""
+msgstr "ID запроса"
 
 #: packages/slushpool/app/VIP/VIP.tsx:178
 #: packages/slushpool/app/VIP/VIP.tsx:178 /checksum/0c/oDHMhjI
 msgctxt "UI"
 msgid "CUSTOM API & DATA EXPORTS"
-msgstr ""
+msgstr "ПОЛЬЗОВАТЕЛЬСКИЙ API И ЭКСПОРТ ДАННЫХ"
 
 #: packages/slushpool/app/VIP/VIP.tsx:182
 #: packages/slushpool/app/VIP/VIP.tsx:182 /checksum/7zGjho0+Tq
@@ -4550,12 +4559,16 @@ msgid ""
 "your needs. API improvements are also possible, either by extending our "
 "<a>public API</a> or by deploying a private API endpoint."
 msgstr ""
+"Хотите получить больше дополнительной информации? Мы можем предоставить вам "
+"экспорт данных, адаптированный под ваши нужды. Также возможны улучшения API "
+"путем расширения нашего <a>общедоступного API</a> или внедрения частной "
+"конечной точки API."
 
 #: packages/slushpool/app/VIP/VIP.tsx:194
 #: packages/slushpool/app/VIP/VIP.tsx:194 /checksum/lNO5HVAIen
 msgctxt "UI"
 msgid "Request DATA"
-msgstr ""
+msgstr "Запросить ДАННЫЕ"
 
 #: packages/slushpool/app/VIP/VIP.tsx:207
 #: packages/slushpool/app/VIP/VIP.tsx:207 /checksum/Q1uTEBJuuR
@@ -4564,6 +4577,9 @@ msgid ""
 "As a Slush Pool VIP, you qualify for extra support setting up and running "
 "<a>Braiins OS+</a>, our enterprise-ready per-chip autotuning firmware."
 msgstr ""
+"Как VIP Slush Pool вы имеете право на дополнительную поддержку при настройке "
+"и запуске <a>Braiins OS+</a>, нашей прошивки с автонастройкой для каждого "
+"чипа."
 
 #: packages/slushpool/app/VIP/VIP.tsx:236
 #: packages/slushpool/app/VIP/VIP.tsx:236 /checksum/XoerhlljCp
@@ -4572,12 +4588,14 @@ msgid ""
 "Braiins OS+ also includes an implementation of the next-generation mining "
 "protocol, <a>Stratum V2</a>."
 msgstr ""
+"Braiins OS+ также включает реализацию протокола майнинга следующего "
+"поколения, <a>Stratum V2</a>."
 
 #: packages/slushpool/app/VIP/VIP.tsx:257
 #: packages/slushpool/app/VIP/VIP.tsx:257 /checksum/jhlEtw9yuy
 msgctxt "UI"
 msgid "Help me Switch to bOS"
-msgstr ""
+msgstr "Помогите мне перейти на Braiins OS+"
 
 #: packages/slushpool/app/VIP/VIP.tsx:330
 #: packages/slushpool/app/VIP/VIP.tsx:330 /checksum/8B0EZ4nH2c
@@ -4587,49 +4605,52 @@ msgid ""
 "contribution to our pool.<br />As a VIP, you have access to the following "
 "premium features and services."
 msgstr ""
+"У вас статус <b>VIP на Slush Pool</b>. <br />Благодарим вас за ценный вклад "
+"в наш пул. <br />Как VIP, вы имеете доступ к следующим премиальным функциям "
+"и услугам."
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:156
 #: /checksum/2yeFDWJtKj
 msgctxt "UI"
 msgid "(Un)Lock Payouts"
-msgstr ""
+msgstr "(Раз)Блокировать выплаты"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:165
 #: /checksum/kX86fUtJNu
 msgctxt "UI"
 msgid "Your payouts have been locked!"
-msgstr ""
+msgstr "Ваши выплаты заблокированы!"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:179
 #: /checksum/6sv1/Q4A4J
 msgctxt "UI"
 msgid "Modify Reward Split"
-msgstr ""
+msgstr "Изменить разделение вознаграждений"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:193
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:213
 #: /checksum/xRbj9iy83R
 msgctxt "UI"
 msgid "The split sum must be exactly 100%, but yours is $value!"
-msgstr ""
+msgstr "Сумма разделения должна составлять ровно 100%, но ваша - $value!"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:205
 #: /checksum/9vAq+tpXP6
 msgctxt "UI"
 msgid "You have to assign account to every branch!"
-msgstr ""
+msgstr "Вы должны привязать учетную запись к каждой части!"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:231
 #: /checksum/DL6km327wf
 msgctxt "UI"
 msgid "The changes have been saved"
-msgstr ""
+msgstr "Изменения были сохранены"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:249
 #: /checksum/2yGEwzRa5w
 msgctxt "UI"
 msgid "Create a new Financial Account"
-msgstr ""
+msgstr "Создать новый финансовый счет"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:324
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:217
@@ -4637,55 +4658,57 @@ msgstr ""
 #: /checksum/mOQPUnzQyj
 msgctxt "UI"
 msgid "Remove"
-msgstr ""
+msgstr "Удалить"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:339
 #: /checksum/2V7x0SBHy8
 msgctxt "UI"
 msgid "Payouts are locked"
-msgstr ""
+msgstr "Выплаты заблокированы"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:344
 #: /checksum/GcfmSBny0q
 msgctxt "UI"
 msgid "Reward Split"
-msgstr ""
+msgstr "Разделение вознаграждений"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:347
 #: /checksum/YLzqzRXWWW
 msgctxt "UI"
 msgid "Select how you want to split rewards between your financial accounts."
 msgstr ""
+"Выберите, как вы хотите разделить вознаграждение между своими финансовыми "
+"счетами."
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:353
 #: /checksum/xI+24JJnFE
 msgctxt "UI"
 msgid "Split"
-msgstr ""
+msgstr "Разделение"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:361
 #: /checksum/zuaCfA2m9o
 msgctxt "UI"
 msgid "No accounts have been assigned yet…"
-msgstr ""
+msgstr "Счета еще не назначены…"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:369
 #: /checksum//fMfEYbtgm
 msgctxt "UI"
 msgid "No Accounts Available!"
-msgstr ""
+msgstr "Нет доступных счетов!"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:371
 #: /checksum/6ttaOIhgI+
 msgctxt "UI"
 msgid "Add Another Financial Account"
-msgstr ""
+msgstr "Добавить еще один финансовый счет"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:396
 #: /checksum/EAlOzfosrv
 msgctxt "UI"
 msgid "Change the Reward Split of this Mining Unit"
-msgstr ""
+msgstr "Измените разделение вознаграждений этой майнинг единицы"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:399
 #: /checksum//OPTBlwu72
@@ -4693,6 +4716,8 @@ msgctxt "UI"
 msgid ""
 "Change the Wallet(s) of Financial Accounts included in the Reward Split"
 msgstr ""
+"Измените кошелек (кошельки) финансовых счетов, включенных в разделение "
+"вознаграждений"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:409
 #: /checksum/ufNxHx0Q6f
@@ -4702,6 +4727,9 @@ msgid ""
 "be changed by anyone who gains access to your pool account. In practice, it "
 "means that <b>it won’t be possible to</b>:"
 msgstr ""
+"В качестве меры безопасности вы можете заблокировать настройку выплат, чтобы "
+"ее не мог изменить кто-либо, получивший доступ к вашей учетной записи пула. "
+"На практике это означает, что <b> не будет возможности</b>:"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:418
 #: /checksum/GenE7gMjia
@@ -4711,6 +4739,9 @@ msgid ""
 " and provide proof of your control over at least one of the linked "
 "cryptocurrency addresses or over the hash rate."
 msgstr ""
+"Разблокировать настройку в будущем, вам нужно будет связаться с нашей "
+"службой поддержки и предоставить подтверждение вашего контроля хотя бы над "
+"одним из связанных адресов для выплат или над хешрейтом."
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:425
 #: /checksum/LDOvXNIuAH
@@ -4719,6 +4750,8 @@ msgid ""
 "Please note that the manual verification procedure may take up to several "
 "days to complete."
 msgstr ""
+"Обратите внимание, что процедура ручной проверки может занять до нескольких "
+"дней."
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:438
 #: /checksum/B1ZC54mw/w
@@ -4727,6 +4760,8 @@ msgid ""
 "Your payout setup has been locked on your request. It means that it is "
 "<b>not possible to</b>:"
 msgstr ""
+"Настройка выплат заблокирована по вашему запросу. Это означает, что <b>нет "
+"возможности</b>:"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:447
 #: /checksum/IslqjNcnL2
@@ -4735,54 +4770,56 @@ msgid ""
 "If you wish to unlock your payout setup, please contact our support team and"
 " follow their instructions."
 msgstr ""
+"Если вы хотите разблокировать настройку выплат, обратитесь в нашу службу "
+"поддержки и следуйте их инструкциям."
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:458
 #: /checksum/yAE5sYbDPa
 msgctxt "UI"
 msgid "Payout Setup Lock"
-msgstr ""
+msgstr "Блокировка настройки выплат"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:478
 #: /checksum/jUDDwKlnGG
 msgctxt "UI"
 msgid "I understand the consequences and I wish to lock my payout setup"
-msgstr ""
+msgstr "Я понимаю последствия и хочу заблокировать настройку выплат"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:500
 #: /checksum/XYapy9vKUS
 msgctxt "UI"
 msgid "Contact Support"
-msgstr ""
+msgstr "Связаться со службой поддержки"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:501
 #: /checksum/2u2ZXQEdHI
 msgctxt "UI"
 msgid "Lock Payout Setup"
-msgstr ""
+msgstr "Блокировать настройку выплат"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:521
 #: /checksum/qafS9tHCQy
 msgctxt "UI"
 msgid "Monitoring settings changed"
-msgstr ""
+msgstr "Настройки мониторинга изменены"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:522
 #: /checksum/UMsTLbHveL
 msgctxt "UI"
 msgid "Failed to save monitoring settings!"
-msgstr ""
+msgstr "Не удалось сохранить настройки мониторинга!"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:537
 #: /checksum/cx48aCGzPm
 msgctxt "UI"
 msgid "Receive e-mail notifications from the monitoring system."
-msgstr ""
+msgstr "Получать уведомления по электронной почте от системы мониторинга."
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:559
 #: /checksum/4anV84Z5al
 msgctxt "UI"
 msgid "Modify Mining Settings"
-msgstr ""
+msgstr "Изменить настройки майнинга"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:574
 #: /checksum/gxsKStnAgc
@@ -4792,12 +4829,15 @@ msgid ""
 "difficulty using the VarDiff algorithm. In the majority of cases, there is "
 "no need to adjust the minimum difficulty."
 msgstr ""
+"Пул автоматически назначает задания вашим устройствам с оптимальной "
+"сложностью, используя алгоритм VarDiff. В большинстве случаев регулировка "
+"минимальной сложности не требуется."
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:630
 #: /checksum/EoYtcUYsGL
 msgctxt "UI"
 msgid "Tag"
-msgstr ""
+msgstr "Тег"
 
 #: packages/slushpool/app/workspace/mining/settings/Settings.tsx:636
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:870
@@ -4805,7 +4845,7 @@ msgstr ""
 #: /checksum/XyJnswG0wU
 msgctxt "UI"
 msgid "Connect Workers"
-msgstr ""
+msgstr "Подключите воркеры"
 
 #: packages/slushpool/app/stats/containers/PoolHashrateChart.tsx:54
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkerHashRateChart.tsx:52
@@ -4814,21 +4854,21 @@ msgstr ""
 #: /checksum/RvSjiI9GOV
 msgctxt "UI"
 msgid "Show found blocks"
-msgstr ""
+msgstr "Показать найденные блоки"
 
 #: packages/slushpool/app/stats/constants.tsx:13
 #: packages/slushpool/app/workspace/mining/dashboard/constants.tsx:103
 #: /checksum/b/2jM5Kp8A
 msgctxt "UI"
 msgid "Current Block Info"
-msgstr ""
+msgstr "Информация о текущем блоке"
 
 #: packages/slushpool/app/stats/constants.tsx:27
 #: packages/slushpool/app/workspace/mining/dashboard/constants.tsx:124
 #: /checksum/eNpihnOYBZ
 msgctxt "UI"
 msgid "Luck per Number of Blocks"
-msgstr ""
+msgstr "Удача на количество блоков"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:283
 #: /checksum/Msgn22qbsq
@@ -4842,14 +4882,14 @@ msgstr ""
 #: /checksum/wHOXxtZ/fp
 msgctxt "UI"
 msgid "Worker(s) update has been applied"
-msgstr ""
+msgstr "Обновление воркеров применено"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:438
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:231
 #: /checksum/V+J1FveCej
 msgctxt "UI"
 msgid "Delete {count, plural, =1 {# Worker} other {# Workers}}?"
-msgstr ""
+msgstr "Удалить {count, plural, =1 {# воркер} other {# воркеры}}?"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:441
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:234
@@ -4859,24 +4899,26 @@ msgid ""
 "Do you really want to delete {count, plural, =1 {# worker} other {# "
 "workers}}?"
 msgstr ""
+"Вы действительно хотите удалить {count, plural, = 1 {# воркер} других {# "
+"воркеры}}?"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:528
 #: /checksum/PdFwacNZR0
 msgctxt "UI"
 msgid "HR (5 minute)"
-msgstr ""
+msgstr "ХР (5 минут)"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:535
 #: /checksum/5wJJo6o22X
 msgctxt "UI"
 msgid "HR (1 hour)"
-msgstr ""
+msgstr "ХР (1 час)"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:542
 #: /checksum/7q7wHN6YUg
 msgctxt "UI"
 msgid "HR (1 day)"
-msgstr ""
+msgstr "ХР (1 день)"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:572
 #: shared/components/jsonView/registry/panel/CellBlocksTable.tsx:55
@@ -4884,86 +4926,86 @@ msgstr ""
 #: /checksum/I6d4bb/PFs
 msgctxt "UI"
 msgid "Scoring HR"
-msgstr ""
+msgstr "Оценочный ХР"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:703
 #: /checksum/0IM1nSbzzC
 msgctxt "UI"
 msgid "5 minute"
-msgstr ""
+msgstr "5 минут"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:706
 #: /checksum/JFhZJvdi9A
 msgctxt "UI"
 msgid "1 hour"
-msgstr ""
+msgstr "1 час"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:708
 #: /checksum/fqdP/W2T/h
 msgctxt "UI"
 msgid "1 day"
-msgstr ""
+msgstr "1 день"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:787
 #: /checksum/pAAFLUQNaU
 msgctxt "UI"
 msgid "Nothing matches given filter(s)"
-msgstr ""
+msgstr "Ничего не соответствует заданному фильтру(ам)"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:788
 #: /checksum/nXiVKn5CtN
 msgctxt "UI"
 msgid "No workers…"
-msgstr ""
+msgstr "Нет воркеров…"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:808
 #: /checksum/UUmSZ4xvkX
 msgctxt "UI"
 msgid "Filter by"
-msgstr ""
+msgstr "Фильтровать по"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:824
 #: /checksum/l+6Qh7aYkr
 msgctxt "UI"
 msgid "Input string or RegExp to filter the table"
-msgstr ""
+msgstr "Введите строку или RegExp для фильтрации таблицы"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:837
 #: /checksum/G6BtbGYi3A
 msgctxt "UI"
 msgid "Secondary HR"
-msgstr ""
+msgstr "Вторичный ХР"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkerDetail.tsx:307
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:971
 #: /checksum/0zl2KfrT2e
 msgctxt "UI"
 msgid "5 minute HR"
-msgstr ""
+msgstr "ХР 5 минут"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:975
 #: shared/components/jsonView/templates.tsx:44 /checksum/dNKb5ni9mt
 msgctxt "UI"
 msgid "1 Hour HR"
-msgstr ""
+msgstr "ХР 1 час"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:979
 #: /checksum/4FOvTuPFWc
 msgctxt "UI"
 msgid "24 Hour HR"
-msgstr ""
+msgstr "ХР 24 часа"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:1002
 #: /checksum/fh7DA6jyhy
 msgctxt "UI"
 msgid "Apply Filter"
-msgstr ""
+msgstr "Применить фильтр"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkersList.tsx:1035
 #: /checksum/3W96F0pPES
 msgctxt "UI"
 msgid "Workers List"
-msgstr ""
+msgstr "Список воркеров"
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:225
 #: packages/slushpool/components/Appeals/Appeals.tsx:93
@@ -4974,7 +5016,7 @@ msgstr ""
 #: /checksum/xku/Ae0wC2
 msgctxt "UI"
 msgid "Previous"
-msgstr ""
+msgstr "Ранее"
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:232
 #: packages/slushpool/components/Appeals/Appeals.tsx:102
@@ -4985,19 +5027,19 @@ msgstr ""
 #: /checksum/FLgviAnpcl
 msgctxt "UI"
 msgid "Next"
-msgstr ""
+msgstr "Дальше"
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:345
 #: /checksum/dGhcnmnb/r
 msgctxt "UI"
 msgid "Incident detail"
-msgstr ""
+msgstr "Детали инцидента"
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:356
 #: /checksum/WawhIiQrta
 msgctxt "UI"
 msgid "Event Time: {time}"
-msgstr ""
+msgstr "Время события: {time}"
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:413
 #: /checksum/kOqnN8ZSfL
@@ -5006,66 +5048,68 @@ msgid ""
 "Use <b>arrow keys</b> to navigate through other incidents. Close by "
 "<b>Esc</b>."
 msgstr ""
+"Используйте <b>клавиши со стрелками</b> для навигации по другим инцидентам. "
+"Закройте, нажав <b>Esc</b>."
 
 #: packages/slushpool/app/workspace/mining/monitoring/containers/Monitoring.tsx:599
 #: /checksum/uRt+gPout/
 msgctxt "UI"
 msgid "State Changes Over Time"
-msgstr ""
+msgstr "Состояние меняется со временем"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkerDetail.tsx:311
 #: /checksum/MAHUe8fnl1
 msgctxt "UI"
 msgid "Hour HR"
-msgstr ""
+msgstr "ХР за час"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkerDetail.tsx:315
 #: /checksum/IL07wqMQAb
 msgctxt "UI"
 msgid "24 Hours HR"
-msgstr ""
+msgstr "ХР за сутки"
 
 #: packages/slushpool/app/workspace/mining/workers/containers/WorkerDetail.tsx:383
 #: /checksum/zzxVRMFJ1A
 msgctxt "UI"
 msgid "Worker Detail"
-msgstr ""
+msgstr "Детали воркера"
 
 #: packages/slushpool/app/@containers/RewardsChart.tsx:104
 #: /checksum/9BGGL7/Ssg
 msgctxt "UI"
 msgid "Reward"
-msgstr ""
+msgstr "Вознаграждение"
 
 #: packages/slushpool/app/@containers/RewardsChart.tsx:164
 #: /checksum/yieT/QnKQL
 msgctxt "UI"
 msgid "Toggle Active Range"
-msgstr ""
+msgstr "Переключить активный диапазон"
 
 #: shared/types/payouts.tsx:239 shared/types/payouts.tsx:239
 #: /checksum/XiWjcBPtMW
 msgctxt "UI"
 msgid "BTC Address"
-msgstr ""
+msgstr "BTC адрес"
 
 #: shared/types/payouts.tsx:247 shared/types/payouts.tsx:247
 #: /checksum/YV+7EVjD6L
 msgctxt "UI"
 msgid "Invalid BTC Wallet Address"
-msgstr ""
+msgstr "Неверный адрес кошелька BTC"
 
 #: shared/types/payouts.tsx:421 shared/types/payouts.tsx:421
 #: /checksum/HChn9Vp9XP
 msgctxt "UI"
 msgid "Please enter number between $min and $max"
-msgstr ""
+msgstr "Пожалуйста, введите число от $min до $max"
 
 #: shared/types/payouts.tsx:437 shared/types/payouts.tsx:437
 #: /checksum/FJaI5GBqE0
 msgctxt "UI"
 msgid "A payout fee of $fee is applied to payouts under $value."
-msgstr ""
+msgstr "Комиссия за выплату в размере $fee применяется к выплатам ниже $value."
 
 #: shared/types/payouts.tsx:488 shared/types/payouts.tsx:488
 #: /checksum/v+K5O0B9MK
@@ -5077,69 +5121,74 @@ msgid ""
 " date specified by your payout rule. Timed payouts are typically processed "
 "at 8:30 UTC."
 msgstr ""
+"Минимальный порог выплаты для своевременных выплат составляет $min. Если ваш "
+"баланс не достигнет этого значения в указанную дату, средства останутся на "
+"вашем финансовом счете, и система попытается отправить вам средства в "
+"следующий день, указанный в ваших правилах для выплат. Приуроченные выплаты "
+"обычно обрабатываются в 8:30 UTC."
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:33
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:33
 #: /checksum/PoE/yfXK6c
 msgctxt "UI"
 msgid "Date of the reward event"
-msgstr ""
+msgstr "Дата вознаграждения"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:39
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:39
 #: /checksum/RV+4D/ARVk
 msgctxt "UI"
 msgid "Reward type"
-msgstr ""
+msgstr "Тип вознаграждения"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:45
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:45
 #: /checksum/eJhgXB8Ebo
 msgctxt "UI"
 msgid "Time period"
-msgstr ""
+msgstr "Временной период"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:51
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:51
 #: /checksum/1CF+c13iPp
 msgctxt "UI"
 msgid "Rebate rate"
-msgstr ""
+msgstr "Уровень скидки"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:57
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:57
 #: /checksum/T1rg09AkN+
 msgctxt "UI"
 msgid "Your reward"
-msgstr ""
+msgstr "Ваше вознаграждение"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:69
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:69
 #: /checksum/vC6dwzZe0P
 msgctxt "UI"
 msgid "VIP rebate"
-msgstr ""
+msgstr "VIP скидка"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:74
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:74
 #: /checksum/hi/4X9gwFT
 msgctxt "UI"
 msgid "Bounded PPS Reward"
-msgstr ""
+msgstr "Ограниченная награда PPS"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:79
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:79
 #: /checksum/zfTKYDX9Nc
 msgctxt "UI"
 msgid "Braiins OS+ rebate"
-msgstr ""
+msgstr "Braiins OS+ скидка"
 
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:121
 #: packages/slushpool/app/workspace/history/rewards/components/SpecialRewardsOverview.tsx:121
 #: /checksum/FtpLLacUMl
 msgctxt "UI"
 msgid "We're not using Special Rewards anymore from 1st October 2020."
-msgstr ""
+msgstr "Мы больше не используем специальные награды с 1 октября 2020 года."
 
 #: packages/slushpool/app/workspace/history/rewards/components/RewardsOverview.tsx:110
 #: packages/slushpool/app/workspace/history/rewards/components/RewardsOverview.tsx:110
@@ -5148,62 +5197,62 @@ msgstr ""
 #: /checksum/izDDZl0OM2
 msgctxt "UI"
 msgid "You don't have any rewards yet…"
-msgstr ""
+msgstr "У вас пока нет вознаграждений…"
 
 #: packages/slushpool/app/workspace/history/rewards/components/RewardsOverview.tsx:35
 #: packages/slushpool/app/workspace/history/rewards/components/RewardsOverview.tsx:35
 #: /checksum/pOJtICkhw6
 msgctxt "UI"
 msgid "Split %"
-msgstr ""
+msgstr "Разделение %"
 
 #: packages/slushpool/app/workspace/history/rewards/components/RewardsOverview.tsx:54
 #: packages/slushpool/app/workspace/history/rewards/components/RewardsOverview.tsx:54
 #: /checksum/YGPB5yD+oJ
 msgctxt "UI"
 msgid "Block found at"
-msgstr ""
+msgstr "Блок найден в"
 
 #: packages/slushpool/admin/administrative/components/AdministrativeDetail.tsx:50
 #: packages/slushpool/admin/administrative/components/AdministrativeDetail.tsx:50
 #: /checksum/xh90kYdF09
 msgctxt "UI"
 msgid "Aprove"
-msgstr ""
+msgstr "Утвердить"
 
 #: packages/slushpool/admin/administrative/components/AdministrativeDetail.tsx:68
 #: packages/slushpool/admin/administrative/components/AdministrativeDetail.tsx:68
 #: /checksum/EGmwASROZo
 msgctxt "UI"
 msgid "Request overview"
-msgstr ""
+msgstr "Обзор запроса"
 
 #: packages/slushpool/app/workspace/mining/dashboard/containers/Dashboard.tsx:252
 #: /checksum/YmDb9JzArh
 msgctxt "UI"
 msgid "Mining Overview"
-msgstr ""
+msgstr "Обзор майнинга"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:499
 #: packages/slushpool/app/workspace/mining/dashboard/containers/Dashboard.tsx:267
 #: /checksum/kcHVQ8kmFk
 msgctxt "UI"
 msgid "Overview"
-msgstr ""
+msgstr "Обзор"
 
 #: packages/slushpool/app/@modules/notifications/containers/NotificationsList.tsx:117
 #: packages/slushpool/app/@modules/notifications/containers/NotificationsList.tsx:117
 #: /checksum/Qbz4Ayd28K
 msgctxt "UI"
 msgid "You have no messages…"
-msgstr ""
+msgstr "У вас нет сообщений…"
 
 #: packages/slushpool/app/@modules/notifications/containers/NotificationsList.tsx:118
 #: packages/slushpool/app/@modules/notifications/containers/NotificationsList.tsx:118
 #: /checksum/5h3lN9gOZq
 msgctxt "UI"
 msgid "Login to see your notifications…"
-msgstr ""
+msgstr "Войдите, чтобы увидеть свои уведомления…"
 
 #: packages/slushpool/app/@modules/notifications/containers/NotificationsList.tsx:129
 #: packages/slushpool/app/@modules/notifications/containers/NotificationsList.tsx:129
@@ -5212,27 +5261,29 @@ msgctxt "UI"
 msgid ""
 "{count} unread {count, plural, one {notification} other {notifications}}"
 msgstr ""
+"{count} непрочитанных {count, plural, one {notification} other "
+"{notifications}}"
 
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:150
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:150
 #: /checksum/nvhmlWfNg1
 msgctxt "UI"
 msgid "Enter Workspace"
-msgstr ""
+msgstr "Войти в рабочую панель"
 
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:162
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:162
 #: /checksum/YijTICKDdE
 msgctxt "UI"
 msgid "Log in"
-msgstr ""
+msgstr "Войти"
 
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:168
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:168
 #: /checksum/d3l08LhNYi
 msgctxt "UI"
 msgid "Log out"
-msgstr ""
+msgstr "Выйти"
 
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:173
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:173
@@ -5240,7 +5291,7 @@ msgstr ""
 #: packages/slushpool/components/auth/DialogLogin.tsx:250 /checksum/myKiYgjZme
 msgctxt "UI"
 msgid "Sign up"
-msgstr ""
+msgstr "Зарегистрироваться"
 
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:180
 #: packages/slushpool/app/@modules/user/containers/UserMenu.tsx:180
@@ -5249,55 +5300,55 @@ msgstr ""
 #: /checksum/+KrxefpI3k
 msgctxt "UI"
 msgid "Switch account"
-msgstr ""
+msgstr "Сменить аккаунт"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:369
 #: /checksum/3sO0Km3skc
 msgctxt "UI"
 msgid "Mining Units"
-msgstr ""
+msgstr "Майнинг единицы"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:428
 #: /checksum/X3vO3rq3xA
 msgctxt "UI"
 msgid "System Options"
-msgstr ""
+msgstr "Параметры системы"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:430
 #: /checksum/cMMoQMroY6
 msgctxt "UI"
 msgid "Slush Pool Statistics"
-msgstr ""
+msgstr "Статистика Slush Pool"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:438
 #: /checksum/VHEi4fwK/N
 msgctxt "UI"
 msgid "Blocks"
-msgstr ""
+msgstr "Блоки"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:460
 #: /checksum//CaDb4XOVX
 msgctxt "UI"
 msgid "History"
-msgstr ""
+msgstr "История"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:492
 #: /checksum/d550kPHmLf
 msgctxt "UI"
 msgid "Funds"
-msgstr ""
+msgstr "Средства"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:664
 #: /checksum/CYuKQf1k3D
 msgctxt "UI"
 msgid "Total Available Balance"
-msgstr ""
+msgstr "Общий доступный баланс"
 
 #: packages/slushpool/app/workspace/@containers/Workspace/Workspace.tsx:744
 #: /checksum/LCjDw0emNT
 msgctxt "UI"
 msgid "Bitcoin Mining Fullstack Company"
-msgstr ""
+msgstr "Компания с полным стэком биткойн майнинга"
 
 #: packages/slushpool/app/workspace/settings/constants/index.tsx:33
 #: packages/slushpool/app/workspace/settings/constants/index.tsx:33
@@ -5306,115 +5357,115 @@ msgstr ""
 #: /checksum//EC24AVr5A
 msgctxt "UI"
 msgid "Displayed Coins"
-msgstr ""
+msgstr "Отображаемые монеты"
 
 #: packages/slushpool/app/@factories/createPagedChart.tsx:325
 #: shared/charts/MultiLine/MultiLine.tsx:70
 #: shared/charts/MultiLine/MultiLine.tsx:70 /checksum/AMBWvayRmY
 msgctxt "UI"
 msgid "An error has occurred in the chart!"
-msgstr ""
+msgstr "Произошла ошибка в графике!"
 
 #: packages/slushpool/app/@factories/createPagedChart.tsx:422
 #: /checksum/NQD1hRNBRd
 msgctxt "UI"
 msgid "Count"
-msgstr ""
+msgstr "Счет"
 
 #: packages/slushpool/app/@factories/createPagedChart.tsx:497
 #: /checksum/XcN80zf9/N
 msgctxt "UI"
 msgid "Show only active range"
-msgstr ""
+msgstr "Показать только активный диапазон"
 
 #: packages/slushpool/app/@factories/createPagedChart.tsx:500
 #: /checksum/H3y0kCgHcO
 msgctxt "UI"
 msgid "X Markers"
-msgstr ""
+msgstr "X маркеры"
 
 #: packages/slushpool/app/@factories/createPagedChart.tsx:501
 #: /checksum/XVAXeZcg6C
 msgctxt "UI"
 msgid "Y Markers"
-msgstr ""
+msgstr "Y маркеры"
 
 #: packages/slushpool/app/@factories/createPagedChart.tsx:502
 #: /checksum/hfzBvdhCHr
 msgctxt "UI"
 msgid "Y2 Markers"
-msgstr ""
+msgstr "Y2 маркеры"
 
 #: packages/slushpool/app/@factories/createPagedChart.tsx:504
 #: /checksum/KU+zGAY0n2
 msgctxt "UI"
 msgid "Chart Attributes"
-msgstr ""
+msgstr "Атрибуты диаграммы"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:367
 #: /checksum/047QURhiaM
 msgctxt "UI"
 msgid "Delete Workers"
-msgstr ""
+msgstr "Удалить воркеры"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:460
 #: /checksum/Wm3a1rEPT5
 msgctxt "UI"
 msgid "Search…"
-msgstr ""
+msgstr "Поиск…"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:555
 #: /checksum/QxJhncEoof
 msgctxt "UI"
 msgid "Worker Edit"
-msgstr ""
+msgstr "Правка воркера"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:692
 #: packages/slushpool/app/workspace/mining/workers/modules/WorkersManager.tsx:702
 #: /checksum/LtqahrcRnS
 msgctxt "UI"
 msgid "Worker"
-msgstr ""
+msgstr "Воркер"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/LabelsManager.tsx:369
 #: /checksum/zDTXIRlbod
 msgctxt "UI"
 msgid "Add New Label"
-msgstr ""
+msgstr "Добавить новый ярлык"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/LabelsManager.tsx:461
 #: /checksum/74SjlGmDo/
 msgctxt "UI, workers"
 msgid "Abbreviation"
-msgstr ""
+msgstr "Аббревиатура"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/LabelsManager.tsx:474
 #: /checksum/Se4whzSOjU
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/LabelsManager.tsx:491
 #: /checksum/XQpaZdDKuE
 msgid "Optional information about location, power, etc."
-msgstr ""
+msgstr "Дополнительная информация о местонахождении, мощности и т. д."
 
 #: packages/slushpool/app/workspace/mining/workers/modules/LabelsManager.tsx:509
 #: /checksum/N6mMvi3ZUR
 msgctxt "UI"
 msgid "Existing Labels"
-msgstr ""
+msgstr "Существующие ярлыки"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:115
 #: /checksum/v1VUzyc7RR
 msgctxt "UI"
 msgid "No available URLs for selected location & protocol!"
-msgstr ""
+msgstr "Нет доступных URL-адресов для выбранного местоположения и протокола!"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:127
 #: /checksum/aKx6j37gs+
 msgctxt "UI"
 msgid "Not available for selected location"
-msgstr ""
+msgstr "Недоступно для выбранного местоположения"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:145
 #: /checksum/+wCyIMy1zH
@@ -5424,66 +5475,69 @@ msgid ""
 " and lower latency, <strong>please select a location</strong> that is "
 "closest to your mining location."
 msgstr ""
+"Серверы Slush Pool расположены по всему миру. Чтобы обеспечить стабильное "
+"соединение и меньшую задержку, <strong>выберите расположение</strong>, "
+"которое находится ближе всего к месту майнинга."
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:155
 #: /checksum/ctrsi+0/t8
 msgctxt "UI"
 msgid "Select Location"
-msgstr ""
+msgstr "Выберите место"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:171
 #: /checksum/4Lj3+Ino/d
 msgctxt "UI"
 msgid "Stratum V1"
-msgstr ""
+msgstr "Stratum V1"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:177
 #: /checksum/10DS2lKDgU
 msgctxt "UI"
 msgid "Stratum V2"
-msgstr ""
+msgstr "Stratum V2"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:183
 #: /checksum/WaU4ilZELR
 msgctxt "UI"
 msgid "Mining Protocol"
-msgstr ""
+msgstr "Протокол майнинга"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:184
 #: /checksum/+EG6XRg2fI
 msgctxt "UI"
 msgid "Using Braiins OS? Select V2"
-msgstr ""
+msgstr "Используете Braiins OS? Выберите V2"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:190
 #: /checksum/lOzvr3Acts
 msgctxt "UI"
 msgid "Configure your mining device"
-msgstr ""
+msgstr "Настройте свой майнер"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:197
 #: /checksum/QUCh8HNvAg
 msgctxt "UI"
 msgid "userID"
-msgstr ""
+msgstr "IDпользователя"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:200
 #: /checksum/g3i0vOINpV
 msgctxt "UI"
 msgid "workerName"
-msgstr ""
+msgstr "имяВоркера"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:204
 #: /checksum/L1LFUKzTme
 msgctxt "UI"
 msgid "password"
-msgstr ""
+msgstr "пароль"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:205
 #: /checksum/Wr3jBYmjOP
 msgctxt "UI"
 msgid "anything123"
-msgstr ""
+msgstr "что-либо123"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:213
 #: /checksum/pr5EBN13Tr
@@ -5494,6 +5548,10 @@ msgid ""
 " we recommend connecting each mining device with a separate workerName for "
 "efficient monitoring."
 msgstr ""
+"Примечание: имяВоркера не является обязательным - это нормально, если вы его "
+"не укажете. В этом случае наша система автоматически создаст для вас "
+"автоматический воркер. Однако мы рекомендуем подключать каждое устройство "
+"для майнинга к отдельному имениПользователя для эффективного мониторинга."
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:221
 #: /checksum/bwGk+tQmg4
@@ -5502,18 +5560,20 @@ msgid ""
 "Please be patient. It may take a few minutes for your newly connected device"
 " to show up."
 msgstr ""
+"Пожалуйста, проявите терпение. Отображение вновь подключенного устройства "
+"может занять несколько минут."
 
 #: packages/slushpool/app/workspace/mining/workers/modules/ConnectWorkersModal.tsx:230
 #: /checksum/Tz0Ljlchjn
 msgctxt "UI"
 msgid "Connected! Go back"
-msgstr ""
+msgstr "Подключено! Вернуться"
 
 #: packages/slushpool/app/workspace/mining/workers/modules/LabelFilterComponent.tsx:32
 #: shared/components/AttributeApplyBox/index.tsx:314 /checksum/yO+ZUKpxVv
 msgctxt "UI"
 msgid "Label"
-msgstr ""
+msgstr "Ярлык"
 
 #: packages/slushpool/app/workspace/mining/monitoring/components/MonitoringChart.tsx:56
 #: /checksum/J1l49XImwa
@@ -5522,6 +5582,8 @@ msgid ""
 "Each point on the chart represents a worker incident and its color describes"
 " the type of incident"
 msgstr ""
+"Каждая точка на диаграмме представляет инцидент с воркером, а ее цвет "
+"описывает тип инцидента"
 
 #: packages/slushpool/app/workspace/mining/monitoring/components/MonitoringChart.tsx:62
 #: /checksum/V0onVvdSJ4
@@ -5531,81 +5593,84 @@ msgid ""
 "line followed by a green point and green line, representing the state "
 "change."
 msgstr ""
+"Например, когда ваш рабочий переходит с низкого уровня на нормальный, вы "
+"увидите оранжевую линию, за которой следует зеленая точка и зеленая линия, "
+"представляющие изменение состояния."
 
 #: shared/components/jsonView/templates.tsx:18 /checksum/PwirBTiCuF
 msgctxt "UI"
 msgid "Avg. Daily Reward"
-msgstr ""
+msgstr "Средняя ежедневная награда"
 
 #: shared/components/jsonView/templates.tsx:19 /checksum/nqlpR1fXwb
 msgctxt "UI"
 msgid "Est. Daily Reward"
-msgstr ""
+msgstr "Предполагаемое ежедневное вознаграждение"
 
 #: shared/components/jsonView/templates.tsx:22 /checksum/JO6hMuJsu8
 msgctxt "UI"
 msgid "All-Time Rewards"
-msgstr ""
+msgstr "Вознаграждение за все время"
 
 #: shared/components/jsonView/templates.tsx:23 /checksum/kzA2kEe78U
 msgctxt "UI"
 msgid "Balance of All $coin Accounts"
-msgstr ""
+msgstr "Баланс всех $coin счетов"
 
 #: shared/components/jsonView/templates.tsx:24 /checksum/CFD2UXy1Eh
 msgctxt "UI"
 msgid "Last $coin Payout"
-msgstr ""
+msgstr "Последняя $coin выплата"
 
 #: shared/components/jsonView/templates.tsx:25 /checksum/usyD5Q75hF
 msgctxt "UI"
 msgid "Est. Reward per Block"
-msgstr ""
+msgstr "Предполагаемое вознаграждение за блок"
 
 #: shared/components/jsonView/templates.tsx:28 /checksum/lmztWkpAWs
 msgctxt "UI"
 msgid "Time Since Last Submited Share"
-msgstr ""
+msgstr "Время с момента последнего отправленного решения"
 
 #: shared/components/jsonView/templates.tsx:31 /checksum/8mPy4TKHnK
 msgctxt "UI"
 msgid "Pool Effective HR (30m avg)"
-msgstr ""
+msgstr "Эффективный ХР пула (средн. за 30 мин.)"
 
 #: shared/components/jsonView/templates.tsx:40 /checksum/jzsCSqWSA0
 msgctxt "UI"
 msgid "Avg. Round Duration"
-msgstr ""
+msgstr "Средн. продолжительность раунда"
 
 #: shared/components/jsonView/templates.tsx:41 /checksum/fb8wupUq18
 msgctxt "UI"
 msgid "Height"
-msgstr ""
+msgstr "Размер"
 
 #: shared/components/jsonView/templates.tsx:43 /checksum/WQ4JRcXHm1
 msgctxt "UI"
 msgid "5 Minute HR"
-msgstr ""
+msgstr "ХР за 5 мин."
 
 #: shared/components/jsonView/templates.tsx:45 /checksum/8axais7FpP
 msgctxt "UI"
 msgid "1 Day HR"
-msgstr ""
+msgstr "ХР за день"
 
 #: shared/components/jsonView/templates.tsx:47 /checksum/T0noaYOrOo
 msgctxt "UI"
 msgid "10 Block Luck"
-msgstr ""
+msgstr "Удача за 10 блоков"
 
 #: shared/components/jsonView/templates.tsx:48 /checksum/I3te7rLoWT
 msgctxt "UI"
 msgid "50 Block Luck"
-msgstr ""
+msgstr "Удача за 50 блоков"
 
 #: shared/components/jsonView/templates.tsx:49 /checksum/hb78400bN9
 msgctxt "UI"
 msgid "250 Block Luck"
-msgstr ""
+msgstr "Удача за 250 блоков"
 
 #: shared/components/jsonView/templates.tsx:86 /checksum/Ud4MSakUQP
 msgctxt "Intro"
@@ -5614,16 +5679,19 @@ msgid ""
 "confirmations. Once the block has 100 confirmations, the associated reward "
 "becomes confirmed and moves to a specified financial account(s)."
 msgstr ""
+"Сумма ваших вознаграждений за блоки, которые все еще ждут подтверждения. Как "
+"только блок получит 100 подтверждений, соответствующее вознаграждение будет "
+"подтверждено и перемещено на указанный финансовый счет(а)."
 
 #: shared/components/jsonView/templates.tsx:95 /checksum/5URMjxewW9
 msgctxt "Intro"
 msgid "All-Time Rewards"
-msgstr ""
+msgstr "Вознаграждения за все время"
 
 #: shared/components/jsonView/templates.tsx:102 /checksum/bcqtXjhMls
 msgctxt "Intro"
 msgid "Balance of your BTC accounts"
-msgstr ""
+msgstr "Баланс ваших счетов BTC"
 
 #: shared/components/jsonView/templates.tsx:103 /checksum/Yz8IixPwqD
 msgctxt "Intro"
@@ -5631,11 +5699,16 @@ msgid ""
 "Sum of unpaid balance across all of your Bitcoin Financial Accounts. To "
 "withdraw your funds, visit the Funds section and setup payout rules."
 msgstr ""
+"Сумма невыплаченного баланса по всем вашим финансовым счетам в BTC. Чтобы "
+"вывести средства, перейдите в раздел «Средства» и настройте правила для "
+"выплат."
 
 #: shared/components/jsonView/templates.tsx:112 /checksum//W1cXWVeZi
 msgctxt "Intro"
 msgid "Time elapsed since the last payout from one of your Bitcoin accounts."
 msgstr ""
+"Время, прошедшее с момента последней выплаты с одного из ваших Bitcoin "
+"счетов."
 
 #: shared/components/jsonView/templates.tsx:119 /checksum/8wlo1jwz3q
 msgctxt "Intro"
@@ -5643,11 +5716,14 @@ msgid ""
 "The estimation is based on your scoring hash rate as a proportion of the "
 "pool's scoring hash rate at the current moment."
 msgstr ""
+"Оценка основана на вашем оценочном хешрейте, как на пропорции оценочного "
+"хешрейта пула в текущий момент."
 
 #: shared/components/jsonView/templates.tsx:129 /checksum//rKUedb/be
 msgctxt "Intro"
 msgid "Average daily reward computed from your past rewards."
 msgstr ""
+"Среднесуточное вознагрждение вычисляется из ваших прошлых вознаграждений."
 
 #: shared/components/jsonView/templates.tsx:136 /checksum/e2mS3+ORwJ
 msgctxt "Intro"
@@ -5656,6 +5732,9 @@ msgid ""
 "current difficulty. Actual rewards can be more or less depending on the "
 "pool's luck."
 msgstr ""
+"Оценка ваших ежедневных вознаграждений на основе вашего недавнего хешрейта и "
+"текущей сложности. Фактические вознаграждений могут быть выше или ниже в "
+"зависимости от удачи пула."
 
 #: shared/components/jsonView/templates.tsx:146 /checksum/mh1iBw/WKk
 msgctxt "Intro"
@@ -5663,11 +5742,13 @@ msgid ""
 "Simplified overview of your recent rewards (blocks found) and their "
 "confirmation progress."
 msgstr ""
+"Упрощенный обзор ваших недавних вознаграждений (найденных блоков) и "
+"прогресса их подтверждения."
 
 #: shared/components/jsonView/templates.tsx:155 /checksum/1bOWlLVqIl
 msgctxt "Intro"
 msgid "Last 30 Days of Rewards"
-msgstr ""
+msgstr "Вознаграждения за последних 30 дней"
 
 #: shared/components/jsonView/templates.tsx:156 /checksum//dh4hWJWHb
 msgctxt "Intro"
@@ -5675,46 +5756,48 @@ msgid ""
 "Chart of your rewards for the last 30 days. It is normal for the daily "
 "values to fluctuate due to luck."
 msgstr ""
+"График ваших вознаграждений за последних 30 дней. Колебания дневных значений "
+"из-за удачи - это нормально."
 
 #: shared/components/jsonView/templates.tsx:473 /checksum/A5EIQFTXUD
 msgctxt "UI"
 msgid "CDF"
-msgstr ""
+msgstr "CDF"
 
 #: shared/components/jsonView/templates.tsx:474 /checksum/1IO3l4ZNDo
 msgctxt "UI"
 msgid "Cumulative Distribution Function"
-msgstr ""
+msgstr "Кумулятивная функция распределения"
 
 #: packages/slushpool/app/workspace/mining/dashboard/constants.tsx:14
 #: /checksum//zaInqUFgu
 msgctxt "UI"
 msgid "Mining Unit Performance"
-msgstr ""
+msgstr "Производительность майнинг единицы"
 
 #: packages/slushpool/app/workspace/mining/dashboard/constants.tsx:32
 #: /checksum/OIq2QxFlyR
 msgctxt "UI"
 msgid "Last share $time ago"
-msgstr ""
+msgstr "Последнее решение $time назад"
 
 #: packages/slushpool/app/workspace/mining/dashboard/constants.tsx:63
 #: /checksum/tXvYkVtPT3
 msgctxt "UI"
 msgid "Mining Unit Rewards"
-msgstr ""
+msgstr "Вознаграждения за майнинг"
 
 #: packages/slushpool/app/workspace/mining/dashboard/constants.tsx:96
 #: /checksum/pbHqB6KpgF
 msgctxt "UI"
 msgid "Detailed Statistics"
-msgstr ""
+msgstr "Подробная статистика"
 
 #: shared/components/ChartPlaceholder/ChartPlaceholder.tsx:32
 #: /checksum/Ks4fhSeQKV
 msgctxt "UI"
 msgid "If you can, rotate your device<br />to see the chart."
-msgstr ""
+msgstr "По возможности поверните устройство,<br />чтобы увидеть диаграмму."
 
 #: shared/lib/permissions/requirePermissions.tsx:89 /checksum/+rhMTfEiPm
 msgctxt "UI"
@@ -5722,153 +5805,155 @@ msgid ""
 "This view requires specific permissions,\n"
 "but your permissions were not loaded yet."
 msgstr ""
+"Это представление требует определенных разрешений,\n"
+"но ваши разрешения еще не были загружены."
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:282
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:282
 #: /checksum///Seklw3IP
 msgctxt "UI"
 msgid "Password is required!"
-msgstr ""
+msgstr "Необходим пароль!"
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:283
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:283
 #: /checksum/S21tJIeTus
 msgctxt "UI"
 msgid "Invalid password"
-msgstr ""
+msgstr "Неправильный пароль"
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:319
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:319
 #: /checksum/E0rcH6JKng
 msgctxt "UI"
 msgid "Enter your current password"
-msgstr ""
+msgstr "Введи свой текущий пароль"
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:326
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:326
 #: /checksum/RfNvgf1wMF
 msgctxt "UI"
 msgid "Lost your password?"
-msgstr ""
+msgstr "Забыли пароль?"
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:327
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:327
 #: /checksum/URTEk8Vipd
 msgctxt "UI"
 msgid "Click here!"
-msgstr ""
+msgstr "Нажмите сюда!"
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:367
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:367
 #: /checksum/bkzF2nuRa5
 msgctxt "UI"
 msgid "Connect your token & click here to start."
-msgstr ""
+msgstr "Подключите свой токен и нажмите здесь, чтобы начать."
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:375
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:375
 #: /checksum/HU84jmESy2
 msgctxt "UI"
 msgid "Loading challenge data…"
-msgstr ""
+msgstr "Загрузка данных о вызове…"
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:376
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:376
 #: /checksum/0bCKs2ZYu4
 msgctxt "UI"
 msgid "Confirm the request on your device."
-msgstr ""
+msgstr "Подтвердите запрос на своем устройстве."
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:381
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:381
 #: /checksum/6zjuII0cK3
 msgctxt "UI"
 msgid "Done!"
-msgstr ""
+msgstr "Готово!"
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:434
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:434
 #: /checksum/pJnDR3f6Ky
 msgctxt "UI"
 msgid "Two Factor Authentication"
-msgstr ""
+msgstr "Двухфакторная аутентификация"
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:436
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:436
 #: /checksum/0yB9UT7cig
 msgctxt "UI"
 msgid "Authenticate"
-msgstr ""
+msgstr "Аутентифицировать"
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:443
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:443
 #: /checksum/QPuptb9bMm
 msgctxt "UI"
 msgid "Enter Your Password"
-msgstr ""
+msgstr "Введите ваш пароль"
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:450
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:450
 #: /checksum/kV/sFKO8pE
 msgctxt "UI"
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:501
 #: shared/components/Confirm2ndFactor/Confirm2ndFactor.tsx:501
 #: /checksum/5IGTaD++Im
 msgctxt "UI"
 msgid "Expand"
-msgstr ""
+msgstr "Развернуть"
 
 #: shared/components/jsonView/registry/panel/CellRewardsChart30D.tsx:26
 #: shared/components/jsonView/registry/panel/CellRewardsChart30D.tsx:26
 #: /checksum/EOdVFvdz4s
 msgctxt "UI"
 msgid "Block Reward"
-msgstr ""
+msgstr "Вознаграждение за блок"
 
 #: shared/components/jsonView/registry/panel/CellRewardsChart30D.tsx:27
 #: shared/components/jsonView/registry/panel/CellRewardsChart30D.tsx:27
 #: /checksum/+8tOJQ00Ey
 msgctxt "UI"
 msgid "Special Reward"
-msgstr ""
+msgstr "Специальные вознаграждения"
 
 #: shared/components/jsonView/registry/panel/CellRewardsChart30D.tsx:60
 #: shared/components/jsonView/registry/panel/CellRewardsChart30D.tsx:60
 #: /checksum/vdbDNRMXjt
 msgctxt "UI"
 msgid "Last 30 Days of Rewards"
-msgstr ""
+msgstr "Вознаграждения за последних 30 дней"
 
 #: shared/components/jsonView/registry/panel/CellBlocksTable.tsx:65
 #: shared/components/jsonView/registry/panel/CellBlocksTable.tsx:65
 #: /checksum/4nyFlAUjmx
 msgctxt "UI"
 msgid "Conf."
-msgstr ""
+msgstr "Подтвержд."
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:103
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:103
 #: /checksum/muaF9Al0Cz
 msgctxt "UI"
 msgid "Personal"
-msgstr ""
+msgstr "Личное"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:109
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:109
 #: /checksum/M+TAJXHcvY
 msgctxt "UI"
 msgid "Color Theme"
-msgstr ""
+msgstr "Цветовая тема"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:116
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:116
 #: /checksum/bUTt1fShjQ
 msgctxt "UI"
 msgid "Light Mode"
-msgstr ""
+msgstr "Светлый режим"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:124
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:124
