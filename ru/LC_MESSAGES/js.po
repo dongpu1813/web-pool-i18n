@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-10 09:32+0000\n"
-"PO-Revision-Date: 2020-11-22 16:29+0000\n"
+"PO-Revision-Date: 2020-11-24 01:29+0000\n"
 "Last-Translator: Iryna Bashkova <csepcsar@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/slushpool/js/ru/>"
 "\n"
@@ -5960,14 +5960,14 @@ msgstr "Светлый режим"
 #: /checksum/gMkqt4mSNh
 msgctxt "UI"
 msgid "Dark Mode"
-msgstr ""
+msgstr "Темный режим"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:132
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:132
 #: /checksum//Du+KfiXuM
 msgctxt "UI"
 msgid "Automatic"
-msgstr ""
+msgstr "Автоматический"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:173
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:173
@@ -5976,41 +5976,42 @@ msgctxt "UI"
 msgid ""
 "This email has a pending email confirmation on your previous address: {}!"
 msgstr ""
+"Этот почтовый ящик ожидает подтверждения на вашем предыдущим адресе: {}!"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:201
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:201
 #: /checksum/9sUE8d5lMd
 msgctxt "UI"
 msgid "Preferred Language"
-msgstr ""
+msgstr "Предпочтительный язык"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:215
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:215
 #: /checksum/EvIcu2jk4n
 msgctxt "UI"
 msgid "Preferred Timezone"
-msgstr ""
+msgstr "Предпочтительный часовой пояс"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:226
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:226
 #: /checksum/tSStEiL/Lc
 msgctxt "UI"
 msgid "Preferred Fiat Currency"
-msgstr ""
+msgstr "Предпочтительная фиатная валюта"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:229
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:229
 #: /checksum/tqtpgAfGy3
 msgctxt "UI"
 msgid "Will be displayed in header and summary statistics."
-msgstr ""
+msgstr "Будет отображаться в заголовке и сводной статистике."
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:242
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:242
 #: /checksum/s6Jy0Ubyqm
 msgctxt "UI"
 msgid "Notify me of payouts"
-msgstr ""
+msgstr "Сообщите мне о выплатах"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:245
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:245
@@ -6018,13 +6019,15 @@ msgstr ""
 msgctxt "UI"
 msgid "Send email notifications when the system sends me payments"
 msgstr ""
+"Отправлять уведомления по электронной почте, когда система отправляет мне "
+"платежи"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:273
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:273
 #: /checksum/6NUb/ih9gw
 msgctxt "UI"
 msgid "Request Account Deletion"
-msgstr ""
+msgstr "Запрос на удаление аккаунта"
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:286
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:286
@@ -6033,6 +6036,8 @@ msgctxt "UI"
 msgid ""
 "This action is final and your account cannot be reactivated in the future."
 msgstr ""
+"Это действие является окончательным, и ваш аккаунт не может быть повторно "
+"активирован в будущем."
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:293
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:293
@@ -6043,6 +6048,9 @@ msgid ""
 "request. Otherwise, any remaining balances are considered a generous "
 "donation to the pool."
 msgstr ""
+"Обязательно запросите окончательную выплату перед подтверждением запроса на "
+"удаление. В противном случае любой оставшийся баланс считается щедрым "
+"пожертвованием в пул."
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:300
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:300
@@ -6052,6 +6060,8 @@ msgid ""
 "To complete account deletion, you will need to click on a confirmation link "
 "we will send to you promptly via your email."
 msgstr ""
+"Чтобы завершить удаление учетной записи, вам нужно будет щелкнуть ссылку для "
+"подтверждения, которую мы незамедлительно отправим вам по электронной почте."
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:500
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:500
@@ -6061,6 +6071,8 @@ msgid ""
 "Here you can choose which coins will be available for selection on your "
 "<b>workspace</b> and in the <b>mobile&nbsp;app</b>."
 msgstr ""
+"Здесь вы можете выбрать, какие монеты будут доступны для выбора в вашей "
+"<b>рабочей области</b> и в <b>мобильном&nbsp;приложении</b>."
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:507
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:507
@@ -6070,43 +6082,45 @@ msgid ""
 "This interface-only setting does not affect your ability to mine said coins "
 "in any way."
 msgstr ""
+"Этот параметр только для интерфейса и никоим образом не влияет на вашу "
+"способность добывать указанные монеты."
 
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:512
 #: packages/slushpool/app/workspace/settings/constants/renderTreeTemplates.tsx:512
 #: /checksum/o2ktrCE1z4
 msgctxt "UI"
 msgid "At least one coin must be displayed at all times."
-msgstr ""
+msgstr "Хотя бы одна монета должна отображаться постоянно."
 
 #: packages/slushpool/components/Search/Search.tsx:364
 #: packages/slushpool/components/Search/Search.tsx:364 /checksum/iSPRWyFOhm
 msgctxt "UI"
 msgid "Mining for Beginers"
-msgstr ""
+msgstr "Майнинг для начинающих"
 
 #: packages/slushpool/components/Search/Search.tsx:378
 #: packages/slushpool/components/Search/Search.tsx:378 /checksum/PCW4eUuRzu
 msgctxt "UI"
 msgid "FAQ & Customer support"
-msgstr ""
+msgstr "FAQ и Поддержка клиентов"
 
 #: packages/slushpool/components/Search/Search.tsx:409
 #: packages/slushpool/components/Search/Search.tsx:409 /checksum/OrIdOgwyyw
 msgctxt "UI"
 msgid "Try adjusting your search to find what you’re looking for."
-msgstr ""
+msgstr "Попробуйте скорректировать поиск, чтобы найти то, что вы ищете."
 
 #: packages/slushpool/components/Search/Search.tsx:433
 #: packages/slushpool/components/Search/Search.tsx:433 /checksum/WfTCb7vkWU
 msgctxt "UI"
 msgid "Where to Start"
-msgstr ""
+msgstr "Когда начать"
 
 #: packages/slushpool/components/Search/Search.tsx:471
 #: packages/slushpool/components/Search/Search.tsx:471 /checksum/DHrG5EYyjB
 msgctxt "UI"
 msgid "Clear search input"
-msgstr ""
+msgstr "Очистить поисковый ввод"
 
 #: packages/slushpool/components/EmailConfirmDialog/EmailConfirmDialog.tsx:44
 #: packages/slushpool/components/EmailConfirmDialog/EmailConfirmDialog.tsx:44
@@ -6114,150 +6128,151 @@ msgstr ""
 msgctxt "UI"
 msgid "A confirmation email has been sent to: <strong>{email}</strong>."
 msgstr ""
+"Письмо с подтверждением было отправлено на адрес <strong>{email}</strong>."
 
 #: packages/slushpool/components/Exports/Exports.tsx:134
 #: packages/slushpool/components/Exports/Exports.tsx:134 /checksum/MQFCL73dC6
 msgctxt "UI"
 msgid "Invalid date format!"
-msgstr ""
+msgstr "Неверный формат даты!"
 
 #: packages/slushpool/components/Exports/Exports.tsx:139
 #: packages/slushpool/components/Exports/Exports.tsx:139 /checksum/L67lslYFG/
 msgctxt "UI"
 msgid "Can't go below 2016-01-01!"
-msgstr ""
+msgstr "Не может быть ниже 01.01.2016!"
 
 #: packages/slushpool/components/Exports/Exports.tsx:329
 #: packages/slushpool/components/Exports/Exports.tsx:329 /checksum/OMoeZLHT9w
 msgctxt "UI"
 msgid "Generate Exports"
-msgstr ""
+msgstr "Создать экспорт"
 
 #: packages/slushpool/components/auth/ModernizrMessage.tsx:25
 #: packages/slushpool/components/auth/ModernizrMessage.tsx:25
 #: /checksum/8czMEJgOmR
 msgctxt "UI"
 msgid "Please <a>upgrade your browser</a> to improve your experience."
-msgstr ""
+msgstr "Пожалуйста, <a>обновите свой браузер</a>, чтобы улучшить визуал."
 
 #: packages/slushpool/components/auth/DialogSignUp.tsx:204
 #: packages/slushpool/components/auth/DialogSignUp.tsx:204
 #: /checksum/SUM1doZKsT
 msgctxt "UI"
 msgid "Start Mining with Slush Pool"
-msgstr ""
+msgstr "Начать майнинг на Slush Pool"
 
 #: packages/slushpool/components/auth/DialogSignUp.tsx:310
 #: packages/slushpool/components/auth/DialogSignUp.tsx:310
 #: /checksum/2UEu7U31gD
 msgctxt "UI"
 msgid "I agree with: <a>terms of service</a>"
-msgstr ""
+msgstr "Я соглашаюсь с: <a>условиями использования</a>"
 
 #: packages/slushpool/components/auth/DialogLogin.tsx:155
 #: packages/slushpool/components/auth/DialogLogin.tsx:155 /checksum/g6OVYDpVKw
 msgctxt "UI"
 msgid "Log in To SlushPool"
-msgstr ""
+msgstr "Войти в Slush Pool"
 
 #: packages/slushpool/components/auth/DialogLogin.tsx:216
 #: packages/slushpool/components/auth/DialogLogin.tsx:216 /checksum/oIYIpZJ+aF
 msgctxt "UI"
 msgid "Forgot Password?"
-msgstr ""
+msgstr "Забыли пароль?"
 
 #: packages/slushpool/components/auth/DialogLogin.tsx:244
 #: packages/slushpool/components/auth/DialogLogin.tsx:244 /checksum/MQEkZH+kC5
 msgctxt "UI"
 msgid "Don’t have an account?"
-msgstr ""
+msgstr "Нет учетной записи?"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:51
 #: shared/components/carbon/Pagination/Pagination.tsx:51 /checksum/UQQSrqxv7w
 msgctxt "UI"
 msgid "Previous page"
-msgstr ""
+msgstr "Предыдущая страница"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:52
 #: shared/components/carbon/Pagination/Pagination.tsx:52 /checksum/ewj1GtYIq6
 msgctxt "UI"
 msgid "Next page"
-msgstr ""
+msgstr "Следущая страница"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:55
 #: shared/components/carbon/Pagination/Pagination.tsx:55 /checksum/UbBppVp4ef
 msgctxt "UI"
 msgid "{min}–{max} of {total} items"
-msgstr ""
+msgstr "{min}–{max} из {total} позиций"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:58
 #: shared/components/carbon/Pagination/Pagination.tsx:58 /checksum/nCnP8rP6z0
 msgctxt "UI"
 msgid "Items per page"
-msgstr ""
+msgstr "Позиций на странице"
 
 #: shared/components/carbon/Pagination/Pagination.tsx:60
 #: shared/components/carbon/Pagination/Pagination.tsx:60 /checksum/aM/Du2cS1c
 msgctxt "UI"
 msgid "of {total} pages"
-msgstr ""
+msgstr "из {total} страниц"
 
 #: shared/components/AttributeApplyBox/index.tsx:372 /checksum/jekbTbzyTf
 msgctxt "UI"
 msgid "Create New Label"
-msgstr ""
+msgstr "Создать новый ярлык"
 
 #: shared/components/carbon/Select/Select.tsx:19
 #: shared/components/carbon/Select/Select.tsx:19 /checksum/kgY4Q7Zflg
 msgctxt "UI"
 msgid "Choose an option"
-msgstr ""
+msgstr "Выберите опцию"
 
 #: shared/components/carbon/OtpInput/OtpInput.tsx:51
 #: shared/components/carbon/OtpInput/OtpInput.tsx:51 /checksum/k6H9lPjFMy
 msgctxt "UI"
 msgid "Enter one-time password<br/>generated by your OTP app"
-msgstr ""
+msgstr "Введите одноразовый пароль,<br/>созданный вашим приложением OTP"
 
 #: shared/components/carbon/DataTable/DataTable.tsx:258 /checksum/c2ijkrFLPL
 msgctxt "UI"
 msgid "{count, plural, =1 {# worker} other {# workers}} selected"
-msgstr ""
+msgstr "{count, plural, =1 {# воркер} other {# воркеры}} выбрано"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:112
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:112
 #: /checksum/DICpoVsULc
 msgctxt "UI"
 msgid "Do you want to unlink this device?"
-msgstr ""
+msgstr "Вы хотите отключить это устройство?"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:115
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:115
 #: /checksum//dAzmOiUUM
 msgctxt "UI"
 msgid "Device label:"
-msgstr ""
+msgstr "Ярлык устройства:"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:119
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:119
 #: /checksum/eakAANqzPo
 msgctxt "UI"
 msgid "Connected at:"
-msgstr ""
+msgstr "Подключено:"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:158
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:158
 #: /checksum/qLATiazzC7
 msgctxt "UI"
 msgid "1. Download the application"
-msgstr ""
+msgstr "1. Загрузите приложение"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:159
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:159
 #: /checksum/L/9aJEibA1
 msgctxt "UI"
 msgid "2. Enter device label for later identification / invalidation."
-msgstr ""
+msgstr "2. Введите ярлык устройства для последующей идентификации / отключения."
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:160
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:160
@@ -6265,20 +6280,22 @@ msgstr ""
 msgctxt "UI"
 msgid "3. Click \"Connect\" and scan the QR code generated on your device."
 msgstr ""
+"3. Нажмите \"Подключиться\" и отсканируйте QR-код, созданный на вашем "
+"устройстве."
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:161
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:161
 #: /checksum/YSwbUrUMIL
 msgctxt "UI"
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:162
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:162
 #: /checksum/5lQP8aXVo2
 msgctxt "UI"
 msgid "iOS"
-msgstr ""
+msgstr "iOS"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:229
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:229
@@ -6289,35 +6306,35 @@ msgstr ""
 #: /checksum/JWl/3Bewkn
 msgctxt "UI"
 msgid "Add new device"
-msgstr ""
+msgstr "Добавить новое устройство"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:230
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:230
 #: /checksum/WYqFa5LNRN
 msgctxt "UI"
 msgid "New device"
-msgstr ""
+msgstr "Новое устройство"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:231
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:231
 #: /checksum/NV9TnI03rW
 msgctxt "UI"
 msgid "Place your device label"
-msgstr ""
+msgstr "Введите ярлык вашего устройства"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:282
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:282
 #: /checksum/uLKOl4fn8Y
 msgctxt "UI"
 msgid "Scan QR code on the left using our application"
-msgstr ""
+msgstr "Отсканируйте QR-код слева с помощью нашего приложения"
 
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:283
 #: packages/slushpool/app/workspace/settings/widgets/Devices.tsx:283
 #: /checksum/SwmeDHHPFd
 msgctxt "UI"
 msgid "You can also use token value for manual entry"
-msgstr ""
+msgstr "Вы также можете использовать значение токена для ручного ввода"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:156
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:156
@@ -6326,70 +6343,70 @@ msgstr ""
 #: /checksum/EXD/1YWpjC
 msgctxt "UI"
 msgid "Delete Access Profile"
-msgstr ""
+msgstr "Удалить профиль доступа"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:166
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:166
 #: /checksum/f/wP6TSS7S
 msgctxt "UI"
 msgid "Update Access Profile"
-msgstr ""
+msgstr "Обновить профиль доступа"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:333
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:333
 #: /checksum/JmOKb3thzv
 msgctxt "UI"
 msgid "Profile created"
-msgstr ""
+msgstr "Профиль создан"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:333
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:333
 #: /checksum/0zNpgoow1N
 msgctxt "UI"
 msgid "Update saved"
-msgstr ""
+msgstr "Обновление сохранено"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:339
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:339
 #: /checksum/kWYA80CsX9
 msgctxt "UI"
 msgid "Profile creation failed!"
-msgstr ""
+msgstr "Не удалось создать профиль!"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:339
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:339
 #: /checksum/slc245IUBF
 msgctxt "UI"
 msgid "Update failed!"
-msgstr ""
+msgstr "Не удалось обновить!"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:407
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:407
 #: /checksum/cd+/CQdSRi
 msgctxt "UI"
 msgid "Required Field!"
-msgstr ""
+msgstr "Обязательное поле!"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:531
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:531
 #: /checksum/6a70gl+5vN
 msgctxt "UI"
 msgid "You can deactivate this profile while keeping it’s credentials"
-msgstr ""
+msgstr "Вы можете деактивировать этот профиль, сохраняя его учетные данные"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:542
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:542
 #: /checksum/Ht+CDG4mUO
 msgctxt "UI"
 msgid "You don't have sufficient permissions to create a new access profile!"
-msgstr ""
+msgstr "У вас недостаточно прав для создания нового профиля доступа!"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:642
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:642
 #: /checksum/civz2lNaCD
 msgctxt "UI"
 msgid "Account Username"
-msgstr ""
+msgstr "Имя пользователя учетной записи"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:827
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:827
@@ -6399,6 +6416,8 @@ msgid ""
 "You can set up multiple access profiles with different passwords (or API "
 "tokens) and different levels of permissions."
 msgstr ""
+"Вы можете настроить несколько профилей доступа с разными паролями (или "
+"токенами API) и разными уровнями разрешений."
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:832
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:832
@@ -6408,6 +6427,8 @@ msgid ""
 "This way, it is possible to share limited access to your user account "
 "without compromising its security."
 msgstr ""
+"Таким образом, можно предоставить ограниченный доступ к вашей учетной записи "
+"без ущерба для ее безопасности."
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:837
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:837
@@ -6417,41 +6438,43 @@ msgid ""
 "Access profiles can be flexibly (de)activated or changed at any time by the "
 "master account."
 msgstr ""
+"Профили доступа можно гибко (де)активировать или изменить в любое время с "
+"помощью основной учетной записи."
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:843
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:843
 #: /checksum/Py5jCfFn++
 msgctxt "UI"
 msgid "Click here for permissions overview"
-msgstr ""
+msgstr "Нажмите здесь для обзора разрешений"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:848
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:848
 #: /checksum/mmu+dSPhDN
 msgctxt "UI"
 msgid "Permissions Overview"
-msgstr ""
+msgstr "Обзор разрешений"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:870
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:870
 #: /checksum/glGy+kALXZ
 msgctxt "UI"
 msgid "Web Access Username"
-msgstr ""
+msgstr "Имя пользователя веб-доступа"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:877
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:877
 #: /checksum/OcGRQBKWwZ
 msgctxt "UI"
 msgid "Web Access"
-msgstr ""
+msgstr "Веб-доступ"
 
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:884
 #: packages/slushpool/app/workspace/settings/widgets/AccessProfiles.tsx:884
 #: /checksum/3kSvTJYGb1
 msgctxt "UI"
 msgid "API Access"
-msgstr ""
+msgstr "Доступ к API"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:187
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:187
@@ -6460,7 +6483,7 @@ msgstr ""
 #: /checksum/ZbNIvwJPqm
 msgctxt "UI"
 msgid "Enable OTP"
-msgstr ""
+msgstr "Включить OTP"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:188
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:188
@@ -6469,28 +6492,28 @@ msgstr ""
 #: /checksum/3vdUKFhi4w
 msgctxt "UI"
 msgid "Disable OTP"
-msgstr ""
+msgstr "Отключить OTP"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:190
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:190
 #: /checksum/dADquaMcBt
 msgctxt "UI"
 msgid "All 6 digits need to be entered!"
-msgstr ""
+msgstr "Необходимо ввести все 6 цифр!"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:274
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:274
 #: /checksum/Ss2wnITuIB
 msgctxt "UI"
 msgid "OTP enabled"
-msgstr ""
+msgstr "OTP включен"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:277
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:277
 #: /checksum/FvXNOgrWES
 msgctxt "UI"
 msgid "OTP enabling failed"
-msgstr ""
+msgstr "Не удалось включить OTP"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:356
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:356
@@ -6500,34 +6523,37 @@ msgid ""
 "OTP secret (we recommend you to backup this secret safely to prevent "
 "autentication issues in case you lost your device)"
 msgstr ""
+"Секрет OTP (мы рекомендуем вам безопасно создать резервную копию этого "
+"секрета, чтобы предотвратить проблемы с аутентификацией в случае потери "
+"устройства)"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:360
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:360
 #: /checksum/72Goh2lhHs
 msgctxt "UI"
 msgid "Not loaded yet…"
-msgstr ""
+msgstr "Еще не загружено…"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:413
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:413
 #: /checksum/DGDoZq5P1F
 msgctxt "UI"
 msgid "OTP disabled"
-msgstr ""
+msgstr "OTP отключен"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:416
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:416
 #: /checksum/ut0m8YTZLL
 msgctxt "UI"
 msgid "OTP disabling failed!"
-msgstr ""
+msgstr "Не удалось отключить OTP!"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:473
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:473
 #: /checksum/px0S6htHpW
 msgctxt "UI"
 msgid "One Time Password (OTP)"
-msgstr ""
+msgstr "Одноразовый пароль (OTP)"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:476
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:476
@@ -6538,6 +6564,9 @@ msgid ""
 "You can use Google Authenticator or other similar apps of your choice to "
 "generate the codes for you."
 msgstr ""
+"OTP - это код, зависящий от времени, который будет использоваться для одной "
+"попытки подтверждения входа. Вы можете использовать Google Authenticator или "
+"другие аналогичные приложения по вашему выбору, чтобы сгенерировать код."
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:535
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:535
@@ -6546,56 +6575,56 @@ msgstr ""
 #: /checksum/rJez3x7Ndj
 msgctxt "UI"
 msgid "U2F doesn't work on insecure protocol!"
-msgstr ""
+msgstr "U2F не работает по незащищенному протоколу!"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:572
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:572
 #: /checksum/48HlmmGXOi
 msgctxt "UI"
 msgid "U2F token registered"
-msgstr ""
+msgstr "U2F токен зарегистрирован"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:577
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:577
 #: /checksum/mX4cBIYASl
 msgctxt "UI"
 msgid "U2F token registration failed!"
-msgstr ""
+msgstr "Ошибка регистрации токена U2F!"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:624
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:624
 #: /checksum/RBnQekG7Ij
 msgctxt "UI"
 msgid "Wrong U2F manifest! Please contact us about this error."
-msgstr ""
+msgstr "Неверный манифест U2F! Свяжитесь с нами по поводу этой ошибки."
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:655
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:655
 #: /checksum/jEejLMeF3h
 msgctxt "UI"
 msgid "U2F token removed"
-msgstr ""
+msgstr "Токен U2F удален"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:659
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:659
 #: /checksum/LWZqXGZPU+
 msgctxt "UI"
 msgid "U2F token removal failed!"
-msgstr ""
+msgstr "Не удалось удалить токен U2F!"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:766
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:766
 #: /checksum/f64PJu+FaU
 msgctxt "UI"
 msgid "Register U2F device"
-msgstr ""
+msgstr "Зарегистрируйте устройство U2F"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:768
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:768
 #: /checksum/cQ6eftNb0l
 msgctxt "UI"
 msgid "Remove U2F device"
-msgstr ""
+msgstr "Удалить устройство U2F"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:812
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:812
@@ -6603,13 +6632,14 @@ msgstr ""
 msgctxt "UI"
 msgid "{count} registered {count, plural, =1 {device} other {devices}}"
 msgstr ""
+"{count} зарегистрированно {count, plural, =1 {устройство} other {устройств}}"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:826
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:826
 #: /checksum//4FKOKjae1
 msgctxt "UI"
 msgid "Universal Second Factor (U2F)"
-msgstr ""
+msgstr "Универсальный второй фактор (U2F)"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:830
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:830
@@ -6619,20 +6649,23 @@ msgid ""
 "Physical device following the FIDO Universal 2nd Factor standard. You can "
 "use multiple devices like TREZOR or Ubikey to add another level of security."
 msgstr ""
+"Физическое устройство, соответствующее стандарту FIDO Universal 2nd Factor. "
+"Вы можете использовать несколько устройств, например TREZOR или Ubikey, "
+"чтобы добавить еще один уровень безопасности."
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:893
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:893
 #: /checksum/3RFVHvJgvu
 msgctxt "UI"
 msgid "Two-Factor Authentication is currently active."
-msgstr ""
+msgstr "В настоящее время активна двухфакторная аутентификация."
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:901
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:901
 #: /checksum/NADwaDAKu1
 msgctxt "UI"
 msgid "Two-Factor Authentication is currently NOT active!"
-msgstr ""
+msgstr "Двухфакторная аутентификация в настоящее время НЕ активна!"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:905
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:905
@@ -6640,20 +6673,22 @@ msgstr ""
 msgctxt "UI"
 msgid "We highly recommend using 2FA. You can choose from two options below."
 msgstr ""
+"Мы настоятельно рекомендуем использовать 2FA. Вы можете выбрать один из двух "
+"вариантов ниже."
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:916
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:916
 #: /checksum/fKp4Tvnzws
 msgctxt "UI"
 msgid "Two-Factor Authentication"
-msgstr ""
+msgstr "Двухфакторная аутентификация"
 
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:921
 #: packages/slushpool/app/workspace/settings/widgets/SecondFactorSection/SecondFactorSection.tsx:921
 #: /checksum/HtVzYrwqjJ
 msgctxt "UI"
 msgid "Loading Data…"
-msgstr ""
+msgstr "Загрузка данных…"
 
 #: shared/components/carbon/Panel/ProgressTable/ProgressTable.tsx:57
 #: shared/components/carbon/Panel/ProgressTable/ProgressTable.tsx:57
@@ -6661,7 +6696,7 @@ msgstr ""
 #: /checksum/dKJ/VT5Fd3
 msgctxt "UI"
 msgid "No data…"
-msgstr ""
+msgstr "Нет данных…"
 
 #~ msgctxt "UI"
 #~ msgid "Hash Rate<br/>(5 minutes)"
